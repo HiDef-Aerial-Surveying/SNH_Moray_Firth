@@ -1,0 +1,27 @@
+Run on 06-May-2020
+
+Project Name:
+Zone87_M01_S01_20_Output
+
+Shapefile used:
+R:\Projects\HP00000 - Projects\HP00114 - SNH survey of Moray Firth SPA\500 - Data Processing\2020 - Month 01 - Survey 01\Density Estimates\Shapefile\Moray_Firth_Area_WGS84.shp
+
+Tracks used:
+R:\Projects\HP00000 - Projects\HP00114 - SNH survey of Moray Firth SPA\500 - Data Processing\2020 - Month 01 - Survey 01\Density Estimates\Tracks\
+Files in folder:
+Zone87_M01_20_track.csv
+
+Spreadsheets used:
+R:\Projects\HP00000 - Projects\HP00114 - SNH survey of Moray Firth SPA\500 - Data Processing\2020 - Month 01 - Survey 01\Density Estimates\Observations\
+Files in folder:
+Zone87_M01_S01_20_Observations_MSS.xlsx
+
+Resolution used:
+5
+
+Segment Length used:
+0.5
+
+Mesh Size used:
+0.5
+
