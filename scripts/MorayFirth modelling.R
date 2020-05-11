@@ -14,7 +14,6 @@ geogr<-CRS("+init=epsg:4326")
 main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs +ellps=WGS84 +towgs84=0,0,0"
 
 
-
 # 1. Load data ------------------------------------------------------------
 
 
@@ -41,6 +40,7 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
     # Select species
       unique(obs01$Species)
       table(obs01$Species)
+      
       spp <- "Common scoter"  #"Herring gull" ; "Razorbill" ;"Common scoter"
       
       obs01.model <- subset(obs01, Species == spp)
@@ -85,32 +85,11 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
       names(track01) <- c("length", "weight", "transect" )
       
       columns = "weight"
+ 
+      source("./scripts/tools.R")
       
-      ### Do not need to understand from here:
-        res <- INLA::inla.fmesher.smorg(mesh1$loc, mesh1$graph$tv, points2mesh = coordinates(track01))
-        tri <- res$p2m.t
+      fit.ips <- integrate_effort(mesh=mesh1, effort=track01)
         
-        data <- list()
-        for (k in 1:length(columns)) {
-          cn <- columns[k]
-          nw <- track01@data[, columns] * res$p2m.b
-          w.by <- by(as.vector(nw), as.vector(mesh1$graph$tv[tri, ]), sum, simplify = TRUE)
-          data[[cn]] <- as.vector(w.by)
-        }
-        
-        data <- data.frame(data)
-        coords <- mesh1$loc[as.numeric(names(w.by)), c(1, 2)]
-        data$vertex <- as.numeric(names(w.by))
-        
-        fit.ips <- SpatialPointsDataFrame(coords,
-                                      proj4string = CRS(proj4string(track01)),
-                                      data = data,
-                                      match.ID = FALSE
-        )
-        coordnames(fit.ips) <- coordnames(track01)
-        
-        
-      ###to here
         
         #IMPORTANT! for common scoter many sightings have the same coordinates and INLA will crash
         # one solution (better) is to assum the number of sightings at each location as a mark and run a marked point process model
@@ -118,33 +97,28 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
         # WE will add some random noise to the sights, just few meters. 
         # We assume that moving points few meters away so they do not overlap do not have any impact at the scale of the model
       
-        # ONLY RUN THIS PART IF THE MODEL CRASHES BECAUSE MANY SIGHTINGS HAVE THE SAME COORDINATES
-        # I will put also these lines in a function.
-        
-              # first make it spatial
-                  obs.df <- as.data.frame(obs01.model, xy=TRUE)
-                  obs.df <- obs.df[,c(20,21)]
-                  obs.df$count <- 1
-                  obs01.cs <- aggregate(.~Longitude+Latitude, obs.df, sum)
-                  coordinates(obs01.cs) <- c("Longitude", "Latitude")
-                  crs(obs01.cs) <- main.crs
-                  
-              
-              ## add random noise to points
-                  obs.df <- as.data.frame(obs01.model, xy=TRUE)
-                  obs.cs <- obs.df
-                  obs.cs$Longitude.j <-jitter(obs.cs$Longitude, factor=1, amount = NULL)
-                  obs.cs$Latitude.j <-jitter(obs.cs$Latitude, factor=1, amount = NULL)
-                  coordinates(obs.cs) <- c("Longitude.j", "Latitude.j")
-                  crs(obs.cs) <- main.crs
-          
-                  plot(mask, col="grey80")
-                  plot(track01, add=TRUE, pch=20)
-                  plot(obs01.model, col="red", add=TRUE, pch=19)
-                  plot(obs.cs, col="blue", add=TRUE)
-                  obs01.model <- obs.cs
-        
-        #UNTIL HERE
+            # check number of unique positions and compare with total number of sights
+                obs.df <- data.frame(coordinates(obs01.model))
+                obs.df$count <- 1
+                
+                obs.cs <- aggregate(.~Longitude+Latitude, obs.df, sum)
+                nrow(obs.cs)  # number of unique pair of coordinates
+                nrow(obs.df)  # total number of sightings
+            
+            
+            
+            # for Common scoter it is 55 unique pair of coordinates and 1694 total sightings...we need to jitter sightings
+            
+            #Jittering sightings (only if needed!)
+            
+                obs01.model <- jitter_sightings(obs01.model)
+      
+      
+      
+      plot(mask, col="grey80")
+      plot(track01, add=TRUE, pch=20)
+      plot(obs01.model, col="red", add=TRUE, pch=19)
+
         
 # 3. LGCP-SPDE model ------------------------------------------------------
 
@@ -171,19 +145,7 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
       
       # set a PREDICTION AREA
       
-        #I think I can put this into a function, just need to specify resolution (nx and ny) and the mesh
-      nx= 150
-      ny= 150
-      x <- seq(min(mesh1$loc[, 1]), max(mesh1$loc[, 1]), length = nx)
-      y <- seq(min(mesh1$loc[, 2]), max(mesh1$loc[, 2]), length = ny)
-      
-      lattice <- INLA::inla.mesh.lattice(x = x, y = y)
-      pixels <- data.frame(x = lattice$loc[, 1], y = lattice$loc[, 2])
-      coordinates(pixels) <- c("x", "y")
-      pxl <- SpatialPixels(pixels)
-      pxl <- pixels[is.inside(mesh1, coordinates(pixels))]
-      crs(pxl) <- main.crs
-      pxl.sub <-  pxl[mask,] 
+     pxl.sub <- prediction_fun(nx=150, ny=150, mesh= mesh1) # nx and ny set the spatial resoltion output
       
       plot(pxl.sub)
 
@@ -204,8 +166,9 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
       
       # estimated posterior number of individuals + IC
       
-      min.range <-1000 # from (min expected range of N)
+      min.range <-0 # from (min expected range of N)
       max.range <- 50000  # to (max expected range of N)
+      
       # for a full bayesian estimation of the mean and Interval confidence, we set min.range and max.range as the limits of the prediction interval
       abund <- predict(lgcp.fit, ipoints(mask, mesh1), 
                       ~ data.frame(N = min.range:max.range,
@@ -215,6 +178,8 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
       marginals <- inla.qmarginal(c(0.025, 0.5, 0.975), marginal = list(x=abund$N, y = abund$mean)); marginals # get Q0.025, median and Q0.975
       marg.mean <- inla.emarginal(identity, marginal = list(x=abund$N, y = abund$mean)) ; marg.mean  #get mean estimated population
       
+      lower.lim <- marginals[1] - 1000  # adjust later
+      upper.lim <- marginals[3] + 1000  # adjust later
       
       #plot posterior mean and IC
       ggplot(data = abund, aes(x = N, y = mean)) +
@@ -224,7 +189,7 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
         geom_vline(xintercept=marginals[3], linetype="dashed", color = "blue") +
         ggtitle("Estimated number of Individuals") +
         theme_classic(base_size = 16) +
-        xlim(9000, 15000)
+        xlim(lower.lim, upper.lim)
       
       
       
