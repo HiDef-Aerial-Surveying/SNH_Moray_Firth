@@ -1,0 +1,77 @@
+SpeciesCode,Species,TaxonSort,Visit,Count,SpeciesCover
+MS,Mute Swan,3380,OCT-2019,0,Good
+MS,Mute Swan,3380,DEC-2019,0,Good
+MS,Mute Swan,3380,JAN-2020,0,Good
+MS,Mute Swan,3380,FEB-2020,0,Good
+WN,Wigeon,4620,OCT-2019,60,Good
+WN,Wigeon,4620,DEC-2019,53,Good
+WN,Wigeon,4620,JAN-2020,44,Good
+WN,Wigeon,4620,FEB-2020,9,Good
+MA,Mallard,4840,OCT-2019,43,Good
+MA,Mallard,4840,DEC-2019,65,Good
+MA,Mallard,4840,JAN-2020,62,Good
+MA,Mallard,4840,FEB-2020,49,Good
+T.,Teal,5080,OCT-2019,15,Good
+T.,Teal,5080,DEC-2019,0,Good
+T.,Teal,5080,JAN-2020,0,Good
+T.,Teal,5080,FEB-2020,10,Good
+TU,Tufted Duck,5510,OCT-2019,0,Good
+TU,Tufted Duck,5510,DEC-2019,5,Good
+TU,Tufted Duck,5510,JAN-2020,0,Good
+TU,Tufted Duck,5510,FEB-2020,0,Good
+GN,Goldeneye,5880,OCT-2019,0,Good
+GN,Goldeneye,5880,DEC-2019,2,Good
+GN,Goldeneye,5880,JAN-2020,2,Good
+GN,Goldeneye,5880,FEB-2020,13,Good
+RM,Red-breasted Merganser,6030,OCT-2019,1,Good
+RM,Red-breasted Merganser,6030,DEC-2019,0,Good
+RM,Red-breasted Merganser,6030,JAN-2020,0,Good
+RM,Red-breasted Merganser,6030,FEB-2020,0,Good
+LG,Little Grebe,19830,OCT-2019,4,Good
+LG,Little Grebe,19830,DEC-2019,1,Good
+LG,Little Grebe,19830,JAN-2020,0,Good
+LG,Little Grebe,19830,FEB-2020,3,Good
+GG,Great Crested Grebe,20310,OCT-2019,0,Good
+GG,Great Crested Grebe,20310,DEC-2019,0,Good
+GG,Great Crested Grebe,20310,JAN-2020,0,Good
+GG,Great Crested Grebe,20310,FEB-2020,0,Good
+H.,Grey Heron,23270,OCT-2019,10,Good
+H.,Grey Heron,23270,DEC-2019,6,Good
+H.,Grey Heron,23270,JAN-2020,7,Good
+H.,Grey Heron,23270,FEB-2020,1,Good
+SA,Shag,24940,OCT-2019,0,Good
+SA,Shag,24940,DEC-2019,0,Good
+SA,Shag,24940,JAN-2020,0,Good
+SA,Shag,24940,FEB-2020,0,Good
+CA,Cormorant,25040,OCT-2019,0,Good
+CA,Cormorant,25040,DEC-2019,3,Good
+CA,Cormorant,25040,JAN-2020,4,Good
+CA,Cormorant,25040,FEB-2020,8,Good
+MH,Moorhen,37680,OCT-2019,0,Good
+MH,Moorhen,37680,DEC-2019,2,Good
+MH,Moorhen,37680,JAN-2020,2,Good
+MH,Moorhen,37680,FEB-2020,2,Good
+OC,Oystercatcher,39840,OCT-2019,0,Good
+OC,Oystercatcher,39840,DEC-2019,0,Good
+OC,Oystercatcher,39840,JAN-2020,0,Good
+OC,Oystercatcher,39840,FEB-2020,2,Good
+RP,Ringed Plover,40830,OCT-2019,0,Good
+RP,Ringed Plover,40830,DEC-2019,0,Good
+RP,Ringed Plover,40830,JAN-2020,0,Good
+RP,Ringed Plover,40830,FEB-2020,0,Good
+CU,Curlew,42320,OCT-2019,0,Good
+CU,Curlew,42320,DEC-2019,0,Good
+CU,Curlew,42320,JAN-2020,0,Good
+CU,Curlew,42320,FEB-2020,0,Good
+DN,Dunlin,42840,OCT-2019,0,Good
+DN,Dunlin,42840,DEC-2019,0,Good
+DN,Dunlin,42840,JAN-2020,1,Good
+DN,Dunlin,42840,FEB-2020,0,Good
+SN,Snipe,43540,OCT-2019,0,Good
+SN,Snipe,43540,DEC-2019,0,Good
+SN,Snipe,43540,JAN-2020,0,Good
+SN,Snipe,43540,FEB-2020,0,Good
+RK,Redshank,43920,OCT-2019,0,Good
+RK,Redshank,43920,DEC-2019,30,Good
+RK,Redshank,43920,JAN-2020,80,Good
+RK,Redshank,43920,FEB-2020,1,Good

@@ -1,0 +1,89 @@
+SpeciesCode,Species,TaxonSort,Visit,Count,SpeciesCover
+BY,Barnacle Goose,2955,OCT-2019,0,Good
+BY,Barnacle Goose,2955,DEC-2019,0,Good
+BY,Barnacle Goose,2955,JAN-2020,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2019,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2019,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2020,0,Good
+PG,Pink-footed Goose,3225,OCT-2019,0,Good
+PG,Pink-footed Goose,3225,DEC-2019,25,Good
+PG,Pink-footed Goose,3225,JAN-2020,0,Good
+WS,Whooper Swan,3430,OCT-2019,0,Good
+WS,Whooper Swan,3430,DEC-2019,0,Good
+WS,Whooper Swan,3430,JAN-2020,0,Good
+WN,Wigeon,4620,OCT-2019,0,Good
+WN,Wigeon,4620,DEC-2019,0,Good
+WN,Wigeon,4620,JAN-2020,0,Good
+MA,Mallard,4840,OCT-2019,0,Good
+MA,Mallard,4840,DEC-2019,0,Good
+MA,Mallard,4840,JAN-2020,0,Good
+T.,Teal,5080,OCT-2019,0,Good
+T.,Teal,5080,DEC-2019,0,Good
+T.,Teal,5080,JAN-2020,0,Good
+EE,Eider (except Shetland),5690,OCT-2019,1,Good
+EE,Eider (except Shetland),5690,DEC-2019,1,Good
+EE,Eider (except Shetland),5690,JAN-2020,0,Good
+CX,Common Scoter,5810,OCT-2019,0,Good
+CX,Common Scoter,5810,DEC-2019,0,Good
+CX,Common Scoter,5810,JAN-2020,0,Good
+LN,Long-tailed Duck,5850,OCT-2019,0,Good
+LN,Long-tailed Duck,5850,DEC-2019,0,Good
+LN,Long-tailed Duck,5850,JAN-2020,0,Good
+GN,Goldeneye,5880,OCT-2019,0,Good
+GN,Goldeneye,5880,DEC-2019,0,Good
+GN,Goldeneye,5880,JAN-2020,0,Good
+RM,Red-breasted Merganser,6030,OCT-2019,0,Good
+RM,Red-breasted Merganser,6030,DEC-2019,0,Good
+RM,Red-breasted Merganser,6030,JAN-2020,0,Good
+RH,Red-throated Diver,16760,OCT-2019,0,Good
+RH,Red-throated Diver,16760,DEC-2019,0,Good
+RH,Red-throated Diver,16760,JAN-2020,0,Good
+BV,Black-throated Diver,16770,OCT-2019,0,Good
+BV,Black-throated Diver,16770,DEC-2019,0,Good
+BV,Black-throated Diver,16770,JAN-2020,0,Good
+UL,Unidentified diver,16830,OCT-2019,0,Good
+UL,Unidentified diver,16830,DEC-2019,0,Good
+UL,Unidentified diver,16830,JAN-2020,0,Good
+H.,Grey Heron,23270,OCT-2019,0,Good
+H.,Grey Heron,23270,DEC-2019,0,Good
+H.,Grey Heron,23270,JAN-2020,0,Good
+SA,Shag,24940,OCT-2019,0,Good
+SA,Shag,24940,DEC-2019,0,Good
+SA,Shag,24940,JAN-2020,0,Good
+CA,Cormorant,25040,OCT-2019,3,Good
+CA,Cormorant,25040,DEC-2019,8,Good
+CA,Cormorant,25040,JAN-2020,11,Good
+OC,Oystercatcher,39840,OCT-2019,77,Good
+OC,Oystercatcher,39840,DEC-2019,57,Good
+OC,Oystercatcher,39840,JAN-2020,96,Good
+L.,Lapwing,40200,OCT-2019,0,Good
+L.,Lapwing,40200,DEC-2019,0,Good
+L.,Lapwing,40200,JAN-2020,0,Good
+GP,Golden Plover,40710,OCT-2019,0,Good
+GP,Golden Plover,40710,DEC-2019,0,Good
+GP,Golden Plover,40710,JAN-2020,0,Good
+RP,Ringed Plover,40830,OCT-2019,0,Good
+RP,Ringed Plover,40830,DEC-2019,0,Good
+RP,Ringed Plover,40830,JAN-2020,0,Good
+CU,Curlew,42320,OCT-2019,64,Good
+CU,Curlew,42320,DEC-2019,16,Good
+CU,Curlew,42320,JAN-2020,0,Good
+TT,Turnstone,42510,OCT-2019,0,Good
+TT,Turnstone,42510,DEC-2019,3,Good
+TT,Turnstone,42510,JAN-2020,0,Good
+KN,Knot,42620,OCT-2019,0,Good
+KN,Knot,42620,DEC-2019,0,Good
+KN,Knot,42620,JAN-2020,0,Good
+PS,Purple Sandpiper,43010,OCT-2019,0,Good
+PS,Purple Sandpiper,43010,DEC-2019,0,Good
+PS,Purple Sandpiper,43010,JAN-2020,0,Good
+SN,Snipe,43540,OCT-2019,0,Good
+SN,Snipe,43540,DEC-2019,0,Good
+SN,Snipe,43540,JAN-2020,0,Good
+RK,Redshank,43920,OCT-2019,3,Good
+RK,Redshank,43920,DEC-2019,2,Good
+RK,Redshank,43920,JAN-2020,0,Good
+KI,Kittiwake,45000,OCT-2019,0,Good
+BH,Black-headed Gull,45190,OCT-2019,0,Good
+GB,Great Black-backed Gull,45620,OCT-2019,0,Good
+HG,Herring Gull,45830,OCT-2019,2,Good

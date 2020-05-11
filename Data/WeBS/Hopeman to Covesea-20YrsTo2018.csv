@@ -1,0 +1,354 @@
+SpeciesCode,Species,TaxonSort,Visit,Count,SpeciesCover
+PG,Pink-footed Goose,3225,OCT-2006,0,Good
+PG,Pink-footed Goose,3225,DEC-2006,0,Good
+PG,Pink-footed Goose,3225,JAN-2007,0,Good
+PG,Pink-footed Goose,3225,FEB-2007,0,Good
+PG,Pink-footed Goose,3225,OCT-2007,112,Poor
+PG,Pink-footed Goose,3225,DEC-2007,0,Poor
+PG,Pink-footed Goose,3225,JAN-2008,0,Poor
+PG,Pink-footed Goose,3225,FEB-2008,0,Good
+PG,Pink-footed Goose,3225,OCT-2008,0,Poor
+PG,Pink-footed Goose,3225,DEC-2008,210,Good
+PG,Pink-footed Goose,3225,FEB-2009,0,Good
+PG,Pink-footed Goose,3225,OCT-2009,0,Good
+PG,Pink-footed Goose,3225,JAN-2010,0,Good
+PG,Pink-footed Goose,3225,FEB-2010,0,Good
+MS,Mute Swan,3380,OCT-2006,0,Good
+MS,Mute Swan,3380,DEC-2006,0,Good
+MS,Mute Swan,3380,JAN-2007,0,Good
+MS,Mute Swan,3380,FEB-2007,0,Good
+MS,Mute Swan,3380,OCT-2007,3,Poor
+MS,Mute Swan,3380,DEC-2007,0,Poor
+MS,Mute Swan,3380,JAN-2008,0,Poor
+MS,Mute Swan,3380,FEB-2008,0,Good
+MS,Mute Swan,3380,OCT-2008,0,Poor
+MS,Mute Swan,3380,DEC-2008,0,Good
+MS,Mute Swan,3380,FEB-2009,0,Good
+MS,Mute Swan,3380,OCT-2009,0,Good
+MS,Mute Swan,3380,JAN-2010,0,Good
+MS,Mute Swan,3380,FEB-2010,0,Good
+MA,Mallard,4840,OCT-2006,0,Good
+MA,Mallard,4840,DEC-2006,0,Good
+MA,Mallard,4840,JAN-2007,21,Good
+MA,Mallard,4840,FEB-2007,0,Good
+MA,Mallard,4840,OCT-2007,0,Poor
+MA,Mallard,4840,DEC-2007,0,Poor
+MA,Mallard,4840,JAN-2008,0,Poor
+MA,Mallard,4840,FEB-2008,2,Good
+MA,Mallard,4840,OCT-2008,0,Poor
+MA,Mallard,4840,DEC-2008,12,Good
+MA,Mallard,4840,FEB-2009,10,Good
+MA,Mallard,4840,OCT-2009,18,Good
+MA,Mallard,4840,JAN-2010,7,Good
+MA,Mallard,4840,FEB-2010,14,Good
+EE,Eider (except Shetland),5690,OCT-2006,72,Good
+EE,Eider (except Shetland),5690,DEC-2006,47,Good
+EE,Eider (except Shetland),5690,JAN-2007,6,Good
+EE,Eider (except Shetland),5690,FEB-2007,40,Good
+EE,Eider (except Shetland),5690,OCT-2007,316,Poor
+EE,Eider (except Shetland),5690,DEC-2007,27,Poor
+EE,Eider (except Shetland),5690,JAN-2008,84,Poor
+EE,Eider (except Shetland),5690,FEB-2008,201,Good
+EE,Eider (except Shetland),5690,OCT-2008,86,Poor
+EE,Eider (except Shetland),5690,DEC-2008,558,Good
+EE,Eider (except Shetland),5690,FEB-2009,65,Good
+EE,Eider (except Shetland),5690,OCT-2009,81,Good
+EE,Eider (except Shetland),5690,JAN-2010,96,Good
+EE,Eider (except Shetland),5690,FEB-2010,91,Good
+VS,Velvet Scoter,5770,OCT-2006,0,Good
+VS,Velvet Scoter,5770,DEC-2006,0,Good
+VS,Velvet Scoter,5770,JAN-2007,0,Good
+VS,Velvet Scoter,5770,FEB-2007,0,Good
+VS,Velvet Scoter,5770,OCT-2007,11,Poor
+VS,Velvet Scoter,5770,DEC-2007,0,Poor
+VS,Velvet Scoter,5770,JAN-2008,0,Poor
+VS,Velvet Scoter,5770,FEB-2008,0,Good
+VS,Velvet Scoter,5770,OCT-2008,0,Poor
+VS,Velvet Scoter,5770,DEC-2008,0,Good
+VS,Velvet Scoter,5770,FEB-2009,0,Good
+VS,Velvet Scoter,5770,OCT-2009,0,Good
+VS,Velvet Scoter,5770,JAN-2010,0,Good
+VS,Velvet Scoter,5770,FEB-2010,0,Good
+CX,Common Scoter,5810,OCT-2006,0,Good
+CX,Common Scoter,5810,DEC-2006,51,Good
+CX,Common Scoter,5810,JAN-2007,0,Good
+CX,Common Scoter,5810,FEB-2007,0,Good
+CX,Common Scoter,5810,OCT-2007,0,Poor
+CX,Common Scoter,5810,DEC-2007,0,Poor
+CX,Common Scoter,5810,JAN-2008,1,Poor
+CX,Common Scoter,5810,FEB-2008,0,Good
+CX,Common Scoter,5810,OCT-2008,30,Poor
+CX,Common Scoter,5810,DEC-2008,20,Good
+CX,Common Scoter,5810,FEB-2009,66,Good
+CX,Common Scoter,5810,OCT-2009,15,Good
+CX,Common Scoter,5810,JAN-2010,23,Good
+CX,Common Scoter,5810,FEB-2010,36,Good
+LN,Long-tailed Duck,5850,OCT-2006,0,Good
+LN,Long-tailed Duck,5850,DEC-2006,4,Good
+LN,Long-tailed Duck,5850,JAN-2007,0,Good
+LN,Long-tailed Duck,5850,FEB-2007,4,Good
+LN,Long-tailed Duck,5850,OCT-2007,0,Poor
+LN,Long-tailed Duck,5850,DEC-2007,12,Poor
+LN,Long-tailed Duck,5850,JAN-2008,24,Poor
+LN,Long-tailed Duck,5850,FEB-2008,21,Good
+LN,Long-tailed Duck,5850,OCT-2008,70,Poor
+LN,Long-tailed Duck,5850,DEC-2008,76,Good
+LN,Long-tailed Duck,5850,FEB-2009,22,Good
+LN,Long-tailed Duck,5850,OCT-2009,0,Good
+LN,Long-tailed Duck,5850,JAN-2010,10,Good
+LN,Long-tailed Duck,5850,FEB-2010,11,Good
+GN,Goldeneye,5880,OCT-2006,0,Good
+GN,Goldeneye,5880,DEC-2006,5,Good
+GN,Goldeneye,5880,JAN-2007,6,Good
+GN,Goldeneye,5880,FEB-2007,1,Good
+GN,Goldeneye,5880,OCT-2007,0,Poor
+GN,Goldeneye,5880,DEC-2007,3,Poor
+GN,Goldeneye,5880,JAN-2008,13,Poor
+GN,Goldeneye,5880,FEB-2008,3,Good
+GN,Goldeneye,5880,OCT-2008,0,Poor
+GN,Goldeneye,5880,DEC-2008,8,Good
+GN,Goldeneye,5880,FEB-2009,9,Good
+GN,Goldeneye,5880,OCT-2009,0,Good
+GN,Goldeneye,5880,JAN-2010,13,Good
+GN,Goldeneye,5880,FEB-2010,10,Good
+RM,Red-breasted Merganser,6030,OCT-2006,0,Good
+RM,Red-breasted Merganser,6030,DEC-2006,2,Good
+RM,Red-breasted Merganser,6030,JAN-2007,0,Good
+RM,Red-breasted Merganser,6030,FEB-2007,1,Good
+RM,Red-breasted Merganser,6030,OCT-2007,0,Poor
+RM,Red-breasted Merganser,6030,DEC-2007,0,Poor
+RM,Red-breasted Merganser,6030,JAN-2008,2,Poor
+RM,Red-breasted Merganser,6030,FEB-2008,0,Good
+RM,Red-breasted Merganser,6030,OCT-2008,0,Poor
+RM,Red-breasted Merganser,6030,DEC-2008,0,Good
+RM,Red-breasted Merganser,6030,FEB-2009,0,Good
+RM,Red-breasted Merganser,6030,OCT-2009,0,Good
+RM,Red-breasted Merganser,6030,JAN-2010,6,Good
+RM,Red-breasted Merganser,6030,FEB-2010,8,Good
+RH,Red-throated Diver,16760,OCT-2006,0,Good
+RH,Red-throated Diver,16760,DEC-2006,0,Good
+RH,Red-throated Diver,16760,JAN-2007,1,Good
+RH,Red-throated Diver,16760,FEB-2007,4,Good
+RH,Red-throated Diver,16760,OCT-2007,0,Poor
+RH,Red-throated Diver,16760,DEC-2007,0,Poor
+RH,Red-throated Diver,16760,JAN-2008,0,Poor
+RH,Red-throated Diver,16760,FEB-2008,0,Good
+RH,Red-throated Diver,16760,OCT-2008,0,Poor
+RH,Red-throated Diver,16760,DEC-2008,2,Good
+RH,Red-throated Diver,16760,FEB-2009,0,Good
+RH,Red-throated Diver,16760,OCT-2009,0,Good
+RH,Red-throated Diver,16760,JAN-2010,2,Good
+RH,Red-throated Diver,16760,FEB-2010,2,Good
+ND,Great Northern Diver,16810,OCT-2006,0,Good
+ND,Great Northern Diver,16810,DEC-2006,0,Good
+ND,Great Northern Diver,16810,JAN-2007,0,Good
+ND,Great Northern Diver,16810,FEB-2007,0,Good
+ND,Great Northern Diver,16810,OCT-2007,0,Poor
+ND,Great Northern Diver,16810,DEC-2007,0,Poor
+ND,Great Northern Diver,16810,JAN-2008,1,Poor
+ND,Great Northern Diver,16810,FEB-2008,0,Good
+ND,Great Northern Diver,16810,OCT-2008,0,Poor
+ND,Great Northern Diver,16810,DEC-2008,0,Good
+ND,Great Northern Diver,16810,FEB-2009,0,Good
+ND,Great Northern Diver,16810,OCT-2009,0,Good
+ND,Great Northern Diver,16810,JAN-2010,0,Good
+ND,Great Northern Diver,16810,FEB-2010,0,Good
+H.,Grey Heron,23270,OCT-2006,1,Good
+H.,Grey Heron,23270,DEC-2006,0,Good
+H.,Grey Heron,23270,JAN-2007,0,Good
+H.,Grey Heron,23270,FEB-2007,0,Good
+H.,Grey Heron,23270,OCT-2007,0,Poor
+H.,Grey Heron,23270,DEC-2007,0,Poor
+H.,Grey Heron,23270,JAN-2008,1,Poor
+H.,Grey Heron,23270,FEB-2008,2,Good
+H.,Grey Heron,23270,OCT-2008,0,Poor
+H.,Grey Heron,23270,DEC-2008,0,Good
+H.,Grey Heron,23270,FEB-2009,0,Good
+H.,Grey Heron,23270,OCT-2009,0,Good
+H.,Grey Heron,23270,JAN-2010,0,Good
+H.,Grey Heron,23270,FEB-2010,0,Good
+SA,Shag,24940,OCT-2006,0,Good
+SA,Shag,24940,DEC-2006,1,Good
+SA,Shag,24940,JAN-2007,0,Good
+SA,Shag,24940,FEB-2007,7,Good
+SA,Shag,24940,OCT-2007,0,Poor
+SA,Shag,24940,DEC-2007,0,Poor
+SA,Shag,24940,JAN-2008,0,Poor
+SA,Shag,24940,FEB-2008,1,Good
+SA,Shag,24940,OCT-2008,0,Poor
+SA,Shag,24940,DEC-2008,18,Good
+SA,Shag,24940,FEB-2009,8,Good
+SA,Shag,24940,OCT-2009,13,Good
+SA,Shag,24940,JAN-2010,13,Good
+SA,Shag,24940,FEB-2010,19,Good
+CA,Cormorant,25040,OCT-2006,59,Good
+CA,Cormorant,25040,DEC-2006,19,Good
+CA,Cormorant,25040,JAN-2007,32,Good
+CA,Cormorant,25040,FEB-2007,38,Good
+CA,Cormorant,25040,OCT-2007,105,Poor
+CA,Cormorant,25040,DEC-2007,41,Poor
+CA,Cormorant,25040,JAN-2008,26,Poor
+CA,Cormorant,25040,FEB-2008,21,Good
+CA,Cormorant,25040,OCT-2008,48,Poor
+CA,Cormorant,25040,DEC-2008,25,Good
+CA,Cormorant,25040,FEB-2009,19,Good
+CA,Cormorant,25040,OCT-2009,31,Good
+CA,Cormorant,25040,JAN-2010,29,Good
+CA,Cormorant,25040,FEB-2010,51,Good
+OC,Oystercatcher,39840,OCT-2006,16,Good
+OC,Oystercatcher,39840,DEC-2006,71,Good
+OC,Oystercatcher,39840,JAN-2007,40,Good
+OC,Oystercatcher,39840,FEB-2007,60,Good
+OC,Oystercatcher,39840,OCT-2007,156,Poor
+OC,Oystercatcher,39840,DEC-2007,15,Poor
+OC,Oystercatcher,39840,JAN-2008,51,Poor
+OC,Oystercatcher,39840,FEB-2008,127,Good
+OC,Oystercatcher,39840,OCT-2008,143,Poor
+OC,Oystercatcher,39840,DEC-2008,205,Good
+OC,Oystercatcher,39840,FEB-2009,127,Good
+OC,Oystercatcher,39840,OCT-2009,169,Good
+OC,Oystercatcher,39840,JAN-2010,133,Good
+OC,Oystercatcher,39840,FEB-2010,84,Good
+RP,Ringed Plover,40830,OCT-2006,0,Good
+RP,Ringed Plover,40830,DEC-2006,0,Good
+RP,Ringed Plover,40830,JAN-2007,1,Good
+RP,Ringed Plover,40830,FEB-2007,0,Good
+RP,Ringed Plover,40830,OCT-2007,6,Poor
+RP,Ringed Plover,40830,DEC-2007,5,Poor
+RP,Ringed Plover,40830,JAN-2008,1,Poor
+RP,Ringed Plover,40830,FEB-2008,1,Good
+RP,Ringed Plover,40830,OCT-2008,5,Poor
+RP,Ringed Plover,40830,DEC-2008,0,Good
+RP,Ringed Plover,40830,FEB-2009,0,Good
+RP,Ringed Plover,40830,OCT-2009,0,Good
+RP,Ringed Plover,40830,JAN-2010,0,Good
+RP,Ringed Plover,40830,FEB-2010,0,Good
+CU,Curlew,42320,OCT-2006,11,Good
+CU,Curlew,42320,DEC-2006,3,Good
+CU,Curlew,42320,JAN-2007,1,Good
+CU,Curlew,42320,FEB-2007,7,Good
+CU,Curlew,42320,OCT-2007,6,Poor
+CU,Curlew,42320,DEC-2007,0,Poor
+CU,Curlew,42320,JAN-2008,0,Poor
+CU,Curlew,42320,FEB-2008,15,Good
+CU,Curlew,42320,OCT-2008,12,Poor
+CU,Curlew,42320,DEC-2008,153,Good
+CU,Curlew,42320,FEB-2009,101,Good
+CU,Curlew,42320,OCT-2009,19,Good
+CU,Curlew,42320,JAN-2010,5,Good
+CU,Curlew,42320,FEB-2010,13,Good
+BA,Bar-tailed Godwit,42370,OCT-2006,9,Good
+BA,Bar-tailed Godwit,42370,DEC-2006,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2007,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2007,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2007,0,Poor
+BA,Bar-tailed Godwit,42370,DEC-2007,0,Poor
+BA,Bar-tailed Godwit,42370,JAN-2008,0,Poor
+BA,Bar-tailed Godwit,42370,FEB-2008,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2008,1,Poor
+BA,Bar-tailed Godwit,42370,DEC-2008,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2009,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2009,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2010,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2010,0,Good
+TT,Turnstone,42510,OCT-2006,3,Good
+TT,Turnstone,42510,DEC-2006,15,Good
+TT,Turnstone,42510,JAN-2007,9,Good
+TT,Turnstone,42510,FEB-2007,8,Good
+TT,Turnstone,42510,OCT-2007,19,Poor
+TT,Turnstone,42510,DEC-2007,26,Poor
+TT,Turnstone,42510,JAN-2008,7,Poor
+TT,Turnstone,42510,FEB-2008,0,Good
+TT,Turnstone,42510,OCT-2008,5,Poor
+TT,Turnstone,42510,DEC-2008,17,Good
+TT,Turnstone,42510,FEB-2009,0,Good
+TT,Turnstone,42510,OCT-2009,8,Good
+TT,Turnstone,42510,JAN-2010,28,Good
+TT,Turnstone,42510,FEB-2010,13,Good
+KN,Knot,42620,OCT-2006,0,Good
+KN,Knot,42620,DEC-2006,0,Good
+KN,Knot,42620,JAN-2007,0,Good
+KN,Knot,42620,FEB-2007,0,Good
+KN,Knot,42620,OCT-2007,0,Poor
+KN,Knot,42620,DEC-2007,0,Poor
+KN,Knot,42620,JAN-2008,34,Poor
+KN,Knot,42620,FEB-2008,0,Good
+KN,Knot,42620,OCT-2008,0,Poor
+KN,Knot,42620,DEC-2008,0,Good
+KN,Knot,42620,FEB-2009,0,Good
+KN,Knot,42620,OCT-2009,0,Good
+KN,Knot,42620,JAN-2010,30,Good
+KN,Knot,42620,FEB-2010,0,Good
+PS,Purple Sandpiper,43010,OCT-2006,0,Good
+PS,Purple Sandpiper,43010,DEC-2006,1,Good
+PS,Purple Sandpiper,43010,JAN-2007,5,Good
+PS,Purple Sandpiper,43010,FEB-2007,0,Good
+PS,Purple Sandpiper,43010,OCT-2007,0,Poor
+PS,Purple Sandpiper,43010,DEC-2007,0,Poor
+PS,Purple Sandpiper,43010,JAN-2008,0,Poor
+PS,Purple Sandpiper,43010,FEB-2008,0,Good
+PS,Purple Sandpiper,43010,OCT-2008,0,Poor
+PS,Purple Sandpiper,43010,DEC-2008,35,Good
+PS,Purple Sandpiper,43010,FEB-2009,0,Good
+PS,Purple Sandpiper,43010,OCT-2009,0,Good
+PS,Purple Sandpiper,43010,JAN-2010,18,Good
+PS,Purple Sandpiper,43010,FEB-2010,12,Good
+RK,Redshank,43920,OCT-2006,1,Good
+RK,Redshank,43920,DEC-2006,18,Good
+RK,Redshank,43920,JAN-2007,6,Good
+RK,Redshank,43920,FEB-2007,7,Good
+RK,Redshank,43920,OCT-2007,23,Poor
+RK,Redshank,43920,DEC-2007,16,Poor
+RK,Redshank,43920,JAN-2008,10,Poor
+RK,Redshank,43920,FEB-2008,4,Good
+RK,Redshank,43920,OCT-2008,20,Poor
+RK,Redshank,43920,DEC-2008,32,Good
+RK,Redshank,43920,FEB-2009,9,Good
+RK,Redshank,43920,OCT-2009,7,Good
+RK,Redshank,43920,JAN-2010,11,Good
+RK,Redshank,43920,FEB-2010,17,Good
+BH,Black-headed Gull,45190,OCT-2006,32,Good
+BH,Black-headed Gull,45190,DEC-2006,30,Good
+BH,Black-headed Gull,45190,JAN-2007,7,Good
+BH,Black-headed Gull,45190,FEB-2007,1,Good
+BH,Black-headed Gull,45190,OCT-2007,0,Poor
+BH,Black-headed Gull,45190,JAN-2008,3,Poor
+BH,Black-headed Gull,45190,FEB-2008,19,Good
+BH,Black-headed Gull,45190,OCT-2008,3,Poor
+BH,Black-headed Gull,45190,DEC-2008,0,Good
+CM,Common Gull,45530,OCT-2006,0,Good
+CM,Common Gull,45530,DEC-2006,30,Good
+CM,Common Gull,45530,JAN-2007,0,Good
+CM,Common Gull,45530,FEB-2007,0,Good
+CM,Common Gull,45530,OCT-2007,0,Poor
+CM,Common Gull,45530,JAN-2008,0,Poor
+CM,Common Gull,45530,FEB-2008,0,Good
+CM,Common Gull,45530,OCT-2008,0,Poor
+CM,Common Gull,45530,DEC-2008,0,Good
+GB,Great Black-backed Gull,45620,OCT-2006,7,Good
+GB,Great Black-backed Gull,45620,DEC-2006,9,Good
+GB,Great Black-backed Gull,45620,JAN-2007,1,Good
+GB,Great Black-backed Gull,45620,FEB-2007,3,Good
+GB,Great Black-backed Gull,45620,OCT-2007,0,Poor
+GB,Great Black-backed Gull,45620,JAN-2008,1,Poor
+GB,Great Black-backed Gull,45620,FEB-2008,3,Good
+GB,Great Black-backed Gull,45620,OCT-2008,3,Poor
+GB,Great Black-backed Gull,45620,DEC-2008,6,Good
+HG,Herring Gull,45830,OCT-2006,800,Good
+HG,Herring Gull,45830,DEC-2006,800,Good
+HG,Herring Gull,45830,JAN-2007,600,Good
+HG,Herring Gull,45830,FEB-2007,200,Good
+HG,Herring Gull,45830,OCT-2007,1000,Poor
+HG,Herring Gull,45830,JAN-2008,220,Poor
+HG,Herring Gull,45830,FEB-2008,486,Good
+HG,Herring Gull,45830,OCT-2008,300,Poor
+HG,Herring Gull,45830,DEC-2008,700,Good
+LB,Lesser Black-backed Gull,45980,OCT-2006,0,Good
+LB,Lesser Black-backed Gull,45980,DEC-2006,1,Good
+LB,Lesser Black-backed Gull,45980,JAN-2007,0,Good
+LB,Lesser Black-backed Gull,45980,FEB-2007,0,Good
+LB,Lesser Black-backed Gull,45980,OCT-2007,0,Poor
+LB,Lesser Black-backed Gull,45980,JAN-2008,0,Poor
+LB,Lesser Black-backed Gull,45980,FEB-2008,0,Good
+LB,Lesser Black-backed Gull,45980,OCT-2008,0,Poor
+LB,Lesser Black-backed Gull,45980,DEC-2008,0,Good

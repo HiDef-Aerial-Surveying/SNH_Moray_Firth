@@ -1,0 +1,40 @@
+SpeciesCode,Species,TaxonSort,Visit,Count,SpeciesCover
+WN,Wigeon,4620,OCT-2013,0,Good
+WN,Wigeon,4620,NOV-2013,16,Good
+WN,Wigeon,4620,DEC-2013,0,Good
+MA,Mallard,4840,OCT-2013,7,Good
+MA,Mallard,4840,NOV-2013,2,Good
+MA,Mallard,4840,DEC-2013,0,Good
+EE,Eider (except Shetland),5690,OCT-2013,15,Good
+EE,Eider (except Shetland),5690,NOV-2013,0,Good
+EE,Eider (except Shetland),5690,DEC-2013,0,Good
+H.,Grey Heron,23270,OCT-2013,4,Good
+H.,Grey Heron,23270,NOV-2013,8,Good
+H.,Grey Heron,23270,DEC-2013,4,Good
+SA,Shag,24940,OCT-2013,49,Good
+SA,Shag,24940,NOV-2013,93,Good
+SA,Shag,24940,DEC-2013,18,Good
+OC,Oystercatcher,39840,OCT-2013,42,Good
+OC,Oystercatcher,39840,NOV-2013,49,Good
+OC,Oystercatcher,39840,DEC-2013,33,Good
+RP,Ringed Plover,40830,OCT-2013,0,Good
+RP,Ringed Plover,40830,NOV-2013,9,Good
+RP,Ringed Plover,40830,DEC-2013,7,Good
+CU,Curlew,42320,OCT-2013,30,Good
+CU,Curlew,42320,NOV-2013,15,Good
+CU,Curlew,42320,DEC-2013,14,Good
+RK,Redshank,43920,OCT-2013,4,Good
+RK,Redshank,43920,NOV-2013,16,Good
+RK,Redshank,43920,DEC-2013,7,Good
+BH,Black-headed Gull,45190,OCT-2013,0,Good
+BH,Black-headed Gull,45190,NOV-2013,0,Good
+BH,Black-headed Gull,45190,DEC-2013,0,Good
+CM,Common Gull,45530,OCT-2013,0,Good
+CM,Common Gull,45530,NOV-2013,0,Good
+CM,Common Gull,45530,DEC-2013,0,Good
+GB,Great Black-backed Gull,45620,OCT-2013,0,Good
+GB,Great Black-backed Gull,45620,NOV-2013,0,Good
+GB,Great Black-backed Gull,45620,DEC-2013,0,Good
+HG,Herring Gull,45830,OCT-2013,0,Good
+HG,Herring Gull,45830,NOV-2013,0,Good
+HG,Herring Gull,45830,DEC-2013,0,Good

@@ -1,0 +1,77 @@
+SpeciesCode,Species,TaxonSort,Visit,Count,SpeciesCover
+JI,Greylag Goose (Icelandic),3100,OCT-2019,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2019,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2020,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2020,0,Good
+MS,Mute Swan,3380,OCT-2019,8,Good
+MS,Mute Swan,3380,DEC-2019,0,Good
+MS,Mute Swan,3380,JAN-2020,0,Good
+MS,Mute Swan,3380,FEB-2020,0,Good
+WN,Wigeon,4620,OCT-2019,29,Good
+WN,Wigeon,4620,DEC-2019,4,Good
+WN,Wigeon,4620,JAN-2020,33,Good
+WN,Wigeon,4620,FEB-2020,38,Good
+MA,Mallard,4840,OCT-2019,11,Good
+MA,Mallard,4840,DEC-2019,4,Good
+MA,Mallard,4840,JAN-2020,14,Good
+MA,Mallard,4840,FEB-2020,13,Good
+T.,Teal,5080,OCT-2019,0,Good
+T.,Teal,5080,DEC-2019,94,Good
+T.,Teal,5080,JAN-2020,23,Good
+T.,Teal,5080,FEB-2020,0,Good
+GN,Goldeneye,5880,OCT-2019,0,Good
+GN,Goldeneye,5880,DEC-2019,0,Good
+GN,Goldeneye,5880,JAN-2020,0,Good
+GN,Goldeneye,5880,FEB-2020,0,Good
+GD,Goosander,5990,OCT-2019,0,Good
+GD,Goosander,5990,DEC-2019,0,Good
+GD,Goosander,5990,JAN-2020,0,Good
+GD,Goosander,5990,FEB-2020,0,Good
+RM,Red-breasted Merganser,6030,OCT-2019,0,Good
+RM,Red-breasted Merganser,6030,DEC-2019,0,Good
+RM,Red-breasted Merganser,6030,JAN-2020,0,Good
+RM,Red-breasted Merganser,6030,FEB-2020,0,Good
+LG,Little Grebe,19830,OCT-2019,3,Good
+LG,Little Grebe,19830,DEC-2019,0,Good
+LG,Little Grebe,19830,JAN-2020,0,Good
+LG,Little Grebe,19830,FEB-2020,0,Good
+H.,Grey Heron,23270,OCT-2019,9,Good
+H.,Grey Heron,23270,DEC-2019,0,Good
+H.,Grey Heron,23270,JAN-2020,2,Good
+H.,Grey Heron,23270,FEB-2020,0,Good
+SA,Shag,24940,OCT-2019,0,Good
+SA,Shag,24940,DEC-2019,0,Good
+SA,Shag,24940,JAN-2020,0,Good
+SA,Shag,24940,FEB-2020,0,Good
+CA,Cormorant,25040,OCT-2019,0,Good
+CA,Cormorant,25040,DEC-2019,1,Good
+CA,Cormorant,25040,JAN-2020,1,Good
+CA,Cormorant,25040,FEB-2020,1,Good
+OC,Oystercatcher,39840,OCT-2019,60,Good
+OC,Oystercatcher,39840,DEC-2019,0,Good
+OC,Oystercatcher,39840,JAN-2020,10,Good
+OC,Oystercatcher,39840,FEB-2020,0,Good
+L.,Lapwing,40200,OCT-2019,0,Good
+L.,Lapwing,40200,DEC-2019,0,Good
+L.,Lapwing,40200,JAN-2020,0,Good
+L.,Lapwing,40200,FEB-2020,0,Good
+CU,Curlew,42320,OCT-2019,5,Good
+CU,Curlew,42320,DEC-2019,0,Good
+CU,Curlew,42320,JAN-2020,0,Good
+CU,Curlew,42320,FEB-2020,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2019,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2019,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2020,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2020,0,Good
+BW,Black-tailed Godwit,42420,OCT-2019,0,Good
+BW,Black-tailed Godwit,42420,DEC-2019,0,Good
+BW,Black-tailed Godwit,42420,JAN-2020,0,Good
+BW,Black-tailed Godwit,42420,FEB-2020,0,Good
+RU,Ruff,42700,OCT-2019,0,Good
+RU,Ruff,42700,DEC-2019,0,Good
+RU,Ruff,42700,JAN-2020,0,Good
+RU,Ruff,42700,FEB-2020,0,Good
+RK,Redshank,43920,OCT-2019,15,Good
+RK,Redshank,43920,DEC-2019,1,Good
+RK,Redshank,43920,JAN-2020,0,Good
+RK,Redshank,43920,FEB-2020,29,Good

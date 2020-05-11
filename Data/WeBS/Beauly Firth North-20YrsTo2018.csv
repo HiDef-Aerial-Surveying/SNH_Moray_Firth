@@ -1,0 +1,3381 @@
+SpeciesCode,Species,TaxonSort,Visit,Count,SpeciesCover
+CG,Canada Goose,2750,OCT-1999,0,Good
+CG,Canada Goose,2750,DEC-1999,0,Good
+CG,Canada Goose,2750,JAN-2000,0,Good
+CG,Canada Goose,2750,FEB-2000,0,Good
+CG,Canada Goose,2750,OCT-2000,0,Good
+CG,Canada Goose,2750,DEC-2000,0,Good
+CG,Canada Goose,2750,JAN-2001,0,Good
+CG,Canada Goose,2750,FEB-2001,0,Good
+CG,Canada Goose,2750,OCT-2001,0,Good
+CG,Canada Goose,2750,DEC-2001,0,Good
+CG,Canada Goose,2750,JAN-2002,0,Good
+CG,Canada Goose,2750,FEB-2002,0,Good
+CG,Canada Goose,2750,OCT-2002,0,Good
+CG,Canada Goose,2750,DEC-2002,0,Good
+CG,Canada Goose,2750,JAN-2003,0,Good
+CG,Canada Goose,2750,FEB-2003,0,Good
+CG,Canada Goose,2750,OCT-2003,0,Good
+CG,Canada Goose,2750,DEC-2003,0,Good
+CG,Canada Goose,2750,JAN-2004,0,Good
+CG,Canada Goose,2750,FEB-2004,0,Good
+CG,Canada Goose,2750,OCT-2004,0,Good
+CG,Canada Goose,2750,DEC-2004,0,Good
+CG,Canada Goose,2750,JAN-2005,0,Good
+CG,Canada Goose,2750,FEB-2005,0,Good
+CG,Canada Goose,2750,OCT-2005,0,Good
+CG,Canada Goose,2750,DEC-2005,0,Good
+CG,Canada Goose,2750,JAN-2006,0,Good
+CG,Canada Goose,2750,FEB-2006,0,Good
+CG,Canada Goose,2750,OCT-2006,1,Good
+CG,Canada Goose,2750,DEC-2006,0,Poor
+CG,Canada Goose,2750,JAN-2007,1,Good
+CG,Canada Goose,2750,FEB-2007,0,Poor
+CG,Canada Goose,2750,OCT-2007,0,Good
+CG,Canada Goose,2750,DEC-2007,0,Good
+CG,Canada Goose,2750,JAN-2008,0,Poor
+CG,Canada Goose,2750,FEB-2008,0,Good
+CG,Canada Goose,2750,OCT-2008,0,Poor
+CG,Canada Goose,2750,DEC-2008,0,Good
+CG,Canada Goose,2750,JAN-2009,0,Good
+CG,Canada Goose,2750,FEB-2009,0,Good
+CG,Canada Goose,2750,OCT-2009,11,Good
+CG,Canada Goose,2750,JAN-2010,0,Good
+CG,Canada Goose,2750,FEB-2010,0,Good
+CG,Canada Goose,2750,OCT-2010,0,Good
+CG,Canada Goose,2750,DEC-2010,0,Good
+CG,Canada Goose,2750,JAN-2011,0,Good
+CG,Canada Goose,2750,FEB-2011,0,Good
+CG,Canada Goose,2750,OCT-2011,0,Good
+CG,Canada Goose,2750,DEC-2011,0,Good
+CG,Canada Goose,2750,JAN-2012,0,Good
+CG,Canada Goose,2750,FEB-2012,0,Poor
+CG,Canada Goose,2750,JUN-2012,120,Good
+CG,Canada Goose,2750,OCT-2012,2,Good
+CG,Canada Goose,2750,DEC-2012,0,Poor
+CG,Canada Goose,2750,JAN-2013,0,Good
+CG,Canada Goose,2750,FEB-2013,0,Poor
+CG,Canada Goose,2750,OCT-2013,0,Good
+CG,Canada Goose,2750,DEC-2013,0,Poor
+CG,Canada Goose,2750,JAN-2014,0,Good
+CG,Canada Goose,2750,FEB-2014,0,Good
+CG,Canada Goose,2750,OCT-2014,0,Poor
+CG,Canada Goose,2750,DEC-2014,0,Good
+CG,Canada Goose,2750,JAN-2015,0,Good
+CG,Canada Goose,2750,FEB-2015,0,Good
+CG,Canada Goose,2750,OCT-2015,0,Good
+CG,Canada Goose,2750,DEC-2015,0,Good
+CG,Canada Goose,2750,JAN-2016,0,Good
+CG,Canada Goose,2750,FEB-2016,0,Good
+CG,Canada Goose,2750,OCT-2016,0,Good
+CG,Canada Goose,2750,DEC-2016,0,Good
+CG,Canada Goose,2750,JAN-2017,0,Good
+CG,Canada Goose,2750,FEB-2017,0,Good
+CG,Canada Goose,2750,OCT-2017,0,Good
+CG,Canada Goose,2750,DEC-2017,0,Good
+CG,Canada Goose,2750,JAN-2018,0,Poor
+CG,Canada Goose,2750,FEB-2018,0,Poor
+CG,Canada Goose,2750,OCT-2018,1,Good
+CG,Canada Goose,2750,DEC-2018,0,Good
+CG,Canada Goose,2750,JAN-2019,0,Good
+CG,Canada Goose,2750,FEB-2019,0,Poor
+BY,Barnacle Goose,2955,OCT-1999,0,Good
+BY,Barnacle Goose,2955,DEC-1999,0,Good
+BY,Barnacle Goose,2955,JAN-2000,0,Good
+BY,Barnacle Goose,2955,FEB-2000,0,Good
+BY,Barnacle Goose,2955,OCT-2000,0,Good
+BY,Barnacle Goose,2955,DEC-2000,0,Good
+BY,Barnacle Goose,2955,JAN-2001,0,Good
+BY,Barnacle Goose,2955,FEB-2001,0,Good
+BY,Barnacle Goose,2955,OCT-2001,0,Good
+BY,Barnacle Goose,2955,DEC-2001,1,Good
+BY,Barnacle Goose,2955,JAN-2002,0,Good
+BY,Barnacle Goose,2955,FEB-2002,0,Good
+BY,Barnacle Goose,2955,OCT-2002,0,Good
+BY,Barnacle Goose,2955,DEC-2002,0,Good
+BY,Barnacle Goose,2955,JAN-2003,0,Good
+BY,Barnacle Goose,2955,FEB-2003,0,Good
+BY,Barnacle Goose,2955,OCT-2003,0,Good
+BY,Barnacle Goose,2955,DEC-2003,0,Good
+BY,Barnacle Goose,2955,JAN-2004,0,Good
+BY,Barnacle Goose,2955,FEB-2004,0,Good
+BY,Barnacle Goose,2955,OCT-2004,0,Good
+BY,Barnacle Goose,2955,DEC-2004,0,Good
+BY,Barnacle Goose,2955,JAN-2005,0,Good
+BY,Barnacle Goose,2955,FEB-2005,0,Good
+BY,Barnacle Goose,2955,OCT-2005,0,Good
+BY,Barnacle Goose,2955,DEC-2005,0,Good
+BY,Barnacle Goose,2955,JAN-2006,0,Good
+BY,Barnacle Goose,2955,FEB-2006,0,Good
+BY,Barnacle Goose,2955,OCT-2006,0,Good
+BY,Barnacle Goose,2955,DEC-2006,0,Poor
+BY,Barnacle Goose,2955,JAN-2007,0,Good
+BY,Barnacle Goose,2955,FEB-2007,0,Poor
+BY,Barnacle Goose,2955,OCT-2007,0,Good
+BY,Barnacle Goose,2955,DEC-2007,0,Good
+BY,Barnacle Goose,2955,JAN-2008,0,Poor
+BY,Barnacle Goose,2955,FEB-2008,0,Good
+BY,Barnacle Goose,2955,OCT-2008,0,Poor
+BY,Barnacle Goose,2955,DEC-2008,0,Good
+BY,Barnacle Goose,2955,JAN-2009,0,Good
+BY,Barnacle Goose,2955,FEB-2009,0,Good
+BY,Barnacle Goose,2955,OCT-2009,0,Good
+BY,Barnacle Goose,2955,JAN-2010,0,Good
+BY,Barnacle Goose,2955,FEB-2010,0,Good
+BY,Barnacle Goose,2955,OCT-2010,0,Good
+BY,Barnacle Goose,2955,DEC-2010,0,Good
+BY,Barnacle Goose,2955,JAN-2011,0,Good
+BY,Barnacle Goose,2955,FEB-2011,0,Good
+BY,Barnacle Goose,2955,OCT-2011,0,Good
+BY,Barnacle Goose,2955,DEC-2011,0,Good
+BY,Barnacle Goose,2955,JAN-2012,0,Good
+BY,Barnacle Goose,2955,FEB-2012,0,Poor
+BY,Barnacle Goose,2955,JUN-2012,0,Good
+BY,Barnacle Goose,2955,OCT-2012,0,Good
+BY,Barnacle Goose,2955,DEC-2012,0,Poor
+BY,Barnacle Goose,2955,JAN-2013,0,Good
+BY,Barnacle Goose,2955,FEB-2013,0,Poor
+BY,Barnacle Goose,2955,OCT-2013,0,Good
+BY,Barnacle Goose,2955,DEC-2013,0,Poor
+BY,Barnacle Goose,2955,JAN-2014,0,Good
+BY,Barnacle Goose,2955,FEB-2014,0,Good
+BY,Barnacle Goose,2955,OCT-2014,7,Poor
+BY,Barnacle Goose,2955,DEC-2014,0,Good
+BY,Barnacle Goose,2955,JAN-2015,0,Good
+BY,Barnacle Goose,2955,FEB-2015,0,Good
+BY,Barnacle Goose,2955,OCT-2015,0,Good
+BY,Barnacle Goose,2955,DEC-2015,47,Good
+BY,Barnacle Goose,2955,JAN-2016,0,Good
+BY,Barnacle Goose,2955,FEB-2016,0,Good
+BY,Barnacle Goose,2955,OCT-2016,0,Good
+BY,Barnacle Goose,2955,DEC-2016,0,Good
+BY,Barnacle Goose,2955,JAN-2017,0,Good
+BY,Barnacle Goose,2955,FEB-2017,0,Good
+BY,Barnacle Goose,2955,OCT-2017,0,Good
+BY,Barnacle Goose,2955,DEC-2017,0,Good
+BY,Barnacle Goose,2955,JAN-2018,0,Poor
+BY,Barnacle Goose,2955,FEB-2018,0,Poor
+BY,Barnacle Goose,2955,OCT-2018,0,Good
+BY,Barnacle Goose,2955,DEC-2018,0,Good
+BY,Barnacle Goose,2955,JAN-2019,0,Good
+BY,Barnacle Goose,2955,FEB-2019,0,Poor
+SJ,Snow Goose,3020,OCT-1999,0,Good
+SJ,Snow Goose,3020,DEC-1999,0,Good
+SJ,Snow Goose,3020,JAN-2000,0,Good
+SJ,Snow Goose,3020,FEB-2000,0,Good
+SJ,Snow Goose,3020,OCT-2000,0,Good
+SJ,Snow Goose,3020,DEC-2000,0,Good
+SJ,Snow Goose,3020,JAN-2001,0,Good
+SJ,Snow Goose,3020,FEB-2001,0,Good
+SJ,Snow Goose,3020,OCT-2001,0,Good
+SJ,Snow Goose,3020,DEC-2001,0,Good
+SJ,Snow Goose,3020,JAN-2002,0,Good
+SJ,Snow Goose,3020,FEB-2002,0,Good
+SJ,Snow Goose,3020,OCT-2002,0,Good
+SJ,Snow Goose,3020,DEC-2002,0,Good
+SJ,Snow Goose,3020,JAN-2003,0,Good
+SJ,Snow Goose,3020,FEB-2003,0,Good
+SJ,Snow Goose,3020,OCT-2003,0,Good
+SJ,Snow Goose,3020,DEC-2003,0,Good
+SJ,Snow Goose,3020,JAN-2004,0,Good
+SJ,Snow Goose,3020,FEB-2004,0,Good
+SJ,Snow Goose,3020,OCT-2004,0,Good
+SJ,Snow Goose,3020,DEC-2004,0,Good
+SJ,Snow Goose,3020,JAN-2005,0,Good
+SJ,Snow Goose,3020,FEB-2005,0,Good
+SJ,Snow Goose,3020,OCT-2005,0,Good
+SJ,Snow Goose,3020,DEC-2005,0,Good
+SJ,Snow Goose,3020,JAN-2006,0,Good
+SJ,Snow Goose,3020,FEB-2006,0,Good
+SJ,Snow Goose,3020,OCT-2006,0,Good
+SJ,Snow Goose,3020,DEC-2006,0,Poor
+SJ,Snow Goose,3020,JAN-2007,0,Good
+SJ,Snow Goose,3020,FEB-2007,0,Poor
+SJ,Snow Goose,3020,OCT-2007,0,Good
+SJ,Snow Goose,3020,DEC-2007,0,Good
+SJ,Snow Goose,3020,JAN-2008,0,Poor
+SJ,Snow Goose,3020,FEB-2008,0,Good
+SJ,Snow Goose,3020,OCT-2008,0,Poor
+SJ,Snow Goose,3020,DEC-2008,0,Good
+SJ,Snow Goose,3020,JAN-2009,0,Good
+SJ,Snow Goose,3020,FEB-2009,0,Good
+SJ,Snow Goose,3020,OCT-2009,0,Good
+SJ,Snow Goose,3020,JAN-2010,0,Good
+SJ,Snow Goose,3020,FEB-2010,0,Good
+SJ,Snow Goose,3020,OCT-2010,0,Good
+SJ,Snow Goose,3020,DEC-2010,0,Good
+SJ,Snow Goose,3020,JAN-2011,0,Good
+SJ,Snow Goose,3020,FEB-2011,0,Good
+SJ,Snow Goose,3020,OCT-2011,0,Good
+SJ,Snow Goose,3020,DEC-2011,0,Good
+SJ,Snow Goose,3020,JAN-2012,0,Good
+SJ,Snow Goose,3020,FEB-2012,0,Poor
+SJ,Snow Goose,3020,JUN-2012,0,Good
+SJ,Snow Goose,3020,OCT-2012,0,Good
+SJ,Snow Goose,3020,DEC-2012,0,Poor
+SJ,Snow Goose,3020,JAN-2013,0,Good
+SJ,Snow Goose,3020,FEB-2013,0,Poor
+SJ,Snow Goose,3020,OCT-2013,0,Good
+SJ,Snow Goose,3020,DEC-2013,0,Poor
+SJ,Snow Goose,3020,JAN-2014,0,Good
+SJ,Snow Goose,3020,FEB-2014,0,Good
+SJ,Snow Goose,3020,OCT-2014,0,Poor
+SJ,Snow Goose,3020,DEC-2014,0,Good
+SJ,Snow Goose,3020,JAN-2015,0,Good
+SJ,Snow Goose,3020,FEB-2015,0,Good
+SJ,Snow Goose,3020,OCT-2015,0,Good
+SJ,Snow Goose,3020,DEC-2015,1,Good
+SJ,Snow Goose,3020,JAN-2016,0,Good
+SJ,Snow Goose,3020,FEB-2016,0,Good
+SJ,Snow Goose,3020,OCT-2016,0,Good
+SJ,Snow Goose,3020,DEC-2016,0,Good
+SJ,Snow Goose,3020,JAN-2017,0,Good
+SJ,Snow Goose,3020,FEB-2017,0,Good
+SJ,Snow Goose,3020,OCT-2017,0,Good
+SJ,Snow Goose,3020,DEC-2017,0,Good
+SJ,Snow Goose,3020,JAN-2018,0,Poor
+SJ,Snow Goose,3020,FEB-2018,0,Poor
+SJ,Snow Goose,3020,OCT-2018,0,Good
+SJ,Snow Goose,3020,DEC-2018,0,Good
+SJ,Snow Goose,3020,JAN-2019,0,Good
+SJ,Snow Goose,3020,FEB-2019,0,Poor
+JA,Greylag Goose (British/Irish),3090,OCT-1999,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-1999,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2000,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2000,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2000,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2000,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2001,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2001,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2001,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2001,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2002,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2002,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2002,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2002,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2003,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2003,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2003,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2003,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2004,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2004,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2004,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2004,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2005,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2005,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2005,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2005,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2006,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2006,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2006,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2006,0,Poor
+JA,Greylag Goose (British/Irish),3090,JAN-2007,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2007,0,Poor
+JA,Greylag Goose (British/Irish),3090,OCT-2007,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2007,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2008,0,Poor
+JA,Greylag Goose (British/Irish),3090,FEB-2008,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2008,0,Poor
+JA,Greylag Goose (British/Irish),3090,DEC-2008,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2009,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2009,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2009,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2010,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2010,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2010,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2010,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2011,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2011,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2011,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2011,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2012,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2012,0,Poor
+JA,Greylag Goose (British/Irish),3090,JUN-2012,9,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2012,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2012,0,Poor
+JA,Greylag Goose (British/Irish),3090,JAN-2013,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2013,0,Poor
+JA,Greylag Goose (British/Irish),3090,OCT-2013,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2013,0,Poor
+JA,Greylag Goose (British/Irish),3090,JAN-2014,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2014,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2014,0,Poor
+JA,Greylag Goose (British/Irish),3090,DEC-2014,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2015,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2015,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2015,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2015,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2016,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2016,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2016,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2016,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2017,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2017,0,Good
+JA,Greylag Goose (British/Irish),3090,OCT-2017,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2017,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2018,0,Poor
+JA,Greylag Goose (British/Irish),3090,FEB-2018,0,Poor
+JA,Greylag Goose (British/Irish),3090,OCT-2018,0,Good
+JA,Greylag Goose (British/Irish),3090,DEC-2018,0,Good
+JA,Greylag Goose (British/Irish),3090,JAN-2019,0,Good
+JA,Greylag Goose (British/Irish),3090,FEB-2019,0,Poor
+JI,Greylag Goose (Icelandic),3100,OCT-1999,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-1999,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2000,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2000,15,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2000,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2000,5,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2001,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2001,42,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2001,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2001,1500,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2002,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2002,52,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2002,120,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2002,9,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2003,5,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2003,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2003,32,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2003,345,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2004,2100,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2004,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2004,5,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2004,480,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2005,330,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2005,6,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2005,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2005,310,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2006,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2006,33,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2006,32,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2006,1,Poor
+JI,Greylag Goose (Icelandic),3100,JAN-2007,13,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2007,56,Poor
+JI,Greylag Goose (Icelandic),3100,OCT-2007,2,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2007,172,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2008,7,Poor
+JI,Greylag Goose (Icelandic),3100,FEB-2008,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2008,0,Poor
+JI,Greylag Goose (Icelandic),3100,DEC-2008,248,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2009,110,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2009,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2009,3,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2010,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2010,55,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2010,180,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2010,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2011,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2011,4,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2011,650,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2011,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2012,16,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2012,2,Poor
+JI,Greylag Goose (Icelandic),3100,JUN-2012,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2012,75,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2012,450,Poor
+JI,Greylag Goose (Icelandic),3100,JAN-2013,1,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2013,0,Poor
+JI,Greylag Goose (Icelandic),3100,OCT-2013,230,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2013,0,Poor
+JI,Greylag Goose (Icelandic),3100,JAN-2014,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2014,3,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2014,420,Poor
+JI,Greylag Goose (Icelandic),3100,DEC-2014,155,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2015,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2015,55,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2015,78,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2015,570,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2016,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2016,280,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2016,350,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2016,22,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2017,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2017,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2017,32,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2017,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2018,0,Poor
+JI,Greylag Goose (Icelandic),3100,FEB-2018,0,Poor
+JI,Greylag Goose (Icelandic),3100,OCT-2018,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2018,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2019,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2019,0,Poor
+PG,Pink-footed Goose,3225,OCT-1999,0,Good
+PG,Pink-footed Goose,3225,DEC-1999,0,Good
+PG,Pink-footed Goose,3225,JAN-2000,0,Good
+PG,Pink-footed Goose,3225,FEB-2000,0,Good
+PG,Pink-footed Goose,3225,OCT-2000,0,Good
+PG,Pink-footed Goose,3225,DEC-2000,0,Good
+PG,Pink-footed Goose,3225,JAN-2001,0,Good
+PG,Pink-footed Goose,3225,FEB-2001,0,Good
+PG,Pink-footed Goose,3225,OCT-2001,0,Good
+PG,Pink-footed Goose,3225,DEC-2001,0,Good
+PG,Pink-footed Goose,3225,JAN-2002,0,Good
+PG,Pink-footed Goose,3225,FEB-2002,0,Good
+PG,Pink-footed Goose,3225,OCT-2002,0,Good
+PG,Pink-footed Goose,3225,DEC-2002,0,Good
+PG,Pink-footed Goose,3225,JAN-2003,0,Good
+PG,Pink-footed Goose,3225,FEB-2003,0,Good
+PG,Pink-footed Goose,3225,OCT-2003,0,Good
+PG,Pink-footed Goose,3225,DEC-2003,0,Good
+PG,Pink-footed Goose,3225,JAN-2004,5,Good
+PG,Pink-footed Goose,3225,FEB-2004,0,Good
+PG,Pink-footed Goose,3225,OCT-2004,0,Good
+PG,Pink-footed Goose,3225,DEC-2004,0,Good
+PG,Pink-footed Goose,3225,JAN-2005,0,Good
+PG,Pink-footed Goose,3225,FEB-2005,0,Good
+PG,Pink-footed Goose,3225,OCT-2005,0,Good
+PG,Pink-footed Goose,3225,DEC-2005,0,Good
+PG,Pink-footed Goose,3225,JAN-2006,1,Good
+PG,Pink-footed Goose,3225,FEB-2006,0,Good
+PG,Pink-footed Goose,3225,OCT-2006,1,Good
+PG,Pink-footed Goose,3225,DEC-2006,0,Poor
+PG,Pink-footed Goose,3225,JAN-2007,356,Good
+PG,Pink-footed Goose,3225,FEB-2007,0,Poor
+PG,Pink-footed Goose,3225,OCT-2007,0,Good
+PG,Pink-footed Goose,3225,DEC-2007,0,Good
+PG,Pink-footed Goose,3225,JAN-2008,0,Poor
+PG,Pink-footed Goose,3225,FEB-2008,0,Good
+PG,Pink-footed Goose,3225,OCT-2008,0,Poor
+PG,Pink-footed Goose,3225,DEC-2008,0,Good
+PG,Pink-footed Goose,3225,JAN-2009,24,Good
+PG,Pink-footed Goose,3225,FEB-2009,22,Good
+PG,Pink-footed Goose,3225,OCT-2009,0,Good
+PG,Pink-footed Goose,3225,JAN-2010,0,Good
+PG,Pink-footed Goose,3225,FEB-2010,0,Good
+PG,Pink-footed Goose,3225,OCT-2010,0,Good
+PG,Pink-footed Goose,3225,DEC-2010,0,Good
+PG,Pink-footed Goose,3225,JAN-2011,0,Good
+PG,Pink-footed Goose,3225,FEB-2011,0,Good
+PG,Pink-footed Goose,3225,OCT-2011,0,Good
+PG,Pink-footed Goose,3225,DEC-2011,0,Good
+PG,Pink-footed Goose,3225,JAN-2012,0,Good
+PG,Pink-footed Goose,3225,FEB-2012,0,Poor
+PG,Pink-footed Goose,3225,JUN-2012,0,Good
+PG,Pink-footed Goose,3225,OCT-2012,0,Good
+PG,Pink-footed Goose,3225,DEC-2012,30,Poor
+PG,Pink-footed Goose,3225,JAN-2013,23,Good
+PG,Pink-footed Goose,3225,FEB-2013,0,Poor
+PG,Pink-footed Goose,3225,OCT-2013,0,Good
+PG,Pink-footed Goose,3225,DEC-2013,0,Poor
+PG,Pink-footed Goose,3225,JAN-2014,0,Good
+PG,Pink-footed Goose,3225,FEB-2014,0,Good
+PG,Pink-footed Goose,3225,OCT-2014,0,Poor
+PG,Pink-footed Goose,3225,DEC-2014,500,Good
+PG,Pink-footed Goose,3225,JAN-2015,1,Good
+PG,Pink-footed Goose,3225,FEB-2015,0,Good
+PG,Pink-footed Goose,3225,OCT-2015,0,Good
+PG,Pink-footed Goose,3225,DEC-2015,0,Good
+PG,Pink-footed Goose,3225,JAN-2016,0,Good
+PG,Pink-footed Goose,3225,FEB-2016,0,Good
+PG,Pink-footed Goose,3225,OCT-2016,0,Good
+PG,Pink-footed Goose,3225,DEC-2016,80,Good
+PG,Pink-footed Goose,3225,JAN-2017,0,Good
+PG,Pink-footed Goose,3225,FEB-2017,60,Good
+PG,Pink-footed Goose,3225,OCT-2017,0,Good
+PG,Pink-footed Goose,3225,DEC-2017,0,Good
+PG,Pink-footed Goose,3225,JAN-2018,0,Poor
+PG,Pink-footed Goose,3225,FEB-2018,0,Poor
+PG,Pink-footed Goose,3225,OCT-2018,0,Good
+PG,Pink-footed Goose,3225,DEC-2018,0,Good
+PG,Pink-footed Goose,3225,JAN-2019,0,Good
+PG,Pink-footed Goose,3225,FEB-2019,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-1999,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-1999,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2000,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2000,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2000,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2000,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2001,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2001,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2001,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2001,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2002,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2002,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2002,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2002,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2003,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2003,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2003,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2003,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2004,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2004,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2004,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2004,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2005,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2005,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2005,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2005,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2006,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2006,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2006,1,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2006,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2007,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2007,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2007,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2007,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2008,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2008,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2008,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2008,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2009,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2009,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2009,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2010,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2010,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2010,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2010,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2011,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2011,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2011,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2011,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2012,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2012,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,JUN-2012,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2012,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2012,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2013,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2013,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2013,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2013,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2014,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2014,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2014,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2014,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2015,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2015,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2015,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2015,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2016,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2016,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2016,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2016,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2017,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2017,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2017,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2017,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2018,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2018,0,Poor
+NW,White-fronted Goose (Greenland - flaviro,3240,OCT-2018,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,DEC-2018,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,JAN-2019,0,Good
+NW,White-fronted Goose (Greenland - flaviro,3240,FEB-2019,0,Poor
+MS,Mute Swan,3380,OCT-1999,0,Good
+MS,Mute Swan,3380,DEC-1999,0,Good
+MS,Mute Swan,3380,JAN-2000,0,Good
+MS,Mute Swan,3380,FEB-2000,0,Good
+MS,Mute Swan,3380,OCT-2000,0,Good
+MS,Mute Swan,3380,DEC-2000,0,Good
+MS,Mute Swan,3380,JAN-2001,0,Good
+MS,Mute Swan,3380,FEB-2001,0,Good
+MS,Mute Swan,3380,OCT-2001,0,Good
+MS,Mute Swan,3380,DEC-2001,0,Good
+MS,Mute Swan,3380,JAN-2002,0,Good
+MS,Mute Swan,3380,FEB-2002,0,Good
+MS,Mute Swan,3380,OCT-2002,10,Good
+MS,Mute Swan,3380,DEC-2002,0,Good
+MS,Mute Swan,3380,JAN-2003,0,Good
+MS,Mute Swan,3380,FEB-2003,0,Good
+MS,Mute Swan,3380,OCT-2003,0,Good
+MS,Mute Swan,3380,DEC-2003,0,Good
+MS,Mute Swan,3380,JAN-2004,0,Good
+MS,Mute Swan,3380,FEB-2004,0,Good
+MS,Mute Swan,3380,OCT-2004,0,Good
+MS,Mute Swan,3380,DEC-2004,0,Good
+MS,Mute Swan,3380,JAN-2005,5,Good
+MS,Mute Swan,3380,FEB-2005,0,Good
+MS,Mute Swan,3380,OCT-2005,0,Good
+MS,Mute Swan,3380,DEC-2005,0,Good
+MS,Mute Swan,3380,JAN-2006,0,Good
+MS,Mute Swan,3380,FEB-2006,0,Good
+MS,Mute Swan,3380,OCT-2006,0,Good
+MS,Mute Swan,3380,DEC-2006,0,Poor
+MS,Mute Swan,3380,JAN-2007,0,Good
+MS,Mute Swan,3380,FEB-2007,0,Poor
+MS,Mute Swan,3380,OCT-2007,0,Good
+MS,Mute Swan,3380,DEC-2007,0,Good
+MS,Mute Swan,3380,JAN-2008,4,Poor
+MS,Mute Swan,3380,FEB-2008,0,Good
+MS,Mute Swan,3380,OCT-2008,0,Poor
+MS,Mute Swan,3380,DEC-2008,0,Good
+MS,Mute Swan,3380,JAN-2009,0,Good
+MS,Mute Swan,3380,FEB-2009,0,Good
+MS,Mute Swan,3380,OCT-2009,0,Good
+MS,Mute Swan,3380,JAN-2010,0,Good
+MS,Mute Swan,3380,FEB-2010,0,Good
+MS,Mute Swan,3380,OCT-2010,0,Good
+MS,Mute Swan,3380,DEC-2010,0,Good
+MS,Mute Swan,3380,JAN-2011,0,Good
+MS,Mute Swan,3380,FEB-2011,0,Good
+MS,Mute Swan,3380,OCT-2011,0,Good
+MS,Mute Swan,3380,DEC-2011,0,Good
+MS,Mute Swan,3380,JAN-2012,0,Good
+MS,Mute Swan,3380,FEB-2012,0,Poor
+MS,Mute Swan,3380,JUN-2012,2,Good
+MS,Mute Swan,3380,OCT-2012,0,Good
+MS,Mute Swan,3380,DEC-2012,2,Poor
+MS,Mute Swan,3380,JAN-2013,0,Good
+MS,Mute Swan,3380,FEB-2013,0,Poor
+MS,Mute Swan,3380,OCT-2013,0,Good
+MS,Mute Swan,3380,DEC-2013,0,Poor
+MS,Mute Swan,3380,JAN-2014,0,Good
+MS,Mute Swan,3380,FEB-2014,0,Good
+MS,Mute Swan,3380,OCT-2014,0,Poor
+MS,Mute Swan,3380,DEC-2014,0,Good
+MS,Mute Swan,3380,JAN-2015,0,Good
+MS,Mute Swan,3380,FEB-2015,0,Good
+MS,Mute Swan,3380,OCT-2015,0,Good
+MS,Mute Swan,3380,DEC-2015,0,Good
+MS,Mute Swan,3380,JAN-2016,0,Good
+MS,Mute Swan,3380,FEB-2016,0,Good
+MS,Mute Swan,3380,OCT-2016,0,Good
+MS,Mute Swan,3380,DEC-2016,0,Good
+MS,Mute Swan,3380,JAN-2017,0,Good
+MS,Mute Swan,3380,FEB-2017,0,Good
+MS,Mute Swan,3380,OCT-2017,0,Good
+MS,Mute Swan,3380,DEC-2017,0,Good
+MS,Mute Swan,3380,JAN-2018,0,Poor
+MS,Mute Swan,3380,FEB-2018,0,Poor
+MS,Mute Swan,3380,OCT-2018,0,Good
+MS,Mute Swan,3380,DEC-2018,0,Good
+MS,Mute Swan,3380,JAN-2019,0,Good
+MS,Mute Swan,3380,FEB-2019,0,Poor
+WS,Whooper Swan,3430,OCT-1999,0,Good
+WS,Whooper Swan,3430,DEC-1999,0,Good
+WS,Whooper Swan,3430,JAN-2000,0,Good
+WS,Whooper Swan,3430,FEB-2000,4,Good
+WS,Whooper Swan,3430,OCT-2000,0,Good
+WS,Whooper Swan,3430,DEC-2000,0,Good
+WS,Whooper Swan,3430,JAN-2001,0,Good
+WS,Whooper Swan,3430,FEB-2001,0,Good
+WS,Whooper Swan,3430,OCT-2001,0,Good
+WS,Whooper Swan,3430,DEC-2001,91,Good
+WS,Whooper Swan,3430,JAN-2002,0,Good
+WS,Whooper Swan,3430,FEB-2002,0,Good
+WS,Whooper Swan,3430,OCT-2002,0,Good
+WS,Whooper Swan,3430,DEC-2002,0,Good
+WS,Whooper Swan,3430,JAN-2003,0,Good
+WS,Whooper Swan,3430,FEB-2003,0,Good
+WS,Whooper Swan,3430,OCT-2003,0,Good
+WS,Whooper Swan,3430,DEC-2003,0,Good
+WS,Whooper Swan,3430,JAN-2004,0,Good
+WS,Whooper Swan,3430,FEB-2004,53,Good
+WS,Whooper Swan,3430,OCT-2004,0,Good
+WS,Whooper Swan,3430,DEC-2004,0,Good
+WS,Whooper Swan,3430,JAN-2005,0,Good
+WS,Whooper Swan,3430,FEB-2005,0,Good
+WS,Whooper Swan,3430,OCT-2005,0,Good
+WS,Whooper Swan,3430,DEC-2005,0,Good
+WS,Whooper Swan,3430,JAN-2006,0,Good
+WS,Whooper Swan,3430,FEB-2006,0,Good
+WS,Whooper Swan,3430,OCT-2006,0,Good
+WS,Whooper Swan,3430,DEC-2006,0,Poor
+WS,Whooper Swan,3430,JAN-2007,0,Good
+WS,Whooper Swan,3430,FEB-2007,0,Poor
+WS,Whooper Swan,3430,OCT-2007,0,Good
+WS,Whooper Swan,3430,DEC-2007,0,Good
+WS,Whooper Swan,3430,JAN-2008,0,Poor
+WS,Whooper Swan,3430,FEB-2008,0,Good
+WS,Whooper Swan,3430,OCT-2008,0,Poor
+WS,Whooper Swan,3430,DEC-2008,0,Good
+WS,Whooper Swan,3430,JAN-2009,0,Good
+WS,Whooper Swan,3430,FEB-2009,0,Good
+WS,Whooper Swan,3430,OCT-2009,0,Good
+WS,Whooper Swan,3430,JAN-2010,0,Good
+WS,Whooper Swan,3430,FEB-2010,0,Good
+WS,Whooper Swan,3430,OCT-2010,0,Good
+WS,Whooper Swan,3430,DEC-2010,0,Good
+WS,Whooper Swan,3430,JAN-2011,0,Good
+WS,Whooper Swan,3430,FEB-2011,0,Good
+WS,Whooper Swan,3430,OCT-2011,0,Good
+WS,Whooper Swan,3430,DEC-2011,0,Good
+WS,Whooper Swan,3430,JAN-2012,0,Good
+WS,Whooper Swan,3430,FEB-2012,0,Poor
+WS,Whooper Swan,3430,JUN-2012,0,Good
+WS,Whooper Swan,3430,OCT-2012,0,Good
+WS,Whooper Swan,3430,DEC-2012,0,Poor
+WS,Whooper Swan,3430,JAN-2013,0,Good
+WS,Whooper Swan,3430,FEB-2013,0,Poor
+WS,Whooper Swan,3430,OCT-2013,2,Good
+WS,Whooper Swan,3430,DEC-2013,0,Poor
+WS,Whooper Swan,3430,JAN-2014,0,Good
+WS,Whooper Swan,3430,FEB-2014,0,Good
+WS,Whooper Swan,3430,OCT-2014,0,Poor
+WS,Whooper Swan,3430,DEC-2014,0,Good
+WS,Whooper Swan,3430,JAN-2015,0,Good
+WS,Whooper Swan,3430,FEB-2015,84,Good
+WS,Whooper Swan,3430,OCT-2015,0,Good
+WS,Whooper Swan,3430,DEC-2015,0,Good
+WS,Whooper Swan,3430,JAN-2016,0,Good
+WS,Whooper Swan,3430,FEB-2016,0,Good
+WS,Whooper Swan,3430,OCT-2016,0,Good
+WS,Whooper Swan,3430,DEC-2016,0,Good
+WS,Whooper Swan,3430,JAN-2017,0,Good
+WS,Whooper Swan,3430,FEB-2017,0,Good
+WS,Whooper Swan,3430,OCT-2017,0,Good
+WS,Whooper Swan,3430,DEC-2017,0,Good
+WS,Whooper Swan,3430,JAN-2018,0,Poor
+WS,Whooper Swan,3430,FEB-2018,0,Poor
+WS,Whooper Swan,3430,OCT-2018,0,Good
+WS,Whooper Swan,3430,DEC-2018,0,Good
+WS,Whooper Swan,3430,JAN-2019,0,Good
+WS,Whooper Swan,3430,FEB-2019,0,Poor
+SU,Shelduck,3920,OCT-1999,0,Good
+SU,Shelduck,3920,DEC-1999,0,Good
+SU,Shelduck,3920,JAN-2000,9,Good
+SU,Shelduck,3920,FEB-2000,76,Good
+SU,Shelduck,3920,OCT-2000,3,Good
+SU,Shelduck,3920,DEC-2000,4,Good
+SU,Shelduck,3920,JAN-2001,0,Good
+SU,Shelduck,3920,FEB-2001,15,Good
+SU,Shelduck,3920,OCT-2001,0,Good
+SU,Shelduck,3920,DEC-2001,0,Good
+SU,Shelduck,3920,JAN-2002,21,Good
+SU,Shelduck,3920,FEB-2002,15,Good
+SU,Shelduck,3920,OCT-2002,0,Good
+SU,Shelduck,3920,DEC-2002,3,Good
+SU,Shelduck,3920,JAN-2003,1,Good
+SU,Shelduck,3920,FEB-2003,19,Good
+SU,Shelduck,3920,OCT-2003,0,Good
+SU,Shelduck,3920,DEC-2003,0,Good
+SU,Shelduck,3920,JAN-2004,9,Good
+SU,Shelduck,3920,FEB-2004,50,Good
+SU,Shelduck,3920,OCT-2004,4,Good
+SU,Shelduck,3920,DEC-2004,6,Good
+SU,Shelduck,3920,JAN-2005,8,Good
+SU,Shelduck,3920,FEB-2005,24,Good
+SU,Shelduck,3920,OCT-2005,0,Good
+SU,Shelduck,3920,DEC-2005,0,Good
+SU,Shelduck,3920,JAN-2006,0,Good
+SU,Shelduck,3920,FEB-2006,6,Good
+SU,Shelduck,3920,OCT-2006,0,Good
+SU,Shelduck,3920,DEC-2006,0,Poor
+SU,Shelduck,3920,JAN-2007,0,Good
+SU,Shelduck,3920,FEB-2007,17,Poor
+SU,Shelduck,3920,OCT-2007,0,Good
+SU,Shelduck,3920,DEC-2007,0,Good
+SU,Shelduck,3920,JAN-2008,0,Poor
+SU,Shelduck,3920,FEB-2008,19,Good
+SU,Shelduck,3920,OCT-2008,0,Poor
+SU,Shelduck,3920,DEC-2008,0,Good
+SU,Shelduck,3920,JAN-2009,0,Good
+SU,Shelduck,3920,FEB-2009,9,Good
+SU,Shelduck,3920,OCT-2009,0,Good
+SU,Shelduck,3920,JAN-2010,1,Good
+SU,Shelduck,3920,FEB-2010,24,Good
+SU,Shelduck,3920,OCT-2010,0,Good
+SU,Shelduck,3920,DEC-2010,0,Good
+SU,Shelduck,3920,JAN-2011,0,Good
+SU,Shelduck,3920,FEB-2011,0,Good
+SU,Shelduck,3920,OCT-2011,5,Good
+SU,Shelduck,3920,DEC-2011,0,Good
+SU,Shelduck,3920,JAN-2012,0,Good
+SU,Shelduck,3920,FEB-2012,9,Poor
+SU,Shelduck,3920,JUN-2012,80,Good
+SU,Shelduck,3920,OCT-2012,0,Good
+SU,Shelduck,3920,DEC-2012,0,Poor
+SU,Shelduck,3920,JAN-2013,0,Good
+SU,Shelduck,3920,FEB-2013,4,Poor
+SU,Shelduck,3920,OCT-2013,0,Good
+SU,Shelduck,3920,DEC-2013,0,Poor
+SU,Shelduck,3920,JAN-2014,0,Good
+SU,Shelduck,3920,FEB-2014,3,Good
+SU,Shelduck,3920,OCT-2014,0,Poor
+SU,Shelduck,3920,DEC-2014,0,Good
+SU,Shelduck,3920,JAN-2015,0,Good
+SU,Shelduck,3920,FEB-2015,2,Good
+SU,Shelduck,3920,OCT-2015,6,Good
+SU,Shelduck,3920,DEC-2015,0,Good
+SU,Shelduck,3920,JAN-2016,1,Good
+SU,Shelduck,3920,FEB-2016,0,Good
+SU,Shelduck,3920,OCT-2016,1,Good
+SU,Shelduck,3920,DEC-2016,0,Good
+SU,Shelduck,3920,JAN-2017,0,Good
+SU,Shelduck,3920,FEB-2017,0,Good
+SU,Shelduck,3920,OCT-2017,0,Good
+SU,Shelduck,3920,DEC-2017,0,Good
+SU,Shelduck,3920,JAN-2018,0,Poor
+SU,Shelduck,3920,FEB-2018,0,Poor
+SU,Shelduck,3920,OCT-2018,0,Good
+SU,Shelduck,3920,DEC-2018,0,Good
+SU,Shelduck,3920,JAN-2019,0,Good
+SU,Shelduck,3920,FEB-2019,0,Poor
+SV,Shoveler,4560,OCT-1999,0,Good
+SV,Shoveler,4560,DEC-1999,0,Good
+SV,Shoveler,4560,JAN-2000,0,Good
+SV,Shoveler,4560,FEB-2000,0,Good
+SV,Shoveler,4560,OCT-2000,0,Good
+SV,Shoveler,4560,DEC-2000,0,Good
+SV,Shoveler,4560,JAN-2001,0,Good
+SV,Shoveler,4560,FEB-2001,0,Good
+SV,Shoveler,4560,OCT-2001,0,Good
+SV,Shoveler,4560,DEC-2001,0,Good
+SV,Shoveler,4560,JAN-2002,0,Good
+SV,Shoveler,4560,FEB-2002,0,Good
+SV,Shoveler,4560,OCT-2002,0,Good
+SV,Shoveler,4560,DEC-2002,0,Good
+SV,Shoveler,4560,JAN-2003,0,Good
+SV,Shoveler,4560,FEB-2003,0,Good
+SV,Shoveler,4560,OCT-2003,0,Good
+SV,Shoveler,4560,DEC-2003,0,Good
+SV,Shoveler,4560,JAN-2004,0,Good
+SV,Shoveler,4560,FEB-2004,0,Good
+SV,Shoveler,4560,OCT-2004,0,Good
+SV,Shoveler,4560,DEC-2004,0,Good
+SV,Shoveler,4560,JAN-2005,0,Good
+SV,Shoveler,4560,FEB-2005,0,Good
+SV,Shoveler,4560,OCT-2005,0,Good
+SV,Shoveler,4560,DEC-2005,0,Good
+SV,Shoveler,4560,JAN-2006,0,Good
+SV,Shoveler,4560,FEB-2006,0,Good
+SV,Shoveler,4560,OCT-2006,0,Good
+SV,Shoveler,4560,DEC-2006,0,Poor
+SV,Shoveler,4560,JAN-2007,0,Good
+SV,Shoveler,4560,FEB-2007,0,Poor
+SV,Shoveler,4560,OCT-2007,0,Good
+SV,Shoveler,4560,DEC-2007,0,Good
+SV,Shoveler,4560,JAN-2008,0,Poor
+SV,Shoveler,4560,FEB-2008,0,Good
+SV,Shoveler,4560,OCT-2008,0,Poor
+SV,Shoveler,4560,DEC-2008,0,Good
+SV,Shoveler,4560,JAN-2009,0,Good
+SV,Shoveler,4560,FEB-2009,0,Good
+SV,Shoveler,4560,OCT-2009,0,Good
+SV,Shoveler,4560,JAN-2010,0,Good
+SV,Shoveler,4560,FEB-2010,0,Good
+SV,Shoveler,4560,OCT-2010,0,Good
+SV,Shoveler,4560,DEC-2010,0,Good
+SV,Shoveler,4560,JAN-2011,0,Good
+SV,Shoveler,4560,FEB-2011,0,Good
+SV,Shoveler,4560,OCT-2011,0,Good
+SV,Shoveler,4560,DEC-2011,0,Good
+SV,Shoveler,4560,JAN-2012,0,Good
+SV,Shoveler,4560,FEB-2012,0,Poor
+SV,Shoveler,4560,JUN-2012,0,Good
+SV,Shoveler,4560,OCT-2012,0,Good
+SV,Shoveler,4560,DEC-2012,0,Poor
+SV,Shoveler,4560,JAN-2013,0,Good
+SV,Shoveler,4560,FEB-2013,0,Poor
+SV,Shoveler,4560,OCT-2013,0,Good
+SV,Shoveler,4560,DEC-2013,0,Poor
+SV,Shoveler,4560,JAN-2014,0,Good
+SV,Shoveler,4560,FEB-2014,0,Good
+SV,Shoveler,4560,OCT-2014,0,Poor
+SV,Shoveler,4560,DEC-2014,0,Good
+SV,Shoveler,4560,JAN-2015,0,Good
+SV,Shoveler,4560,FEB-2015,0,Good
+SV,Shoveler,4560,OCT-2015,0,Good
+SV,Shoveler,4560,DEC-2015,0,Good
+SV,Shoveler,4560,JAN-2016,0,Good
+SV,Shoveler,4560,FEB-2016,0,Good
+SV,Shoveler,4560,OCT-2016,0,Good
+SV,Shoveler,4560,DEC-2016,0,Good
+SV,Shoveler,4560,JAN-2017,0,Good
+SV,Shoveler,4560,FEB-2017,0,Good
+SV,Shoveler,4560,OCT-2017,0,Good
+SV,Shoveler,4560,DEC-2017,0,Good
+SV,Shoveler,4560,JAN-2018,0,Poor
+SV,Shoveler,4560,FEB-2018,0,Poor
+SV,Shoveler,4560,OCT-2018,0,Good
+SV,Shoveler,4560,DEC-2018,0,Good
+SV,Shoveler,4560,JAN-2019,0,Good
+SV,Shoveler,4560,FEB-2019,0,Poor
+WN,Wigeon,4620,OCT-1999,130,Good
+WN,Wigeon,4620,DEC-1999,570,Good
+WN,Wigeon,4620,JAN-2000,610,Good
+WN,Wigeon,4620,FEB-2000,700,Good
+WN,Wigeon,4620,OCT-2000,240,Good
+WN,Wigeon,4620,DEC-2000,280,Good
+WN,Wigeon,4620,JAN-2001,350,Good
+WN,Wigeon,4620,FEB-2001,265,Good
+WN,Wigeon,4620,OCT-2001,350,Good
+WN,Wigeon,4620,DEC-2001,450,Good
+WN,Wigeon,4620,JAN-2002,620,Good
+WN,Wigeon,4620,FEB-2002,1150,Good
+WN,Wigeon,4620,OCT-2002,350,Good
+WN,Wigeon,4620,DEC-2002,346,Good
+WN,Wigeon,4620,JAN-2003,402,Good
+WN,Wigeon,4620,FEB-2003,350,Good
+WN,Wigeon,4620,OCT-2003,220,Good
+WN,Wigeon,4620,DEC-2003,250,Good
+WN,Wigeon,4620,JAN-2004,375,Good
+WN,Wigeon,4620,FEB-2004,236,Good
+WN,Wigeon,4620,OCT-2004,350,Good
+WN,Wigeon,4620,DEC-2004,420,Good
+WN,Wigeon,4620,JAN-2005,470,Good
+WN,Wigeon,4620,FEB-2005,320,Good
+WN,Wigeon,4620,OCT-2005,450,Good
+WN,Wigeon,4620,DEC-2005,370,Good
+WN,Wigeon,4620,JAN-2006,320,Good
+WN,Wigeon,4620,FEB-2006,530,Good
+WN,Wigeon,4620,OCT-2006,530,Good
+WN,Wigeon,4620,DEC-2006,390,Poor
+WN,Wigeon,4620,JAN-2007,420,Good
+WN,Wigeon,4620,FEB-2007,320,Poor
+WN,Wigeon,4620,OCT-2007,410,Good
+WN,Wigeon,4620,DEC-2007,470,Good
+WN,Wigeon,4620,JAN-2008,260,Poor
+WN,Wigeon,4620,FEB-2008,320,Good
+WN,Wigeon,4620,OCT-2008,210,Poor
+WN,Wigeon,4620,DEC-2008,560,Good
+WN,Wigeon,4620,JAN-2009,235,Good
+WN,Wigeon,4620,FEB-2009,170,Good
+WN,Wigeon,4620,OCT-2009,175,Good
+WN,Wigeon,4620,JAN-2010,170,Good
+WN,Wigeon,4620,FEB-2010,230,Good
+WN,Wigeon,4620,OCT-2010,330,Good
+WN,Wigeon,4620,DEC-2010,80,Good
+WN,Wigeon,4620,JAN-2011,160,Good
+WN,Wigeon,4620,FEB-2011,210,Good
+WN,Wigeon,4620,OCT-2011,56,Good
+WN,Wigeon,4620,DEC-2011,375,Good
+WN,Wigeon,4620,JAN-2012,240,Good
+WN,Wigeon,4620,FEB-2012,180,Poor
+WN,Wigeon,4620,JUN-2012,0,Good
+WN,Wigeon,4620,OCT-2012,230,Good
+WN,Wigeon,4620,DEC-2012,220,Poor
+WN,Wigeon,4620,JAN-2013,250,Good
+WN,Wigeon,4620,FEB-2013,180,Poor
+WN,Wigeon,4620,OCT-2013,150,Good
+WN,Wigeon,4620,DEC-2013,140,Poor
+WN,Wigeon,4620,JAN-2014,85,Good
+WN,Wigeon,4620,FEB-2014,215,Good
+WN,Wigeon,4620,OCT-2014,185,Poor
+WN,Wigeon,4620,DEC-2014,160,Good
+WN,Wigeon,4620,JAN-2015,210,Good
+WN,Wigeon,4620,FEB-2015,260,Good
+WN,Wigeon,4620,OCT-2015,75,Good
+WN,Wigeon,4620,DEC-2015,230,Good
+WN,Wigeon,4620,JAN-2016,220,Good
+WN,Wigeon,4620,FEB-2016,165,Good
+WN,Wigeon,4620,OCT-2016,155,Good
+WN,Wigeon,4620,DEC-2016,245,Good
+WN,Wigeon,4620,JAN-2017,290,Good
+WN,Wigeon,4620,FEB-2017,260,Good
+WN,Wigeon,4620,OCT-2017,155,Good
+WN,Wigeon,4620,DEC-2017,210,Good
+WN,Wigeon,4620,JAN-2018,146,Poor
+WN,Wigeon,4620,FEB-2018,130,Poor
+WN,Wigeon,4620,OCT-2018,15,Good
+WN,Wigeon,4620,DEC-2018,180,Good
+WN,Wigeon,4620,JAN-2019,115,Good
+WN,Wigeon,4620,FEB-2019,40,Poor
+MA,Mallard,4840,OCT-1999,170,Good
+MA,Mallard,4840,DEC-1999,110,Good
+MA,Mallard,4840,JAN-2000,205,Good
+MA,Mallard,4840,FEB-2000,135,Good
+MA,Mallard,4840,OCT-2000,205,Good
+MA,Mallard,4840,DEC-2000,150,Good
+MA,Mallard,4840,JAN-2001,115,Good
+MA,Mallard,4840,FEB-2001,150,Good
+MA,Mallard,4840,OCT-2001,180,Good
+MA,Mallard,4840,DEC-2001,240,Good
+MA,Mallard,4840,JAN-2002,140,Good
+MA,Mallard,4840,FEB-2002,110,Good
+MA,Mallard,4840,OCT-2002,110,Good
+MA,Mallard,4840,DEC-2002,322,Good
+MA,Mallard,4840,JAN-2003,182,Good
+MA,Mallard,4840,FEB-2003,95,Good
+MA,Mallard,4840,OCT-2003,265,Good
+MA,Mallard,4840,DEC-2003,165,Good
+MA,Mallard,4840,JAN-2004,150,Good
+MA,Mallard,4840,FEB-2004,178,Good
+MA,Mallard,4840,OCT-2004,72,Good
+MA,Mallard,4840,DEC-2004,180,Good
+MA,Mallard,4840,JAN-2005,170,Good
+MA,Mallard,4840,FEB-2005,120,Good
+MA,Mallard,4840,OCT-2005,84,Good
+MA,Mallard,4840,DEC-2005,75,Good
+MA,Mallard,4840,JAN-2006,110,Good
+MA,Mallard,4840,FEB-2006,95,Good
+MA,Mallard,4840,OCT-2006,115,Good
+MA,Mallard,4840,DEC-2006,42,Poor
+MA,Mallard,4840,JAN-2007,56,Good
+MA,Mallard,4840,FEB-2007,50,Poor
+MA,Mallard,4840,OCT-2007,105,Good
+MA,Mallard,4840,DEC-2007,185,Good
+MA,Mallard,4840,JAN-2008,210,Poor
+MA,Mallard,4840,FEB-2008,34,Good
+MA,Mallard,4840,OCT-2008,32,Poor
+MA,Mallard,4840,DEC-2008,105,Good
+MA,Mallard,4840,JAN-2009,120,Good
+MA,Mallard,4840,FEB-2009,52,Good
+MA,Mallard,4840,OCT-2009,230,Good
+MA,Mallard,4840,JAN-2010,75,Good
+MA,Mallard,4840,FEB-2010,48,Good
+MA,Mallard,4840,OCT-2010,78,Good
+MA,Mallard,4840,DEC-2010,55,Good
+MA,Mallard,4840,JAN-2011,80,Good
+MA,Mallard,4840,FEB-2011,115,Good
+MA,Mallard,4840,OCT-2011,62,Good
+MA,Mallard,4840,DEC-2011,135,Good
+MA,Mallard,4840,JAN-2012,133,Good
+MA,Mallard,4840,FEB-2012,66,Poor
+MA,Mallard,4840,JUN-2012,110,Good
+MA,Mallard,4840,OCT-2012,95,Good
+MA,Mallard,4840,DEC-2012,85,Poor
+MA,Mallard,4840,JAN-2013,120,Good
+MA,Mallard,4840,FEB-2013,75,Poor
+MA,Mallard,4840,OCT-2013,60,Good
+MA,Mallard,4840,DEC-2013,36,Poor
+MA,Mallard,4840,JAN-2014,55,Good
+MA,Mallard,4840,FEB-2014,50,Good
+MA,Mallard,4840,OCT-2014,80,Poor
+MA,Mallard,4840,DEC-2014,110,Good
+MA,Mallard,4840,JAN-2015,95,Good
+MA,Mallard,4840,FEB-2015,60,Good
+MA,Mallard,4840,OCT-2015,65,Good
+MA,Mallard,4840,DEC-2015,105,Good
+MA,Mallard,4840,JAN-2016,146,Good
+MA,Mallard,4840,FEB-2016,65,Good
+MA,Mallard,4840,OCT-2016,85,Good
+MA,Mallard,4840,DEC-2016,105,Good
+MA,Mallard,4840,JAN-2017,60,Good
+MA,Mallard,4840,FEB-2017,55,Good
+MA,Mallard,4840,OCT-2017,56,Good
+MA,Mallard,4840,DEC-2017,60,Good
+MA,Mallard,4840,JAN-2018,67,Poor
+MA,Mallard,4840,FEB-2018,50,Poor
+MA,Mallard,4840,OCT-2018,45,Good
+MA,Mallard,4840,DEC-2018,43,Good
+MA,Mallard,4840,JAN-2019,64,Good
+MA,Mallard,4840,FEB-2019,44,Poor
+PT,Pintail,5070,OCT-1999,0,Good
+PT,Pintail,5070,DEC-1999,0,Good
+PT,Pintail,5070,JAN-2000,0,Good
+PT,Pintail,5070,FEB-2000,0,Good
+PT,Pintail,5070,OCT-2000,0,Good
+PT,Pintail,5070,DEC-2000,0,Good
+PT,Pintail,5070,JAN-2001,0,Good
+PT,Pintail,5070,FEB-2001,0,Good
+PT,Pintail,5070,OCT-2001,0,Good
+PT,Pintail,5070,DEC-2001,0,Good
+PT,Pintail,5070,JAN-2002,0,Good
+PT,Pintail,5070,FEB-2002,0,Good
+PT,Pintail,5070,OCT-2002,0,Good
+PT,Pintail,5070,DEC-2002,0,Good
+PT,Pintail,5070,JAN-2003,0,Good
+PT,Pintail,5070,FEB-2003,0,Good
+PT,Pintail,5070,OCT-2003,0,Good
+PT,Pintail,5070,DEC-2003,0,Good
+PT,Pintail,5070,JAN-2004,0,Good
+PT,Pintail,5070,FEB-2004,0,Good
+PT,Pintail,5070,OCT-2004,0,Good
+PT,Pintail,5070,DEC-2004,6,Good
+PT,Pintail,5070,JAN-2005,0,Good
+PT,Pintail,5070,FEB-2005,0,Good
+PT,Pintail,5070,OCT-2005,0,Good
+PT,Pintail,5070,DEC-2005,0,Good
+PT,Pintail,5070,JAN-2006,0,Good
+PT,Pintail,5070,FEB-2006,13,Good
+PT,Pintail,5070,OCT-2006,0,Good
+PT,Pintail,5070,DEC-2006,0,Poor
+PT,Pintail,5070,JAN-2007,0,Good
+PT,Pintail,5070,FEB-2007,0,Poor
+PT,Pintail,5070,OCT-2007,0,Good
+PT,Pintail,5070,DEC-2007,0,Good
+PT,Pintail,5070,JAN-2008,0,Poor
+PT,Pintail,5070,FEB-2008,0,Good
+PT,Pintail,5070,OCT-2008,0,Poor
+PT,Pintail,5070,DEC-2008,0,Good
+PT,Pintail,5070,JAN-2009,0,Good
+PT,Pintail,5070,FEB-2009,0,Good
+PT,Pintail,5070,OCT-2009,0,Good
+PT,Pintail,5070,JAN-2010,0,Good
+PT,Pintail,5070,FEB-2010,1,Good
+PT,Pintail,5070,OCT-2010,0,Good
+PT,Pintail,5070,DEC-2010,0,Good
+PT,Pintail,5070,JAN-2011,0,Good
+PT,Pintail,5070,FEB-2011,0,Good
+PT,Pintail,5070,OCT-2011,0,Good
+PT,Pintail,5070,DEC-2011,0,Good
+PT,Pintail,5070,JAN-2012,6,Good
+PT,Pintail,5070,FEB-2012,8,Poor
+PT,Pintail,5070,JUN-2012,0,Good
+PT,Pintail,5070,OCT-2012,0,Good
+PT,Pintail,5070,DEC-2012,0,Poor
+PT,Pintail,5070,JAN-2013,12,Good
+PT,Pintail,5070,FEB-2013,0,Poor
+PT,Pintail,5070,OCT-2013,0,Good
+PT,Pintail,5070,DEC-2013,0,Poor
+PT,Pintail,5070,JAN-2014,0,Good
+PT,Pintail,5070,FEB-2014,0,Good
+PT,Pintail,5070,OCT-2014,0,Poor
+PT,Pintail,5070,DEC-2014,0,Good
+PT,Pintail,5070,JAN-2015,0,Good
+PT,Pintail,5070,FEB-2015,0,Good
+PT,Pintail,5070,OCT-2015,0,Good
+PT,Pintail,5070,DEC-2015,0,Good
+PT,Pintail,5070,JAN-2016,0,Good
+PT,Pintail,5070,FEB-2016,5,Good
+PT,Pintail,5070,OCT-2016,0,Good
+PT,Pintail,5070,DEC-2016,0,Good
+PT,Pintail,5070,JAN-2017,0,Good
+PT,Pintail,5070,FEB-2017,0,Good
+PT,Pintail,5070,OCT-2017,0,Good
+PT,Pintail,5070,DEC-2017,0,Good
+PT,Pintail,5070,JAN-2018,0,Poor
+PT,Pintail,5070,FEB-2018,0,Poor
+PT,Pintail,5070,OCT-2018,0,Good
+PT,Pintail,5070,DEC-2018,0,Good
+PT,Pintail,5070,JAN-2019,0,Good
+PT,Pintail,5070,FEB-2019,0,Poor
+T.,Teal,5080,OCT-1999,30,Good
+T.,Teal,5080,DEC-1999,0,Good
+T.,Teal,5080,JAN-2000,190,Good
+T.,Teal,5080,FEB-2000,95,Good
+T.,Teal,5080,OCT-2000,0,Good
+T.,Teal,5080,DEC-2000,11,Good
+T.,Teal,5080,JAN-2001,0,Good
+T.,Teal,5080,FEB-2001,0,Good
+T.,Teal,5080,OCT-2001,0,Good
+T.,Teal,5080,DEC-2001,0,Good
+T.,Teal,5080,JAN-2002,0,Good
+T.,Teal,5080,FEB-2002,0,Good
+T.,Teal,5080,OCT-2002,35,Good
+T.,Teal,5080,DEC-2002,60,Good
+T.,Teal,5080,JAN-2003,11,Good
+T.,Teal,5080,FEB-2003,15,Good
+T.,Teal,5080,OCT-2003,55,Good
+T.,Teal,5080,DEC-2003,0,Good
+T.,Teal,5080,JAN-2004,0,Good
+T.,Teal,5080,FEB-2004,24,Good
+T.,Teal,5080,OCT-2004,16,Good
+T.,Teal,5080,DEC-2004,45,Good
+T.,Teal,5080,JAN-2005,56,Good
+T.,Teal,5080,FEB-2005,55,Good
+T.,Teal,5080,OCT-2005,45,Good
+T.,Teal,5080,DEC-2005,110,Good
+T.,Teal,5080,JAN-2006,45,Good
+T.,Teal,5080,FEB-2006,210,Good
+T.,Teal,5080,OCT-2006,0,Good
+T.,Teal,5080,DEC-2006,5,Poor
+T.,Teal,5080,JAN-2007,92,Good
+T.,Teal,5080,FEB-2007,35,Poor
+T.,Teal,5080,OCT-2007,70,Good
+T.,Teal,5080,DEC-2007,27,Good
+T.,Teal,5080,JAN-2008,0,Poor
+T.,Teal,5080,FEB-2008,27,Good
+T.,Teal,5080,OCT-2008,0,Poor
+T.,Teal,5080,DEC-2008,0,Good
+T.,Teal,5080,JAN-2009,26,Good
+T.,Teal,5080,FEB-2009,55,Good
+T.,Teal,5080,OCT-2009,0,Good
+T.,Teal,5080,JAN-2010,30,Good
+T.,Teal,5080,FEB-2010,52,Good
+T.,Teal,5080,OCT-2010,15,Good
+T.,Teal,5080,DEC-2010,24,Good
+T.,Teal,5080,JAN-2011,32,Good
+T.,Teal,5080,FEB-2011,14,Good
+T.,Teal,5080,OCT-2011,52,Good
+T.,Teal,5080,DEC-2011,90,Good
+T.,Teal,5080,JAN-2012,85,Good
+T.,Teal,5080,FEB-2012,94,Poor
+T.,Teal,5080,JUN-2012,0,Good
+T.,Teal,5080,OCT-2012,46,Good
+T.,Teal,5080,DEC-2012,35,Poor
+T.,Teal,5080,JAN-2013,63,Good
+T.,Teal,5080,FEB-2013,108,Poor
+T.,Teal,5080,OCT-2013,75,Good
+T.,Teal,5080,DEC-2013,10,Poor
+T.,Teal,5080,JAN-2014,130,Good
+T.,Teal,5080,FEB-2014,45,Good
+T.,Teal,5080,OCT-2014,25,Poor
+T.,Teal,5080,DEC-2014,70,Good
+T.,Teal,5080,JAN-2015,105,Good
+T.,Teal,5080,FEB-2015,55,Good
+T.,Teal,5080,OCT-2015,105,Good
+T.,Teal,5080,DEC-2015,46,Good
+T.,Teal,5080,JAN-2016,110,Good
+T.,Teal,5080,FEB-2016,75,Good
+T.,Teal,5080,OCT-2016,82,Good
+T.,Teal,5080,DEC-2016,75,Good
+T.,Teal,5080,JAN-2017,70,Good
+T.,Teal,5080,FEB-2017,62,Good
+T.,Teal,5080,OCT-2017,75,Good
+T.,Teal,5080,DEC-2017,110,Good
+T.,Teal,5080,JAN-2018,32,Poor
+T.,Teal,5080,FEB-2018,56,Poor
+T.,Teal,5080,OCT-2018,60,Good
+T.,Teal,5080,DEC-2018,25,Good
+T.,Teal,5080,JAN-2019,48,Good
+T.,Teal,5080,FEB-2019,30,Poor
+TU,Tufted Duck,5510,OCT-1999,0,Good
+TU,Tufted Duck,5510,DEC-1999,105,Good
+TU,Tufted Duck,5510,JAN-2000,0,Good
+TU,Tufted Duck,5510,FEB-2000,0,Good
+TU,Tufted Duck,5510,OCT-2000,11,Good
+TU,Tufted Duck,5510,DEC-2000,3,Good
+TU,Tufted Duck,5510,JAN-2001,82,Good
+TU,Tufted Duck,5510,FEB-2001,52,Good
+TU,Tufted Duck,5510,OCT-2001,0,Good
+TU,Tufted Duck,5510,DEC-2001,0,Good
+TU,Tufted Duck,5510,JAN-2002,0,Good
+TU,Tufted Duck,5510,FEB-2002,0,Good
+TU,Tufted Duck,5510,OCT-2002,0,Good
+TU,Tufted Duck,5510,DEC-2002,0,Good
+TU,Tufted Duck,5510,JAN-2003,96,Good
+TU,Tufted Duck,5510,FEB-2003,0,Good
+TU,Tufted Duck,5510,OCT-2003,0,Good
+TU,Tufted Duck,5510,DEC-2003,20,Good
+TU,Tufted Duck,5510,JAN-2004,35,Good
+TU,Tufted Duck,5510,FEB-2004,14,Good
+TU,Tufted Duck,5510,OCT-2004,0,Good
+TU,Tufted Duck,5510,DEC-2004,32,Good
+TU,Tufted Duck,5510,JAN-2005,0,Good
+TU,Tufted Duck,5510,FEB-2005,0,Good
+TU,Tufted Duck,5510,OCT-2005,0,Good
+TU,Tufted Duck,5510,DEC-2005,32,Good
+TU,Tufted Duck,5510,JAN-2006,0,Good
+TU,Tufted Duck,5510,FEB-2006,0,Good
+TU,Tufted Duck,5510,OCT-2006,0,Good
+TU,Tufted Duck,5510,DEC-2006,0,Poor
+TU,Tufted Duck,5510,JAN-2007,0,Good
+TU,Tufted Duck,5510,FEB-2007,0,Poor
+TU,Tufted Duck,5510,OCT-2007,0,Good
+TU,Tufted Duck,5510,DEC-2007,2,Good
+TU,Tufted Duck,5510,JAN-2008,26,Poor
+TU,Tufted Duck,5510,FEB-2008,0,Good
+TU,Tufted Duck,5510,OCT-2008,0,Poor
+TU,Tufted Duck,5510,DEC-2008,0,Good
+TU,Tufted Duck,5510,JAN-2009,0,Good
+TU,Tufted Duck,5510,FEB-2009,0,Good
+TU,Tufted Duck,5510,OCT-2009,0,Good
+TU,Tufted Duck,5510,JAN-2010,55,Good
+TU,Tufted Duck,5510,FEB-2010,10,Good
+TU,Tufted Duck,5510,OCT-2010,0,Good
+TU,Tufted Duck,5510,DEC-2010,8,Good
+TU,Tufted Duck,5510,JAN-2011,0,Good
+TU,Tufted Duck,5510,FEB-2011,0,Good
+TU,Tufted Duck,5510,OCT-2011,0,Good
+TU,Tufted Duck,5510,DEC-2011,5,Good
+TU,Tufted Duck,5510,JAN-2012,0,Good
+TU,Tufted Duck,5510,FEB-2012,12,Poor
+TU,Tufted Duck,5510,JUN-2012,0,Good
+TU,Tufted Duck,5510,OCT-2012,0,Good
+TU,Tufted Duck,5510,DEC-2012,20,Poor
+TU,Tufted Duck,5510,JAN-2013,18,Good
+TU,Tufted Duck,5510,FEB-2013,0,Poor
+TU,Tufted Duck,5510,OCT-2013,0,Good
+TU,Tufted Duck,5510,DEC-2013,0,Poor
+TU,Tufted Duck,5510,JAN-2014,0,Good
+TU,Tufted Duck,5510,FEB-2014,0,Good
+TU,Tufted Duck,5510,OCT-2014,0,Poor
+TU,Tufted Duck,5510,DEC-2014,0,Good
+TU,Tufted Duck,5510,JAN-2015,0,Good
+TU,Tufted Duck,5510,FEB-2015,0,Good
+TU,Tufted Duck,5510,OCT-2015,0,Good
+TU,Tufted Duck,5510,DEC-2015,0,Good
+TU,Tufted Duck,5510,JAN-2016,0,Good
+TU,Tufted Duck,5510,FEB-2016,0,Good
+TU,Tufted Duck,5510,OCT-2016,0,Good
+TU,Tufted Duck,5510,DEC-2016,0,Good
+TU,Tufted Duck,5510,JAN-2017,0,Good
+TU,Tufted Duck,5510,FEB-2017,0,Good
+TU,Tufted Duck,5510,OCT-2017,0,Good
+TU,Tufted Duck,5510,DEC-2017,0,Good
+TU,Tufted Duck,5510,JAN-2018,0,Poor
+TU,Tufted Duck,5510,FEB-2018,0,Poor
+TU,Tufted Duck,5510,OCT-2018,0,Good
+TU,Tufted Duck,5510,DEC-2018,0,Good
+TU,Tufted Duck,5510,JAN-2019,0,Good
+TU,Tufted Duck,5510,FEB-2019,0,Poor
+SP,Scaup,5520,OCT-1999,0,Good
+SP,Scaup,5520,DEC-1999,0,Good
+SP,Scaup,5520,JAN-2000,0,Good
+SP,Scaup,5520,FEB-2000,0,Good
+SP,Scaup,5520,OCT-2000,0,Good
+SP,Scaup,5520,DEC-2000,0,Good
+SP,Scaup,5520,JAN-2001,0,Good
+SP,Scaup,5520,FEB-2001,0,Good
+SP,Scaup,5520,OCT-2001,0,Good
+SP,Scaup,5520,DEC-2001,0,Good
+SP,Scaup,5520,JAN-2002,0,Good
+SP,Scaup,5520,FEB-2002,0,Good
+SP,Scaup,5520,OCT-2002,0,Good
+SP,Scaup,5520,DEC-2002,0,Good
+SP,Scaup,5520,JAN-2003,0,Good
+SP,Scaup,5520,FEB-2003,0,Good
+SP,Scaup,5520,OCT-2003,0,Good
+SP,Scaup,5520,DEC-2003,0,Good
+SP,Scaup,5520,JAN-2004,0,Good
+SP,Scaup,5520,FEB-2004,2,Good
+SP,Scaup,5520,OCT-2004,0,Good
+SP,Scaup,5520,DEC-2004,0,Good
+SP,Scaup,5520,JAN-2005,0,Good
+SP,Scaup,5520,FEB-2005,0,Good
+SP,Scaup,5520,OCT-2005,0,Good
+SP,Scaup,5520,DEC-2005,0,Good
+SP,Scaup,5520,JAN-2006,0,Good
+SP,Scaup,5520,FEB-2006,0,Good
+SP,Scaup,5520,OCT-2006,0,Good
+SP,Scaup,5520,DEC-2006,0,Poor
+SP,Scaup,5520,JAN-2007,0,Good
+SP,Scaup,5520,FEB-2007,0,Poor
+SP,Scaup,5520,OCT-2007,0,Good
+SP,Scaup,5520,DEC-2007,0,Good
+SP,Scaup,5520,JAN-2008,0,Poor
+SP,Scaup,5520,FEB-2008,0,Good
+SP,Scaup,5520,OCT-2008,0,Poor
+SP,Scaup,5520,DEC-2008,0,Good
+SP,Scaup,5520,JAN-2009,0,Good
+SP,Scaup,5520,FEB-2009,0,Good
+SP,Scaup,5520,OCT-2009,0,Good
+SP,Scaup,5520,JAN-2010,0,Good
+SP,Scaup,5520,FEB-2010,0,Good
+SP,Scaup,5520,OCT-2010,0,Good
+SP,Scaup,5520,DEC-2010,0,Good
+SP,Scaup,5520,JAN-2011,0,Good
+SP,Scaup,5520,FEB-2011,0,Good
+SP,Scaup,5520,OCT-2011,0,Good
+SP,Scaup,5520,DEC-2011,1,Good
+SP,Scaup,5520,JAN-2012,0,Good
+SP,Scaup,5520,FEB-2012,0,Poor
+SP,Scaup,5520,JUN-2012,0,Good
+SP,Scaup,5520,OCT-2012,0,Good
+SP,Scaup,5520,DEC-2012,0,Poor
+SP,Scaup,5520,JAN-2013,0,Good
+SP,Scaup,5520,FEB-2013,0,Poor
+SP,Scaup,5520,OCT-2013,0,Good
+SP,Scaup,5520,DEC-2013,0,Poor
+SP,Scaup,5520,JAN-2014,0,Good
+SP,Scaup,5520,FEB-2014,0,Good
+SP,Scaup,5520,OCT-2014,0,Poor
+SP,Scaup,5520,DEC-2014,0,Good
+SP,Scaup,5520,JAN-2015,0,Good
+SP,Scaup,5520,FEB-2015,0,Good
+SP,Scaup,5520,OCT-2015,0,Good
+SP,Scaup,5520,DEC-2015,0,Good
+SP,Scaup,5520,JAN-2016,0,Good
+SP,Scaup,5520,FEB-2016,0,Good
+SP,Scaup,5520,OCT-2016,0,Good
+SP,Scaup,5520,DEC-2016,0,Good
+SP,Scaup,5520,JAN-2017,0,Good
+SP,Scaup,5520,FEB-2017,0,Good
+SP,Scaup,5520,OCT-2017,0,Good
+SP,Scaup,5520,DEC-2017,0,Good
+SP,Scaup,5520,JAN-2018,0,Poor
+SP,Scaup,5520,FEB-2018,0,Poor
+SP,Scaup,5520,OCT-2018,0,Good
+SP,Scaup,5520,DEC-2018,0,Good
+SP,Scaup,5520,JAN-2019,0,Good
+SP,Scaup,5520,FEB-2019,0,Poor
+GN,Goldeneye,5880,OCT-1999,0,Good
+GN,Goldeneye,5880,DEC-1999,3,Good
+GN,Goldeneye,5880,JAN-2000,1,Good
+GN,Goldeneye,5880,FEB-2000,1,Good
+GN,Goldeneye,5880,OCT-2000,2,Good
+GN,Goldeneye,5880,DEC-2000,0,Good
+GN,Goldeneye,5880,JAN-2001,4,Good
+GN,Goldeneye,5880,FEB-2001,11,Good
+GN,Goldeneye,5880,OCT-2001,3,Good
+GN,Goldeneye,5880,DEC-2001,7,Good
+GN,Goldeneye,5880,JAN-2002,2,Good
+GN,Goldeneye,5880,FEB-2002,4,Good
+GN,Goldeneye,5880,OCT-2002,0,Good
+GN,Goldeneye,5880,DEC-2002,1,Good
+GN,Goldeneye,5880,JAN-2003,1,Good
+GN,Goldeneye,5880,FEB-2003,0,Good
+GN,Goldeneye,5880,OCT-2003,0,Good
+GN,Goldeneye,5880,DEC-2003,0,Good
+GN,Goldeneye,5880,JAN-2004,2,Good
+GN,Goldeneye,5880,FEB-2004,2,Good
+GN,Goldeneye,5880,OCT-2004,0,Good
+GN,Goldeneye,5880,DEC-2004,8,Good
+GN,Goldeneye,5880,JAN-2005,0,Good
+GN,Goldeneye,5880,FEB-2005,7,Good
+GN,Goldeneye,5880,OCT-2005,0,Good
+GN,Goldeneye,5880,DEC-2005,0,Good
+GN,Goldeneye,5880,JAN-2006,7,Good
+GN,Goldeneye,5880,FEB-2006,7,Good
+GN,Goldeneye,5880,OCT-2006,0,Good
+GN,Goldeneye,5880,DEC-2006,3,Poor
+GN,Goldeneye,5880,JAN-2007,12,Good
+GN,Goldeneye,5880,FEB-2007,1,Poor
+GN,Goldeneye,5880,OCT-2007,0,Good
+GN,Goldeneye,5880,DEC-2007,0,Good
+GN,Goldeneye,5880,JAN-2008,2,Poor
+GN,Goldeneye,5880,FEB-2008,2,Good
+GN,Goldeneye,5880,OCT-2008,0,Poor
+GN,Goldeneye,5880,DEC-2008,4,Good
+GN,Goldeneye,5880,JAN-2009,0,Good
+GN,Goldeneye,5880,FEB-2009,0,Good
+GN,Goldeneye,5880,OCT-2009,0,Good
+GN,Goldeneye,5880,JAN-2010,0,Good
+GN,Goldeneye,5880,FEB-2010,6,Good
+GN,Goldeneye,5880,OCT-2010,1,Good
+GN,Goldeneye,5880,DEC-2010,0,Good
+GN,Goldeneye,5880,JAN-2011,0,Good
+GN,Goldeneye,5880,FEB-2011,0,Good
+GN,Goldeneye,5880,OCT-2011,0,Good
+GN,Goldeneye,5880,DEC-2011,2,Good
+GN,Goldeneye,5880,JAN-2012,0,Good
+GN,Goldeneye,5880,FEB-2012,0,Poor
+GN,Goldeneye,5880,JUN-2012,0,Good
+GN,Goldeneye,5880,OCT-2012,0,Good
+GN,Goldeneye,5880,DEC-2012,2,Poor
+GN,Goldeneye,5880,JAN-2013,1,Good
+GN,Goldeneye,5880,FEB-2013,5,Poor
+GN,Goldeneye,5880,OCT-2013,3,Good
+GN,Goldeneye,5880,DEC-2013,0,Poor
+GN,Goldeneye,5880,JAN-2014,0,Good
+GN,Goldeneye,5880,FEB-2014,0,Good
+GN,Goldeneye,5880,OCT-2014,0,Poor
+GN,Goldeneye,5880,DEC-2014,0,Good
+GN,Goldeneye,5880,JAN-2015,0,Good
+GN,Goldeneye,5880,FEB-2015,0,Good
+GN,Goldeneye,5880,OCT-2015,0,Good
+GN,Goldeneye,5880,DEC-2015,0,Good
+GN,Goldeneye,5880,JAN-2016,0,Good
+GN,Goldeneye,5880,FEB-2016,0,Good
+GN,Goldeneye,5880,OCT-2016,0,Good
+GN,Goldeneye,5880,DEC-2016,0,Good
+GN,Goldeneye,5880,JAN-2017,0,Good
+GN,Goldeneye,5880,FEB-2017,0,Good
+GN,Goldeneye,5880,OCT-2017,0,Good
+GN,Goldeneye,5880,DEC-2017,0,Good
+GN,Goldeneye,5880,JAN-2018,0,Poor
+GN,Goldeneye,5880,FEB-2018,0,Poor
+GN,Goldeneye,5880,OCT-2018,0,Good
+GN,Goldeneye,5880,DEC-2018,0,Good
+GN,Goldeneye,5880,JAN-2019,0,Good
+GN,Goldeneye,5880,FEB-2019,0,Poor
+GD,Goosander,5990,OCT-1999,0,Good
+GD,Goosander,5990,DEC-1999,0,Good
+GD,Goosander,5990,JAN-2000,0,Good
+GD,Goosander,5990,FEB-2000,0,Good
+GD,Goosander,5990,OCT-2000,0,Good
+GD,Goosander,5990,DEC-2000,0,Good
+GD,Goosander,5990,JAN-2001,0,Good
+GD,Goosander,5990,FEB-2001,0,Good
+GD,Goosander,5990,OCT-2001,0,Good
+GD,Goosander,5990,DEC-2001,2,Good
+GD,Goosander,5990,JAN-2002,0,Good
+GD,Goosander,5990,FEB-2002,0,Good
+GD,Goosander,5990,OCT-2002,0,Good
+GD,Goosander,5990,DEC-2002,0,Good
+GD,Goosander,5990,JAN-2003,0,Good
+GD,Goosander,5990,FEB-2003,1,Good
+GD,Goosander,5990,OCT-2003,0,Good
+GD,Goosander,5990,DEC-2003,0,Good
+GD,Goosander,5990,JAN-2004,2,Good
+GD,Goosander,5990,FEB-2004,0,Good
+GD,Goosander,5990,OCT-2004,0,Good
+GD,Goosander,5990,DEC-2004,0,Good
+GD,Goosander,5990,JAN-2005,0,Good
+GD,Goosander,5990,FEB-2005,0,Good
+GD,Goosander,5990,OCT-2005,0,Good
+GD,Goosander,5990,DEC-2005,0,Good
+GD,Goosander,5990,JAN-2006,0,Good
+GD,Goosander,5990,FEB-2006,0,Good
+GD,Goosander,5990,OCT-2006,0,Good
+GD,Goosander,5990,DEC-2006,1,Poor
+GD,Goosander,5990,JAN-2007,0,Good
+GD,Goosander,5990,FEB-2007,0,Poor
+GD,Goosander,5990,OCT-2007,11,Good
+GD,Goosander,5990,DEC-2007,0,Good
+GD,Goosander,5990,JAN-2008,0,Poor
+GD,Goosander,5990,FEB-2008,0,Good
+GD,Goosander,5990,OCT-2008,0,Poor
+GD,Goosander,5990,DEC-2008,0,Good
+GD,Goosander,5990,JAN-2009,0,Good
+GD,Goosander,5990,FEB-2009,0,Good
+GD,Goosander,5990,OCT-2009,2,Good
+GD,Goosander,5990,JAN-2010,0,Good
+GD,Goosander,5990,FEB-2010,0,Good
+GD,Goosander,5990,OCT-2010,2,Good
+GD,Goosander,5990,DEC-2010,0,Good
+GD,Goosander,5990,JAN-2011,0,Good
+GD,Goosander,5990,FEB-2011,0,Good
+GD,Goosander,5990,OCT-2011,0,Good
+GD,Goosander,5990,DEC-2011,0,Good
+GD,Goosander,5990,JAN-2012,0,Good
+GD,Goosander,5990,FEB-2012,1,Poor
+GD,Goosander,5990,JUN-2012,0,Good
+GD,Goosander,5990,OCT-2012,0,Good
+GD,Goosander,5990,DEC-2012,0,Poor
+GD,Goosander,5990,JAN-2013,0,Good
+GD,Goosander,5990,FEB-2013,0,Poor
+GD,Goosander,5990,OCT-2013,0,Good
+GD,Goosander,5990,DEC-2013,0,Poor
+GD,Goosander,5990,JAN-2014,0,Good
+GD,Goosander,5990,FEB-2014,0,Good
+GD,Goosander,5990,OCT-2014,0,Poor
+GD,Goosander,5990,DEC-2014,0,Good
+GD,Goosander,5990,JAN-2015,0,Good
+GD,Goosander,5990,FEB-2015,0,Good
+GD,Goosander,5990,OCT-2015,1,Good
+GD,Goosander,5990,DEC-2015,0,Good
+GD,Goosander,5990,JAN-2016,0,Good
+GD,Goosander,5990,FEB-2016,0,Good
+GD,Goosander,5990,OCT-2016,0,Good
+GD,Goosander,5990,DEC-2016,0,Good
+GD,Goosander,5990,JAN-2017,0,Good
+GD,Goosander,5990,FEB-2017,0,Good
+GD,Goosander,5990,OCT-2017,0,Good
+GD,Goosander,5990,DEC-2017,0,Good
+GD,Goosander,5990,JAN-2018,0,Poor
+GD,Goosander,5990,FEB-2018,0,Poor
+GD,Goosander,5990,OCT-2018,0,Good
+GD,Goosander,5990,DEC-2018,0,Good
+GD,Goosander,5990,JAN-2019,0,Good
+GD,Goosander,5990,FEB-2019,0,Poor
+RM,Red-breasted Merganser,6030,OCT-1999,0,Good
+RM,Red-breasted Merganser,6030,DEC-1999,0,Good
+RM,Red-breasted Merganser,6030,JAN-2000,0,Good
+RM,Red-breasted Merganser,6030,FEB-2000,0,Good
+RM,Red-breasted Merganser,6030,OCT-2000,0,Good
+RM,Red-breasted Merganser,6030,DEC-2000,4,Good
+RM,Red-breasted Merganser,6030,JAN-2001,3,Good
+RM,Red-breasted Merganser,6030,FEB-2001,0,Good
+RM,Red-breasted Merganser,6030,OCT-2001,0,Good
+RM,Red-breasted Merganser,6030,DEC-2001,0,Good
+RM,Red-breasted Merganser,6030,JAN-2002,0,Good
+RM,Red-breasted Merganser,6030,FEB-2002,1,Good
+RM,Red-breasted Merganser,6030,OCT-2002,0,Good
+RM,Red-breasted Merganser,6030,DEC-2002,2,Good
+RM,Red-breasted Merganser,6030,JAN-2003,4,Good
+RM,Red-breasted Merganser,6030,FEB-2003,0,Good
+RM,Red-breasted Merganser,6030,OCT-2003,8,Good
+RM,Red-breasted Merganser,6030,DEC-2003,1,Good
+RM,Red-breasted Merganser,6030,JAN-2004,3,Good
+RM,Red-breasted Merganser,6030,FEB-2004,2,Good
+RM,Red-breasted Merganser,6030,OCT-2004,0,Good
+RM,Red-breasted Merganser,6030,DEC-2004,0,Good
+RM,Red-breasted Merganser,6030,JAN-2005,1,Good
+RM,Red-breasted Merganser,6030,FEB-2005,0,Good
+RM,Red-breasted Merganser,6030,OCT-2005,0,Good
+RM,Red-breasted Merganser,6030,DEC-2005,0,Good
+RM,Red-breasted Merganser,6030,JAN-2006,0,Good
+RM,Red-breasted Merganser,6030,FEB-2006,0,Good
+RM,Red-breasted Merganser,6030,OCT-2006,0,Good
+RM,Red-breasted Merganser,6030,DEC-2006,0,Poor
+RM,Red-breasted Merganser,6030,JAN-2007,0,Good
+RM,Red-breasted Merganser,6030,FEB-2007,1,Poor
+RM,Red-breasted Merganser,6030,OCT-2007,0,Good
+RM,Red-breasted Merganser,6030,DEC-2007,0,Good
+RM,Red-breasted Merganser,6030,JAN-2008,0,Poor
+RM,Red-breasted Merganser,6030,FEB-2008,1,Good
+RM,Red-breasted Merganser,6030,OCT-2008,0,Poor
+RM,Red-breasted Merganser,6030,DEC-2008,0,Good
+RM,Red-breasted Merganser,6030,JAN-2009,0,Good
+RM,Red-breasted Merganser,6030,FEB-2009,0,Good
+RM,Red-breasted Merganser,6030,OCT-2009,0,Good
+RM,Red-breasted Merganser,6030,JAN-2010,0,Good
+RM,Red-breasted Merganser,6030,FEB-2010,0,Good
+RM,Red-breasted Merganser,6030,OCT-2010,0,Good
+RM,Red-breasted Merganser,6030,DEC-2010,0,Good
+RM,Red-breasted Merganser,6030,JAN-2011,0,Good
+RM,Red-breasted Merganser,6030,FEB-2011,0,Good
+RM,Red-breasted Merganser,6030,OCT-2011,0,Good
+RM,Red-breasted Merganser,6030,DEC-2011,0,Good
+RM,Red-breasted Merganser,6030,JAN-2012,0,Good
+RM,Red-breasted Merganser,6030,FEB-2012,0,Poor
+RM,Red-breasted Merganser,6030,JUN-2012,0,Good
+RM,Red-breasted Merganser,6030,OCT-2012,1,Good
+RM,Red-breasted Merganser,6030,DEC-2012,0,Poor
+RM,Red-breasted Merganser,6030,JAN-2013,0,Good
+RM,Red-breasted Merganser,6030,FEB-2013,0,Poor
+RM,Red-breasted Merganser,6030,OCT-2013,0,Good
+RM,Red-breasted Merganser,6030,DEC-2013,0,Poor
+RM,Red-breasted Merganser,6030,JAN-2014,0,Good
+RM,Red-breasted Merganser,6030,FEB-2014,0,Good
+RM,Red-breasted Merganser,6030,OCT-2014,0,Poor
+RM,Red-breasted Merganser,6030,DEC-2014,0,Good
+RM,Red-breasted Merganser,6030,JAN-2015,0,Good
+RM,Red-breasted Merganser,6030,FEB-2015,0,Good
+RM,Red-breasted Merganser,6030,OCT-2015,0,Good
+RM,Red-breasted Merganser,6030,DEC-2015,0,Good
+RM,Red-breasted Merganser,6030,JAN-2016,0,Good
+RM,Red-breasted Merganser,6030,FEB-2016,0,Good
+RM,Red-breasted Merganser,6030,OCT-2016,0,Good
+RM,Red-breasted Merganser,6030,DEC-2016,0,Good
+RM,Red-breasted Merganser,6030,JAN-2017,0,Good
+RM,Red-breasted Merganser,6030,FEB-2017,0,Good
+RM,Red-breasted Merganser,6030,OCT-2017,0,Good
+RM,Red-breasted Merganser,6030,DEC-2017,0,Good
+RM,Red-breasted Merganser,6030,JAN-2018,0,Poor
+RM,Red-breasted Merganser,6030,FEB-2018,0,Poor
+RM,Red-breasted Merganser,6030,OCT-2018,0,Good
+RM,Red-breasted Merganser,6030,DEC-2018,0,Good
+RM,Red-breasted Merganser,6030,JAN-2019,5,Good
+RM,Red-breasted Merganser,6030,FEB-2019,0,Poor
+RH,Red-throated Diver,16760,OCT-1999,0,Good
+RH,Red-throated Diver,16760,DEC-1999,0,Good
+RH,Red-throated Diver,16760,JAN-2000,0,Good
+RH,Red-throated Diver,16760,FEB-2000,0,Good
+RH,Red-throated Diver,16760,OCT-2000,1,Good
+RH,Red-throated Diver,16760,DEC-2000,0,Good
+RH,Red-throated Diver,16760,JAN-2001,0,Good
+RH,Red-throated Diver,16760,FEB-2001,0,Good
+RH,Red-throated Diver,16760,OCT-2001,0,Good
+RH,Red-throated Diver,16760,DEC-2001,0,Good
+RH,Red-throated Diver,16760,JAN-2002,0,Good
+RH,Red-throated Diver,16760,FEB-2002,0,Good
+RH,Red-throated Diver,16760,OCT-2002,0,Good
+RH,Red-throated Diver,16760,DEC-2002,1,Good
+RH,Red-throated Diver,16760,JAN-2003,1,Good
+RH,Red-throated Diver,16760,FEB-2003,0,Good
+RH,Red-throated Diver,16760,OCT-2003,0,Good
+RH,Red-throated Diver,16760,DEC-2003,0,Good
+RH,Red-throated Diver,16760,JAN-2004,0,Good
+RH,Red-throated Diver,16760,FEB-2004,1,Good
+RH,Red-throated Diver,16760,OCT-2004,0,Good
+RH,Red-throated Diver,16760,DEC-2004,0,Good
+RH,Red-throated Diver,16760,JAN-2005,0,Good
+RH,Red-throated Diver,16760,FEB-2005,2,Good
+RH,Red-throated Diver,16760,OCT-2005,0,Good
+RH,Red-throated Diver,16760,DEC-2005,0,Good
+RH,Red-throated Diver,16760,JAN-2006,0,Good
+RH,Red-throated Diver,16760,FEB-2006,0,Good
+RH,Red-throated Diver,16760,OCT-2006,0,Good
+RH,Red-throated Diver,16760,DEC-2006,0,Poor
+RH,Red-throated Diver,16760,JAN-2007,0,Good
+RH,Red-throated Diver,16760,FEB-2007,0,Poor
+RH,Red-throated Diver,16760,OCT-2007,0,Good
+RH,Red-throated Diver,16760,DEC-2007,0,Good
+RH,Red-throated Diver,16760,JAN-2008,0,Poor
+RH,Red-throated Diver,16760,FEB-2008,0,Good
+RH,Red-throated Diver,16760,OCT-2008,0,Poor
+RH,Red-throated Diver,16760,DEC-2008,0,Good
+RH,Red-throated Diver,16760,JAN-2009,0,Good
+RH,Red-throated Diver,16760,FEB-2009,0,Good
+RH,Red-throated Diver,16760,OCT-2009,0,Good
+RH,Red-throated Diver,16760,JAN-2010,0,Good
+RH,Red-throated Diver,16760,FEB-2010,0,Good
+RH,Red-throated Diver,16760,OCT-2010,0,Good
+RH,Red-throated Diver,16760,DEC-2010,0,Good
+RH,Red-throated Diver,16760,JAN-2011,0,Good
+RH,Red-throated Diver,16760,FEB-2011,0,Good
+RH,Red-throated Diver,16760,OCT-2011,0,Good
+RH,Red-throated Diver,16760,DEC-2011,0,Good
+RH,Red-throated Diver,16760,JAN-2012,0,Good
+RH,Red-throated Diver,16760,FEB-2012,0,Poor
+RH,Red-throated Diver,16760,JUN-2012,0,Good
+RH,Red-throated Diver,16760,OCT-2012,0,Good
+RH,Red-throated Diver,16760,DEC-2012,0,Poor
+RH,Red-throated Diver,16760,JAN-2013,0,Good
+RH,Red-throated Diver,16760,FEB-2013,0,Poor
+RH,Red-throated Diver,16760,OCT-2013,0,Good
+RH,Red-throated Diver,16760,DEC-2013,0,Poor
+RH,Red-throated Diver,16760,JAN-2014,0,Good
+RH,Red-throated Diver,16760,FEB-2014,0,Good
+RH,Red-throated Diver,16760,OCT-2014,0,Poor
+RH,Red-throated Diver,16760,DEC-2014,0,Good
+RH,Red-throated Diver,16760,JAN-2015,0,Good
+RH,Red-throated Diver,16760,FEB-2015,0,Good
+RH,Red-throated Diver,16760,OCT-2015,0,Good
+RH,Red-throated Diver,16760,DEC-2015,0,Good
+RH,Red-throated Diver,16760,JAN-2016,0,Good
+RH,Red-throated Diver,16760,FEB-2016,0,Good
+RH,Red-throated Diver,16760,OCT-2016,0,Good
+RH,Red-throated Diver,16760,DEC-2016,0,Good
+RH,Red-throated Diver,16760,JAN-2017,0,Good
+RH,Red-throated Diver,16760,FEB-2017,1,Good
+RH,Red-throated Diver,16760,OCT-2017,0,Good
+RH,Red-throated Diver,16760,DEC-2017,0,Good
+RH,Red-throated Diver,16760,JAN-2018,0,Poor
+RH,Red-throated Diver,16760,FEB-2018,0,Poor
+RH,Red-throated Diver,16760,OCT-2018,0,Good
+RH,Red-throated Diver,16760,DEC-2018,0,Good
+RH,Red-throated Diver,16760,JAN-2019,0,Good
+RH,Red-throated Diver,16760,FEB-2019,0,Poor
+BV,Black-throated Diver,16770,OCT-1999,0,Good
+BV,Black-throated Diver,16770,DEC-1999,0,Good
+BV,Black-throated Diver,16770,JAN-2000,0,Good
+BV,Black-throated Diver,16770,FEB-2000,0,Good
+BV,Black-throated Diver,16770,OCT-2000,0,Good
+BV,Black-throated Diver,16770,DEC-2000,0,Good
+BV,Black-throated Diver,16770,JAN-2001,0,Good
+BV,Black-throated Diver,16770,FEB-2001,1,Good
+BV,Black-throated Diver,16770,OCT-2001,0,Good
+BV,Black-throated Diver,16770,DEC-2001,0,Good
+BV,Black-throated Diver,16770,JAN-2002,0,Good
+BV,Black-throated Diver,16770,FEB-2002,0,Good
+BV,Black-throated Diver,16770,OCT-2002,0,Good
+BV,Black-throated Diver,16770,DEC-2002,0,Good
+BV,Black-throated Diver,16770,JAN-2003,1,Good
+BV,Black-throated Diver,16770,FEB-2003,0,Good
+BV,Black-throated Diver,16770,OCT-2003,0,Good
+BV,Black-throated Diver,16770,DEC-2003,0,Good
+BV,Black-throated Diver,16770,JAN-2004,0,Good
+BV,Black-throated Diver,16770,FEB-2004,0,Good
+BV,Black-throated Diver,16770,OCT-2004,0,Good
+BV,Black-throated Diver,16770,DEC-2004,0,Good
+BV,Black-throated Diver,16770,JAN-2005,0,Good
+BV,Black-throated Diver,16770,FEB-2005,0,Good
+BV,Black-throated Diver,16770,OCT-2005,0,Good
+BV,Black-throated Diver,16770,DEC-2005,0,Good
+BV,Black-throated Diver,16770,JAN-2006,0,Good
+BV,Black-throated Diver,16770,FEB-2006,0,Good
+BV,Black-throated Diver,16770,OCT-2006,0,Good
+BV,Black-throated Diver,16770,DEC-2006,0,Poor
+BV,Black-throated Diver,16770,JAN-2007,0,Good
+BV,Black-throated Diver,16770,FEB-2007,0,Poor
+BV,Black-throated Diver,16770,OCT-2007,0,Good
+BV,Black-throated Diver,16770,DEC-2007,0,Good
+BV,Black-throated Diver,16770,JAN-2008,0,Poor
+BV,Black-throated Diver,16770,FEB-2008,0,Good
+BV,Black-throated Diver,16770,OCT-2008,0,Poor
+BV,Black-throated Diver,16770,DEC-2008,0,Good
+BV,Black-throated Diver,16770,JAN-2009,0,Good
+BV,Black-throated Diver,16770,FEB-2009,0,Good
+BV,Black-throated Diver,16770,OCT-2009,0,Good
+BV,Black-throated Diver,16770,JAN-2010,0,Good
+BV,Black-throated Diver,16770,FEB-2010,0,Good
+BV,Black-throated Diver,16770,OCT-2010,0,Good
+BV,Black-throated Diver,16770,DEC-2010,0,Good
+BV,Black-throated Diver,16770,JAN-2011,0,Good
+BV,Black-throated Diver,16770,FEB-2011,0,Good
+BV,Black-throated Diver,16770,OCT-2011,0,Good
+BV,Black-throated Diver,16770,DEC-2011,0,Good
+BV,Black-throated Diver,16770,JAN-2012,0,Good
+BV,Black-throated Diver,16770,FEB-2012,0,Poor
+BV,Black-throated Diver,16770,JUN-2012,0,Good
+BV,Black-throated Diver,16770,OCT-2012,0,Good
+BV,Black-throated Diver,16770,DEC-2012,0,Poor
+BV,Black-throated Diver,16770,JAN-2013,0,Good
+BV,Black-throated Diver,16770,FEB-2013,0,Poor
+BV,Black-throated Diver,16770,OCT-2013,0,Good
+BV,Black-throated Diver,16770,DEC-2013,0,Poor
+BV,Black-throated Diver,16770,JAN-2014,0,Good
+BV,Black-throated Diver,16770,FEB-2014,0,Good
+BV,Black-throated Diver,16770,OCT-2014,0,Poor
+BV,Black-throated Diver,16770,DEC-2014,0,Good
+BV,Black-throated Diver,16770,JAN-2015,0,Good
+BV,Black-throated Diver,16770,FEB-2015,0,Good
+BV,Black-throated Diver,16770,OCT-2015,0,Good
+BV,Black-throated Diver,16770,DEC-2015,0,Good
+BV,Black-throated Diver,16770,JAN-2016,0,Good
+BV,Black-throated Diver,16770,FEB-2016,0,Good
+BV,Black-throated Diver,16770,OCT-2016,0,Good
+BV,Black-throated Diver,16770,DEC-2016,0,Good
+BV,Black-throated Diver,16770,JAN-2017,0,Good
+BV,Black-throated Diver,16770,FEB-2017,0,Good
+BV,Black-throated Diver,16770,OCT-2017,0,Good
+BV,Black-throated Diver,16770,DEC-2017,0,Good
+BV,Black-throated Diver,16770,JAN-2018,0,Poor
+BV,Black-throated Diver,16770,FEB-2018,0,Poor
+BV,Black-throated Diver,16770,OCT-2018,0,Good
+BV,Black-throated Diver,16770,DEC-2018,0,Good
+BV,Black-throated Diver,16770,JAN-2019,0,Good
+BV,Black-throated Diver,16770,FEB-2019,0,Poor
+LG,Little Grebe,19830,OCT-1999,0,Good
+LG,Little Grebe,19830,DEC-1999,1,Good
+LG,Little Grebe,19830,JAN-2000,0,Good
+LG,Little Grebe,19830,FEB-2000,0,Good
+LG,Little Grebe,19830,OCT-2000,0,Good
+LG,Little Grebe,19830,DEC-2000,0,Good
+LG,Little Grebe,19830,JAN-2001,0,Good
+LG,Little Grebe,19830,FEB-2001,0,Good
+LG,Little Grebe,19830,OCT-2001,0,Good
+LG,Little Grebe,19830,DEC-2001,0,Good
+LG,Little Grebe,19830,JAN-2002,1,Good
+LG,Little Grebe,19830,FEB-2002,0,Good
+LG,Little Grebe,19830,OCT-2002,0,Good
+LG,Little Grebe,19830,DEC-2002,0,Good
+LG,Little Grebe,19830,JAN-2003,0,Good
+LG,Little Grebe,19830,FEB-2003,1,Good
+LG,Little Grebe,19830,OCT-2003,0,Good
+LG,Little Grebe,19830,DEC-2003,0,Good
+LG,Little Grebe,19830,JAN-2004,0,Good
+LG,Little Grebe,19830,FEB-2004,0,Good
+LG,Little Grebe,19830,OCT-2004,0,Good
+LG,Little Grebe,19830,DEC-2004,0,Good
+LG,Little Grebe,19830,JAN-2005,0,Good
+LG,Little Grebe,19830,FEB-2005,0,Good
+LG,Little Grebe,19830,OCT-2005,0,Good
+LG,Little Grebe,19830,DEC-2005,0,Good
+LG,Little Grebe,19830,JAN-2006,0,Good
+LG,Little Grebe,19830,FEB-2006,0,Good
+LG,Little Grebe,19830,OCT-2006,0,Good
+LG,Little Grebe,19830,DEC-2006,0,Poor
+LG,Little Grebe,19830,JAN-2007,0,Good
+LG,Little Grebe,19830,FEB-2007,0,Poor
+LG,Little Grebe,19830,OCT-2007,0,Good
+LG,Little Grebe,19830,DEC-2007,0,Good
+LG,Little Grebe,19830,JAN-2008,0,Poor
+LG,Little Grebe,19830,FEB-2008,0,Good
+LG,Little Grebe,19830,OCT-2008,0,Poor
+LG,Little Grebe,19830,DEC-2008,0,Good
+LG,Little Grebe,19830,JAN-2009,0,Good
+LG,Little Grebe,19830,FEB-2009,0,Good
+LG,Little Grebe,19830,OCT-2009,0,Good
+LG,Little Grebe,19830,JAN-2010,0,Good
+LG,Little Grebe,19830,FEB-2010,1,Good
+LG,Little Grebe,19830,OCT-2010,2,Good
+LG,Little Grebe,19830,DEC-2010,0,Good
+LG,Little Grebe,19830,JAN-2011,0,Good
+LG,Little Grebe,19830,FEB-2011,0,Good
+LG,Little Grebe,19830,OCT-2011,0,Good
+LG,Little Grebe,19830,DEC-2011,2,Good
+LG,Little Grebe,19830,JAN-2012,1,Good
+LG,Little Grebe,19830,FEB-2012,0,Poor
+LG,Little Grebe,19830,JUN-2012,0,Good
+LG,Little Grebe,19830,OCT-2012,0,Good
+LG,Little Grebe,19830,DEC-2012,1,Poor
+LG,Little Grebe,19830,JAN-2013,0,Good
+LG,Little Grebe,19830,FEB-2013,1,Poor
+LG,Little Grebe,19830,OCT-2013,0,Good
+LG,Little Grebe,19830,DEC-2013,0,Poor
+LG,Little Grebe,19830,JAN-2014,0,Good
+LG,Little Grebe,19830,FEB-2014,0,Good
+LG,Little Grebe,19830,OCT-2014,0,Poor
+LG,Little Grebe,19830,DEC-2014,0,Good
+LG,Little Grebe,19830,JAN-2015,0,Good
+LG,Little Grebe,19830,FEB-2015,0,Good
+LG,Little Grebe,19830,OCT-2015,0,Good
+LG,Little Grebe,19830,DEC-2015,0,Good
+LG,Little Grebe,19830,JAN-2016,0,Good
+LG,Little Grebe,19830,FEB-2016,0,Good
+LG,Little Grebe,19830,OCT-2016,0,Good
+LG,Little Grebe,19830,DEC-2016,0,Good
+LG,Little Grebe,19830,JAN-2017,0,Good
+LG,Little Grebe,19830,FEB-2017,0,Good
+LG,Little Grebe,19830,OCT-2017,0,Good
+LG,Little Grebe,19830,DEC-2017,0,Good
+LG,Little Grebe,19830,JAN-2018,0,Poor
+LG,Little Grebe,19830,FEB-2018,0,Poor
+LG,Little Grebe,19830,OCT-2018,0,Good
+LG,Little Grebe,19830,DEC-2018,0,Good
+LG,Little Grebe,19830,JAN-2019,0,Good
+LG,Little Grebe,19830,FEB-2019,0,Poor
+SZ,Slavonian Grebe,20350,OCT-1999,0,Good
+SZ,Slavonian Grebe,20350,DEC-1999,0,Good
+SZ,Slavonian Grebe,20350,JAN-2000,0,Good
+SZ,Slavonian Grebe,20350,FEB-2000,0,Good
+SZ,Slavonian Grebe,20350,OCT-2000,0,Good
+SZ,Slavonian Grebe,20350,DEC-2000,0,Good
+SZ,Slavonian Grebe,20350,JAN-2001,1,Good
+SZ,Slavonian Grebe,20350,FEB-2001,1,Good
+SZ,Slavonian Grebe,20350,OCT-2001,0,Good
+SZ,Slavonian Grebe,20350,DEC-2001,3,Good
+SZ,Slavonian Grebe,20350,JAN-2002,1,Good
+SZ,Slavonian Grebe,20350,FEB-2002,0,Good
+SZ,Slavonian Grebe,20350,OCT-2002,0,Good
+SZ,Slavonian Grebe,20350,DEC-2002,0,Good
+SZ,Slavonian Grebe,20350,JAN-2003,0,Good
+SZ,Slavonian Grebe,20350,FEB-2003,0,Good
+SZ,Slavonian Grebe,20350,OCT-2003,2,Good
+SZ,Slavonian Grebe,20350,DEC-2003,0,Good
+SZ,Slavonian Grebe,20350,JAN-2004,0,Good
+SZ,Slavonian Grebe,20350,FEB-2004,0,Good
+SZ,Slavonian Grebe,20350,OCT-2004,0,Good
+SZ,Slavonian Grebe,20350,DEC-2004,0,Good
+SZ,Slavonian Grebe,20350,JAN-2005,0,Good
+SZ,Slavonian Grebe,20350,FEB-2005,0,Good
+SZ,Slavonian Grebe,20350,OCT-2005,0,Good
+SZ,Slavonian Grebe,20350,DEC-2005,0,Good
+SZ,Slavonian Grebe,20350,JAN-2006,0,Good
+SZ,Slavonian Grebe,20350,FEB-2006,0,Good
+SZ,Slavonian Grebe,20350,OCT-2006,0,Good
+SZ,Slavonian Grebe,20350,DEC-2006,0,Poor
+SZ,Slavonian Grebe,20350,JAN-2007,0,Good
+SZ,Slavonian Grebe,20350,FEB-2007,0,Poor
+SZ,Slavonian Grebe,20350,OCT-2007,0,Good
+SZ,Slavonian Grebe,20350,DEC-2007,0,Good
+SZ,Slavonian Grebe,20350,JAN-2008,0,Poor
+SZ,Slavonian Grebe,20350,FEB-2008,0,Good
+SZ,Slavonian Grebe,20350,OCT-2008,0,Poor
+SZ,Slavonian Grebe,20350,DEC-2008,0,Good
+SZ,Slavonian Grebe,20350,JAN-2009,0,Good
+SZ,Slavonian Grebe,20350,FEB-2009,0,Good
+SZ,Slavonian Grebe,20350,OCT-2009,0,Good
+SZ,Slavonian Grebe,20350,JAN-2010,0,Good
+SZ,Slavonian Grebe,20350,FEB-2010,0,Good
+SZ,Slavonian Grebe,20350,OCT-2010,0,Good
+SZ,Slavonian Grebe,20350,DEC-2010,0,Good
+SZ,Slavonian Grebe,20350,JAN-2011,0,Good
+SZ,Slavonian Grebe,20350,FEB-2011,0,Good
+SZ,Slavonian Grebe,20350,OCT-2011,0,Good
+SZ,Slavonian Grebe,20350,DEC-2011,0,Good
+SZ,Slavonian Grebe,20350,JAN-2012,0,Good
+SZ,Slavonian Grebe,20350,FEB-2012,0,Poor
+SZ,Slavonian Grebe,20350,JUN-2012,0,Good
+SZ,Slavonian Grebe,20350,OCT-2012,0,Good
+SZ,Slavonian Grebe,20350,DEC-2012,2,Poor
+SZ,Slavonian Grebe,20350,JAN-2013,1,Good
+SZ,Slavonian Grebe,20350,FEB-2013,1,Poor
+SZ,Slavonian Grebe,20350,OCT-2013,0,Good
+SZ,Slavonian Grebe,20350,DEC-2013,0,Poor
+SZ,Slavonian Grebe,20350,JAN-2014,0,Good
+SZ,Slavonian Grebe,20350,FEB-2014,0,Good
+SZ,Slavonian Grebe,20350,OCT-2014,0,Poor
+SZ,Slavonian Grebe,20350,DEC-2014,0,Good
+SZ,Slavonian Grebe,20350,JAN-2015,0,Good
+SZ,Slavonian Grebe,20350,FEB-2015,0,Good
+SZ,Slavonian Grebe,20350,OCT-2015,0,Good
+SZ,Slavonian Grebe,20350,DEC-2015,0,Good
+SZ,Slavonian Grebe,20350,JAN-2016,0,Good
+SZ,Slavonian Grebe,20350,FEB-2016,0,Good
+SZ,Slavonian Grebe,20350,OCT-2016,0,Good
+SZ,Slavonian Grebe,20350,DEC-2016,0,Good
+SZ,Slavonian Grebe,20350,JAN-2017,0,Good
+SZ,Slavonian Grebe,20350,FEB-2017,0,Good
+SZ,Slavonian Grebe,20350,OCT-2017,0,Good
+SZ,Slavonian Grebe,20350,DEC-2017,0,Good
+SZ,Slavonian Grebe,20350,JAN-2018,0,Poor
+SZ,Slavonian Grebe,20350,FEB-2018,0,Poor
+SZ,Slavonian Grebe,20350,OCT-2018,0,Good
+SZ,Slavonian Grebe,20350,DEC-2018,0,Good
+SZ,Slavonian Grebe,20350,JAN-2019,0,Good
+SZ,Slavonian Grebe,20350,FEB-2019,0,Poor
+H.,Grey Heron,23270,OCT-1999,0,Good
+H.,Grey Heron,23270,DEC-1999,3,Good
+H.,Grey Heron,23270,JAN-2000,0,Good
+H.,Grey Heron,23270,FEB-2000,0,Good
+H.,Grey Heron,23270,OCT-2000,0,Good
+H.,Grey Heron,23270,DEC-2000,0,Good
+H.,Grey Heron,23270,JAN-2001,0,Good
+H.,Grey Heron,23270,FEB-2001,0,Good
+H.,Grey Heron,23270,OCT-2001,8,Good
+H.,Grey Heron,23270,DEC-2001,5,Good
+H.,Grey Heron,23270,JAN-2002,0,Good
+H.,Grey Heron,23270,FEB-2002,0,Good
+H.,Grey Heron,23270,OCT-2002,12,Good
+H.,Grey Heron,23270,DEC-2002,0,Good
+H.,Grey Heron,23270,JAN-2003,2,Good
+H.,Grey Heron,23270,FEB-2003,0,Good
+H.,Grey Heron,23270,OCT-2003,0,Good
+H.,Grey Heron,23270,DEC-2003,0,Good
+H.,Grey Heron,23270,JAN-2004,3,Good
+H.,Grey Heron,23270,FEB-2004,0,Good
+H.,Grey Heron,23270,OCT-2004,3,Good
+H.,Grey Heron,23270,DEC-2004,2,Good
+H.,Grey Heron,23270,JAN-2005,4,Good
+H.,Grey Heron,23270,FEB-2005,0,Good
+H.,Grey Heron,23270,OCT-2005,5,Good
+H.,Grey Heron,23270,DEC-2005,3,Good
+H.,Grey Heron,23270,JAN-2006,0,Good
+H.,Grey Heron,23270,FEB-2006,0,Good
+H.,Grey Heron,23270,OCT-2006,5,Good
+H.,Grey Heron,23270,DEC-2006,3,Poor
+H.,Grey Heron,23270,JAN-2007,1,Good
+H.,Grey Heron,23270,FEB-2007,0,Poor
+H.,Grey Heron,23270,OCT-2007,7,Good
+H.,Grey Heron,23270,DEC-2007,3,Good
+H.,Grey Heron,23270,JAN-2008,2,Poor
+H.,Grey Heron,23270,FEB-2008,0,Good
+H.,Grey Heron,23270,OCT-2008,3,Poor
+H.,Grey Heron,23270,DEC-2008,5,Good
+H.,Grey Heron,23270,JAN-2009,0,Good
+H.,Grey Heron,23270,FEB-2009,0,Good
+H.,Grey Heron,23270,OCT-2009,3,Good
+H.,Grey Heron,23270,JAN-2010,0,Good
+H.,Grey Heron,23270,FEB-2010,0,Good
+H.,Grey Heron,23270,OCT-2010,6,Good
+H.,Grey Heron,23270,DEC-2010,1,Good
+H.,Grey Heron,23270,JAN-2011,1,Good
+H.,Grey Heron,23270,FEB-2011,0,Good
+H.,Grey Heron,23270,OCT-2011,5,Good
+H.,Grey Heron,23270,DEC-2011,2,Good
+H.,Grey Heron,23270,JAN-2012,1,Good
+H.,Grey Heron,23270,FEB-2012,0,Poor
+H.,Grey Heron,23270,JUN-2012,3,Good
+H.,Grey Heron,23270,OCT-2012,6,Good
+H.,Grey Heron,23270,DEC-2012,0,Poor
+H.,Grey Heron,23270,JAN-2013,0,Good
+H.,Grey Heron,23270,FEB-2013,0,Poor
+H.,Grey Heron,23270,OCT-2013,4,Good
+H.,Grey Heron,23270,DEC-2013,0,Poor
+H.,Grey Heron,23270,JAN-2014,0,Good
+H.,Grey Heron,23270,FEB-2014,0,Good
+H.,Grey Heron,23270,OCT-2014,2,Poor
+H.,Grey Heron,23270,DEC-2014,1,Good
+H.,Grey Heron,23270,JAN-2015,2,Good
+H.,Grey Heron,23270,FEB-2015,0,Good
+H.,Grey Heron,23270,OCT-2015,6,Good
+H.,Grey Heron,23270,DEC-2015,6,Good
+H.,Grey Heron,23270,JAN-2016,3,Good
+H.,Grey Heron,23270,FEB-2016,4,Good
+H.,Grey Heron,23270,OCT-2016,4,Good
+H.,Grey Heron,23270,DEC-2016,3,Good
+H.,Grey Heron,23270,JAN-2017,5,Good
+H.,Grey Heron,23270,FEB-2017,0,Good
+H.,Grey Heron,23270,OCT-2017,6,Good
+H.,Grey Heron,23270,DEC-2017,0,Good
+H.,Grey Heron,23270,JAN-2018,1,Poor
+H.,Grey Heron,23270,FEB-2018,0,Poor
+H.,Grey Heron,23270,OCT-2018,4,Good
+H.,Grey Heron,23270,DEC-2018,5,Good
+H.,Grey Heron,23270,JAN-2019,8,Good
+H.,Grey Heron,23270,FEB-2019,10,Poor
+SA,Shag,24940,OCT-1999,0,Good
+SA,Shag,24940,DEC-1999,0,Good
+SA,Shag,24940,JAN-2000,0,Good
+SA,Shag,24940,FEB-2000,0,Good
+SA,Shag,24940,OCT-2000,0,Good
+SA,Shag,24940,DEC-2000,0,Good
+SA,Shag,24940,JAN-2001,0,Good
+SA,Shag,24940,FEB-2001,0,Good
+SA,Shag,24940,OCT-2001,0,Good
+SA,Shag,24940,DEC-2001,0,Good
+SA,Shag,24940,JAN-2002,0,Good
+SA,Shag,24940,FEB-2002,0,Good
+SA,Shag,24940,OCT-2002,0,Good
+SA,Shag,24940,DEC-2002,2,Good
+SA,Shag,24940,JAN-2003,0,Good
+SA,Shag,24940,FEB-2003,0,Good
+SA,Shag,24940,OCT-2003,0,Good
+SA,Shag,24940,DEC-2003,0,Good
+SA,Shag,24940,JAN-2004,0,Good
+SA,Shag,24940,FEB-2004,0,Good
+SA,Shag,24940,OCT-2004,0,Good
+SA,Shag,24940,DEC-2004,0,Good
+SA,Shag,24940,JAN-2005,0,Good
+SA,Shag,24940,FEB-2005,0,Good
+SA,Shag,24940,OCT-2005,0,Good
+SA,Shag,24940,DEC-2005,0,Good
+SA,Shag,24940,JAN-2006,0,Good
+SA,Shag,24940,FEB-2006,0,Good
+SA,Shag,24940,OCT-2006,0,Good
+SA,Shag,24940,DEC-2006,0,Poor
+SA,Shag,24940,JAN-2007,0,Good
+SA,Shag,24940,FEB-2007,0,Poor
+SA,Shag,24940,OCT-2007,0,Good
+SA,Shag,24940,DEC-2007,0,Good
+SA,Shag,24940,JAN-2008,0,Poor
+SA,Shag,24940,FEB-2008,0,Good
+SA,Shag,24940,OCT-2008,0,Poor
+SA,Shag,24940,DEC-2008,0,Good
+SA,Shag,24940,JAN-2009,0,Good
+SA,Shag,24940,FEB-2009,0,Good
+SA,Shag,24940,OCT-2009,0,Good
+SA,Shag,24940,JAN-2010,0,Good
+SA,Shag,24940,FEB-2010,0,Good
+SA,Shag,24940,OCT-2010,0,Good
+SA,Shag,24940,DEC-2010,0,Good
+SA,Shag,24940,JAN-2011,0,Good
+SA,Shag,24940,FEB-2011,0,Good
+SA,Shag,24940,OCT-2011,0,Good
+SA,Shag,24940,DEC-2011,0,Good
+SA,Shag,24940,JAN-2012,0,Good
+SA,Shag,24940,FEB-2012,0,Poor
+SA,Shag,24940,JUN-2012,0,Good
+SA,Shag,24940,OCT-2012,0,Good
+SA,Shag,24940,DEC-2012,0,Poor
+SA,Shag,24940,JAN-2013,0,Good
+SA,Shag,24940,FEB-2013,0,Poor
+SA,Shag,24940,OCT-2013,0,Good
+SA,Shag,24940,DEC-2013,0,Poor
+SA,Shag,24940,JAN-2014,0,Good
+SA,Shag,24940,FEB-2014,0,Good
+SA,Shag,24940,OCT-2014,0,Poor
+SA,Shag,24940,DEC-2014,0,Good
+SA,Shag,24940,JAN-2015,0,Good
+SA,Shag,24940,FEB-2015,0,Good
+SA,Shag,24940,OCT-2015,0,Good
+SA,Shag,24940,DEC-2015,0,Good
+SA,Shag,24940,JAN-2016,0,Good
+SA,Shag,24940,FEB-2016,0,Good
+SA,Shag,24940,OCT-2016,0,Good
+SA,Shag,24940,DEC-2016,0,Good
+SA,Shag,24940,JAN-2017,0,Good
+SA,Shag,24940,FEB-2017,0,Good
+SA,Shag,24940,OCT-2017,0,Good
+SA,Shag,24940,DEC-2017,0,Good
+SA,Shag,24940,JAN-2018,0,Poor
+SA,Shag,24940,FEB-2018,0,Poor
+SA,Shag,24940,OCT-2018,0,Good
+SA,Shag,24940,DEC-2018,0,Good
+SA,Shag,24940,JAN-2019,0,Good
+SA,Shag,24940,FEB-2019,0,Poor
+CA,Cormorant,25040,OCT-1999,2,Good
+CA,Cormorant,25040,DEC-1999,0,Good
+CA,Cormorant,25040,JAN-2000,0,Good
+CA,Cormorant,25040,FEB-2000,0,Good
+CA,Cormorant,25040,OCT-2000,6,Good
+CA,Cormorant,25040,DEC-2000,1,Good
+CA,Cormorant,25040,JAN-2001,0,Good
+CA,Cormorant,25040,FEB-2001,0,Good
+CA,Cormorant,25040,OCT-2001,2,Good
+CA,Cormorant,25040,DEC-2001,0,Good
+CA,Cormorant,25040,JAN-2002,6,Good
+CA,Cormorant,25040,FEB-2002,3,Good
+CA,Cormorant,25040,OCT-2002,11,Good
+CA,Cormorant,25040,DEC-2002,2,Good
+CA,Cormorant,25040,JAN-2003,0,Good
+CA,Cormorant,25040,FEB-2003,0,Good
+CA,Cormorant,25040,OCT-2003,1,Good
+CA,Cormorant,25040,DEC-2003,0,Good
+CA,Cormorant,25040,JAN-2004,0,Good
+CA,Cormorant,25040,FEB-2004,0,Good
+CA,Cormorant,25040,OCT-2004,1,Good
+CA,Cormorant,25040,DEC-2004,0,Good
+CA,Cormorant,25040,JAN-2005,1,Good
+CA,Cormorant,25040,FEB-2005,0,Good
+CA,Cormorant,25040,OCT-2005,4,Good
+CA,Cormorant,25040,DEC-2005,0,Good
+CA,Cormorant,25040,JAN-2006,3,Good
+CA,Cormorant,25040,FEB-2006,0,Good
+CA,Cormorant,25040,OCT-2006,4,Good
+CA,Cormorant,25040,DEC-2006,0,Poor
+CA,Cormorant,25040,JAN-2007,0,Good
+CA,Cormorant,25040,FEB-2007,0,Poor
+CA,Cormorant,25040,OCT-2007,3,Good
+CA,Cormorant,25040,DEC-2007,0,Good
+CA,Cormorant,25040,JAN-2008,3,Poor
+CA,Cormorant,25040,FEB-2008,0,Good
+CA,Cormorant,25040,OCT-2008,9,Poor
+CA,Cormorant,25040,DEC-2008,0,Good
+CA,Cormorant,25040,JAN-2009,1,Good
+CA,Cormorant,25040,FEB-2009,3,Good
+CA,Cormorant,25040,OCT-2009,12,Good
+CA,Cormorant,25040,JAN-2010,0,Good
+CA,Cormorant,25040,FEB-2010,1,Good
+CA,Cormorant,25040,OCT-2010,0,Good
+CA,Cormorant,25040,DEC-2010,0,Good
+CA,Cormorant,25040,JAN-2011,0,Good
+CA,Cormorant,25040,FEB-2011,0,Good
+CA,Cormorant,25040,OCT-2011,0,Good
+CA,Cormorant,25040,DEC-2011,1,Good
+CA,Cormorant,25040,JAN-2012,0,Good
+CA,Cormorant,25040,FEB-2012,0,Poor
+CA,Cormorant,25040,JUN-2012,4,Good
+CA,Cormorant,25040,OCT-2012,8,Good
+CA,Cormorant,25040,DEC-2012,0,Poor
+CA,Cormorant,25040,JAN-2013,6,Good
+CA,Cormorant,25040,FEB-2013,5,Poor
+CA,Cormorant,25040,OCT-2013,15,Good
+CA,Cormorant,25040,DEC-2013,0,Poor
+CA,Cormorant,25040,JAN-2014,2,Good
+CA,Cormorant,25040,FEB-2014,3,Good
+CA,Cormorant,25040,OCT-2014,22,Poor
+CA,Cormorant,25040,DEC-2014,8,Good
+CA,Cormorant,25040,JAN-2015,1,Good
+CA,Cormorant,25040,FEB-2015,11,Good
+CA,Cormorant,25040,OCT-2015,8,Good
+CA,Cormorant,25040,DEC-2015,12,Good
+CA,Cormorant,25040,JAN-2016,52,Good
+CA,Cormorant,25040,FEB-2016,145,Good
+CA,Cormorant,25040,OCT-2016,15,Good
+CA,Cormorant,25040,DEC-2016,3,Good
+CA,Cormorant,25040,JAN-2017,2,Good
+CA,Cormorant,25040,FEB-2017,3,Good
+CA,Cormorant,25040,OCT-2017,18,Good
+CA,Cormorant,25040,DEC-2017,2,Good
+CA,Cormorant,25040,JAN-2018,0,Poor
+CA,Cormorant,25040,FEB-2018,0,Poor
+CA,Cormorant,25040,OCT-2018,0,Good
+CA,Cormorant,25040,DEC-2018,110,Good
+CA,Cormorant,25040,JAN-2019,5,Good
+CA,Cormorant,25040,FEB-2019,7,Poor
+OC,Oystercatcher,39840,OCT-1999,260,Good
+OC,Oystercatcher,39840,DEC-1999,445,Good
+OC,Oystercatcher,39840,JAN-2000,151,Good
+OC,Oystercatcher,39840,FEB-2000,130,Good
+OC,Oystercatcher,39840,OCT-2000,260,Good
+OC,Oystercatcher,39840,DEC-2000,320,Good
+OC,Oystercatcher,39840,JAN-2001,275,Good
+OC,Oystercatcher,39840,FEB-2001,320,Good
+OC,Oystercatcher,39840,OCT-2001,420,Good
+OC,Oystercatcher,39840,DEC-2001,260,Good
+OC,Oystercatcher,39840,JAN-2002,350,Good
+OC,Oystercatcher,39840,FEB-2002,200,Good
+OC,Oystercatcher,39840,OCT-2002,450,Good
+OC,Oystercatcher,39840,DEC-2002,117,Good
+OC,Oystercatcher,39840,JAN-2003,365,Good
+OC,Oystercatcher,39840,FEB-2003,175,Good
+OC,Oystercatcher,39840,OCT-2003,480,Good
+OC,Oystercatcher,39840,DEC-2003,380,Good
+OC,Oystercatcher,39840,JAN-2004,520,Good
+OC,Oystercatcher,39840,FEB-2004,175,Good
+OC,Oystercatcher,39840,OCT-2004,480,Good
+OC,Oystercatcher,39840,DEC-2004,270,Good
+OC,Oystercatcher,39840,JAN-2005,490,Good
+OC,Oystercatcher,39840,FEB-2005,370,Good
+OC,Oystercatcher,39840,OCT-2005,210,Good
+OC,Oystercatcher,39840,DEC-2005,325,Good
+OC,Oystercatcher,39840,JAN-2006,280,Good
+OC,Oystercatcher,39840,FEB-2006,350,Good
+OC,Oystercatcher,39840,OCT-2006,370,Good
+OC,Oystercatcher,39840,DEC-2006,155,Poor
+OC,Oystercatcher,39840,JAN-2007,110,Good
+OC,Oystercatcher,39840,FEB-2007,230,Poor
+OC,Oystercatcher,39840,OCT-2007,420,Good
+OC,Oystercatcher,39840,DEC-2007,235,Good
+OC,Oystercatcher,39840,JAN-2008,320,Poor
+OC,Oystercatcher,39840,FEB-2008,275,Good
+OC,Oystercatcher,39840,OCT-2008,135,Poor
+OC,Oystercatcher,39840,DEC-2008,385,Good
+OC,Oystercatcher,39840,JAN-2009,287,Good
+OC,Oystercatcher,39840,FEB-2009,230,Good
+OC,Oystercatcher,39840,OCT-2009,580,Good
+OC,Oystercatcher,39840,JAN-2010,280,Good
+OC,Oystercatcher,39840,FEB-2010,215,Good
+OC,Oystercatcher,39840,OCT-2010,430,Good
+OC,Oystercatcher,39840,DEC-2010,300,Good
+OC,Oystercatcher,39840,JAN-2011,240,Good
+OC,Oystercatcher,39840,FEB-2011,300,Good
+OC,Oystercatcher,39840,OCT-2011,350,Good
+OC,Oystercatcher,39840,DEC-2011,290,Good
+OC,Oystercatcher,39840,JAN-2012,150,Good
+OC,Oystercatcher,39840,FEB-2012,220,Poor
+OC,Oystercatcher,39840,JUN-2012,42,Good
+OC,Oystercatcher,39840,OCT-2012,105,Good
+OC,Oystercatcher,39840,DEC-2012,300,Poor
+OC,Oystercatcher,39840,JAN-2013,260,Good
+OC,Oystercatcher,39840,FEB-2013,270,Poor
+OC,Oystercatcher,39840,OCT-2013,310,Good
+OC,Oystercatcher,39840,DEC-2013,270,Poor
+OC,Oystercatcher,39840,JAN-2014,260,Good
+OC,Oystercatcher,39840,FEB-2014,220,Good
+OC,Oystercatcher,39840,OCT-2014,200,Poor
+OC,Oystercatcher,39840,DEC-2014,280,Good
+OC,Oystercatcher,39840,JAN-2015,220,Good
+OC,Oystercatcher,39840,FEB-2015,310,Good
+OC,Oystercatcher,39840,OCT-2015,320,Good
+OC,Oystercatcher,39840,DEC-2015,380,Good
+OC,Oystercatcher,39840,JAN-2016,320,Good
+OC,Oystercatcher,39840,FEB-2016,380,Good
+OC,Oystercatcher,39840,OCT-2016,410,Good
+OC,Oystercatcher,39840,DEC-2016,360,Good
+OC,Oystercatcher,39840,JAN-2017,320,Good
+OC,Oystercatcher,39840,FEB-2017,340,Good
+OC,Oystercatcher,39840,OCT-2017,310,Good
+OC,Oystercatcher,39840,DEC-2017,290,Good
+OC,Oystercatcher,39840,JAN-2018,140,Poor
+OC,Oystercatcher,39840,FEB-2018,250,Poor
+OC,Oystercatcher,39840,OCT-2018,160,Good
+OC,Oystercatcher,39840,DEC-2018,160,Good
+OC,Oystercatcher,39840,JAN-2019,250,Good
+OC,Oystercatcher,39840,FEB-2019,200,Poor
+L.,Lapwing,40200,OCT-1999,0,Good
+L.,Lapwing,40200,DEC-1999,0,Good
+L.,Lapwing,40200,JAN-2000,0,Good
+L.,Lapwing,40200,FEB-2000,130,Good
+L.,Lapwing,40200,OCT-2000,20,Good
+L.,Lapwing,40200,DEC-2000,0,Good
+L.,Lapwing,40200,JAN-2001,6,Good
+L.,Lapwing,40200,FEB-2001,41,Good
+L.,Lapwing,40200,OCT-2001,240,Good
+L.,Lapwing,40200,DEC-2001,0,Good
+L.,Lapwing,40200,JAN-2002,0,Good
+L.,Lapwing,40200,FEB-2002,0,Good
+L.,Lapwing,40200,OCT-2002,270,Good
+L.,Lapwing,40200,DEC-2002,0,Good
+L.,Lapwing,40200,JAN-2003,0,Good
+L.,Lapwing,40200,FEB-2003,0,Good
+L.,Lapwing,40200,OCT-2003,170,Good
+L.,Lapwing,40200,DEC-2003,0,Good
+L.,Lapwing,40200,JAN-2004,30,Good
+L.,Lapwing,40200,FEB-2004,0,Good
+L.,Lapwing,40200,OCT-2004,120,Good
+L.,Lapwing,40200,DEC-2004,0,Good
+L.,Lapwing,40200,JAN-2005,0,Good
+L.,Lapwing,40200,FEB-2005,0,Good
+L.,Lapwing,40200,OCT-2005,0,Good
+L.,Lapwing,40200,DEC-2005,160,Good
+L.,Lapwing,40200,JAN-2006,0,Good
+L.,Lapwing,40200,FEB-2006,0,Good
+L.,Lapwing,40200,OCT-2006,240,Good
+L.,Lapwing,40200,DEC-2006,75,Poor
+L.,Lapwing,40200,JAN-2007,0,Good
+L.,Lapwing,40200,FEB-2007,0,Poor
+L.,Lapwing,40200,OCT-2007,20,Good
+L.,Lapwing,40200,DEC-2007,55,Good
+L.,Lapwing,40200,JAN-2008,0,Poor
+L.,Lapwing,40200,FEB-2008,10,Good
+L.,Lapwing,40200,OCT-2008,120,Poor
+L.,Lapwing,40200,DEC-2008,57,Good
+L.,Lapwing,40200,JAN-2009,0,Good
+L.,Lapwing,40200,FEB-2009,0,Good
+L.,Lapwing,40200,OCT-2009,220,Good
+L.,Lapwing,40200,JAN-2010,0,Good
+L.,Lapwing,40200,FEB-2010,0,Good
+L.,Lapwing,40200,OCT-2010,0,Good
+L.,Lapwing,40200,DEC-2010,7,Good
+L.,Lapwing,40200,JAN-2011,0,Good
+L.,Lapwing,40200,FEB-2011,0,Good
+L.,Lapwing,40200,OCT-2011,0,Good
+L.,Lapwing,40200,DEC-2011,0,Good
+L.,Lapwing,40200,JAN-2012,0,Good
+L.,Lapwing,40200,FEB-2012,0,Poor
+L.,Lapwing,40200,JUN-2012,0,Good
+L.,Lapwing,40200,OCT-2012,0,Good
+L.,Lapwing,40200,DEC-2012,0,Poor
+L.,Lapwing,40200,JAN-2013,0,Good
+L.,Lapwing,40200,FEB-2013,0,Poor
+L.,Lapwing,40200,OCT-2013,0,Good
+L.,Lapwing,40200,DEC-2013,0,Poor
+L.,Lapwing,40200,JAN-2014,0,Good
+L.,Lapwing,40200,FEB-2014,0,Good
+L.,Lapwing,40200,OCT-2014,0,Poor
+L.,Lapwing,40200,DEC-2014,0,Good
+L.,Lapwing,40200,JAN-2015,0,Good
+L.,Lapwing,40200,FEB-2015,0,Good
+L.,Lapwing,40200,OCT-2015,0,Good
+L.,Lapwing,40200,DEC-2015,35,Good
+L.,Lapwing,40200,JAN-2016,0,Good
+L.,Lapwing,40200,FEB-2016,42,Good
+L.,Lapwing,40200,OCT-2016,75,Good
+L.,Lapwing,40200,DEC-2016,0,Good
+L.,Lapwing,40200,JAN-2017,2,Good
+L.,Lapwing,40200,FEB-2017,0,Good
+L.,Lapwing,40200,OCT-2017,0,Good
+L.,Lapwing,40200,DEC-2017,0,Good
+L.,Lapwing,40200,JAN-2018,0,Poor
+L.,Lapwing,40200,FEB-2018,0,Poor
+L.,Lapwing,40200,OCT-2018,0,Good
+L.,Lapwing,40200,DEC-2018,0,Good
+L.,Lapwing,40200,JAN-2019,0,Good
+L.,Lapwing,40200,FEB-2019,0,Poor
+GP,Golden Plover,40710,OCT-1999,0,Good
+GP,Golden Plover,40710,DEC-1999,0,Good
+GP,Golden Plover,40710,JAN-2000,0,Good
+GP,Golden Plover,40710,FEB-2000,0,Good
+GP,Golden Plover,40710,OCT-2000,0,Good
+GP,Golden Plover,40710,DEC-2000,0,Good
+GP,Golden Plover,40710,JAN-2001,0,Good
+GP,Golden Plover,40710,FEB-2001,0,Good
+GP,Golden Plover,40710,OCT-2001,0,Good
+GP,Golden Plover,40710,DEC-2001,0,Good
+GP,Golden Plover,40710,JAN-2002,0,Good
+GP,Golden Plover,40710,FEB-2002,0,Good
+GP,Golden Plover,40710,OCT-2002,0,Good
+GP,Golden Plover,40710,DEC-2002,0,Good
+GP,Golden Plover,40710,JAN-2003,0,Good
+GP,Golden Plover,40710,FEB-2003,0,Good
+GP,Golden Plover,40710,OCT-2003,0,Good
+GP,Golden Plover,40710,DEC-2003,0,Good
+GP,Golden Plover,40710,JAN-2004,0,Good
+GP,Golden Plover,40710,FEB-2004,0,Good
+GP,Golden Plover,40710,OCT-2004,0,Good
+GP,Golden Plover,40710,DEC-2004,0,Good
+GP,Golden Plover,40710,JAN-2005,0,Good
+GP,Golden Plover,40710,FEB-2005,0,Good
+GP,Golden Plover,40710,OCT-2005,0,Good
+GP,Golden Plover,40710,DEC-2005,0,Good
+GP,Golden Plover,40710,JAN-2006,0,Good
+GP,Golden Plover,40710,FEB-2006,0,Good
+GP,Golden Plover,40710,OCT-2006,0,Good
+GP,Golden Plover,40710,DEC-2006,0,Poor
+GP,Golden Plover,40710,JAN-2007,0,Good
+GP,Golden Plover,40710,FEB-2007,0,Poor
+GP,Golden Plover,40710,OCT-2007,0,Good
+GP,Golden Plover,40710,DEC-2007,0,Good
+GP,Golden Plover,40710,JAN-2008,0,Poor
+GP,Golden Plover,40710,FEB-2008,0,Good
+GP,Golden Plover,40710,OCT-2008,0,Poor
+GP,Golden Plover,40710,DEC-2008,0,Good
+GP,Golden Plover,40710,JAN-2009,0,Good
+GP,Golden Plover,40710,FEB-2009,0,Good
+GP,Golden Plover,40710,OCT-2009,0,Good
+GP,Golden Plover,40710,JAN-2010,0,Good
+GP,Golden Plover,40710,FEB-2010,0,Good
+GP,Golden Plover,40710,OCT-2010,0,Good
+GP,Golden Plover,40710,DEC-2010,0,Good
+GP,Golden Plover,40710,JAN-2011,0,Good
+GP,Golden Plover,40710,FEB-2011,0,Good
+GP,Golden Plover,40710,OCT-2011,0,Good
+GP,Golden Plover,40710,DEC-2011,0,Good
+GP,Golden Plover,40710,JAN-2012,0,Good
+GP,Golden Plover,40710,FEB-2012,0,Poor
+GP,Golden Plover,40710,JUN-2012,0,Good
+GP,Golden Plover,40710,OCT-2012,0,Good
+GP,Golden Plover,40710,DEC-2012,0,Poor
+GP,Golden Plover,40710,JAN-2013,0,Good
+GP,Golden Plover,40710,FEB-2013,0,Poor
+GP,Golden Plover,40710,OCT-2013,0,Good
+GP,Golden Plover,40710,DEC-2013,0,Poor
+GP,Golden Plover,40710,JAN-2014,0,Good
+GP,Golden Plover,40710,FEB-2014,0,Good
+GP,Golden Plover,40710,OCT-2014,0,Poor
+GP,Golden Plover,40710,DEC-2014,0,Good
+GP,Golden Plover,40710,JAN-2015,0,Good
+GP,Golden Plover,40710,FEB-2015,0,Good
+GP,Golden Plover,40710,OCT-2015,0,Good
+GP,Golden Plover,40710,DEC-2015,0,Good
+GP,Golden Plover,40710,JAN-2016,0,Good
+GP,Golden Plover,40710,FEB-2016,0,Good
+GP,Golden Plover,40710,OCT-2016,0,Good
+GP,Golden Plover,40710,DEC-2016,0,Good
+GP,Golden Plover,40710,JAN-2017,0,Good
+GP,Golden Plover,40710,FEB-2017,0,Good
+GP,Golden Plover,40710,OCT-2017,0,Good
+GP,Golden Plover,40710,DEC-2017,0,Good
+GP,Golden Plover,40710,JAN-2018,0,Poor
+GP,Golden Plover,40710,FEB-2018,0,Poor
+GP,Golden Plover,40710,OCT-2018,0,Good
+GP,Golden Plover,40710,DEC-2018,0,Good
+GP,Golden Plover,40710,JAN-2019,0,Good
+GP,Golden Plover,40710,FEB-2019,0,Poor
+GV,Grey Plover,40750,OCT-1999,0,Good
+GV,Grey Plover,40750,DEC-1999,0,Good
+GV,Grey Plover,40750,JAN-2000,0,Good
+GV,Grey Plover,40750,FEB-2000,0,Good
+GV,Grey Plover,40750,OCT-2000,0,Good
+GV,Grey Plover,40750,DEC-2000,0,Good
+GV,Grey Plover,40750,JAN-2001,0,Good
+GV,Grey Plover,40750,FEB-2001,0,Good
+GV,Grey Plover,40750,OCT-2001,0,Good
+GV,Grey Plover,40750,DEC-2001,0,Good
+GV,Grey Plover,40750,JAN-2002,0,Good
+GV,Grey Plover,40750,FEB-2002,0,Good
+GV,Grey Plover,40750,OCT-2002,0,Good
+GV,Grey Plover,40750,DEC-2002,0,Good
+GV,Grey Plover,40750,JAN-2003,0,Good
+GV,Grey Plover,40750,FEB-2003,0,Good
+GV,Grey Plover,40750,OCT-2003,0,Good
+GV,Grey Plover,40750,DEC-2003,0,Good
+GV,Grey Plover,40750,JAN-2004,0,Good
+GV,Grey Plover,40750,FEB-2004,0,Good
+GV,Grey Plover,40750,OCT-2004,0,Good
+GV,Grey Plover,40750,DEC-2004,0,Good
+GV,Grey Plover,40750,JAN-2005,0,Good
+GV,Grey Plover,40750,FEB-2005,0,Good
+GV,Grey Plover,40750,OCT-2005,0,Good
+GV,Grey Plover,40750,DEC-2005,0,Good
+GV,Grey Plover,40750,JAN-2006,0,Good
+GV,Grey Plover,40750,FEB-2006,0,Good
+GV,Grey Plover,40750,OCT-2006,0,Good
+GV,Grey Plover,40750,DEC-2006,0,Poor
+GV,Grey Plover,40750,JAN-2007,0,Good
+GV,Grey Plover,40750,FEB-2007,0,Poor
+GV,Grey Plover,40750,OCT-2007,0,Good
+GV,Grey Plover,40750,DEC-2007,0,Good
+GV,Grey Plover,40750,JAN-2008,0,Poor
+GV,Grey Plover,40750,FEB-2008,0,Good
+GV,Grey Plover,40750,OCT-2008,0,Poor
+GV,Grey Plover,40750,DEC-2008,0,Good
+GV,Grey Plover,40750,JAN-2009,0,Good
+GV,Grey Plover,40750,FEB-2009,0,Good
+GV,Grey Plover,40750,OCT-2009,0,Good
+GV,Grey Plover,40750,JAN-2010,0,Good
+GV,Grey Plover,40750,FEB-2010,0,Good
+GV,Grey Plover,40750,OCT-2010,0,Good
+GV,Grey Plover,40750,DEC-2010,0,Good
+GV,Grey Plover,40750,JAN-2011,0,Good
+GV,Grey Plover,40750,FEB-2011,0,Good
+GV,Grey Plover,40750,OCT-2011,0,Good
+GV,Grey Plover,40750,DEC-2011,0,Good
+GV,Grey Plover,40750,JAN-2012,0,Good
+GV,Grey Plover,40750,FEB-2012,0,Poor
+GV,Grey Plover,40750,JUN-2012,0,Good
+GV,Grey Plover,40750,OCT-2012,0,Good
+GV,Grey Plover,40750,DEC-2012,0,Poor
+GV,Grey Plover,40750,JAN-2013,0,Good
+GV,Grey Plover,40750,FEB-2013,0,Poor
+GV,Grey Plover,40750,OCT-2013,0,Good
+GV,Grey Plover,40750,DEC-2013,0,Poor
+GV,Grey Plover,40750,JAN-2014,0,Good
+GV,Grey Plover,40750,FEB-2014,0,Good
+GV,Grey Plover,40750,OCT-2014,0,Poor
+GV,Grey Plover,40750,DEC-2014,0,Good
+GV,Grey Plover,40750,JAN-2015,0,Good
+GV,Grey Plover,40750,FEB-2015,0,Good
+GV,Grey Plover,40750,OCT-2015,0,Good
+GV,Grey Plover,40750,DEC-2015,0,Good
+GV,Grey Plover,40750,JAN-2016,0,Good
+GV,Grey Plover,40750,FEB-2016,0,Good
+GV,Grey Plover,40750,OCT-2016,0,Good
+GV,Grey Plover,40750,DEC-2016,0,Good
+GV,Grey Plover,40750,JAN-2017,0,Good
+GV,Grey Plover,40750,FEB-2017,0,Good
+GV,Grey Plover,40750,OCT-2017,0,Good
+GV,Grey Plover,40750,DEC-2017,0,Good
+GV,Grey Plover,40750,JAN-2018,0,Poor
+GV,Grey Plover,40750,FEB-2018,0,Poor
+GV,Grey Plover,40750,OCT-2018,0,Good
+GV,Grey Plover,40750,DEC-2018,0,Good
+GV,Grey Plover,40750,JAN-2019,0,Good
+GV,Grey Plover,40750,FEB-2019,0,Poor
+RP,Ringed Plover,40830,OCT-1999,0,Good
+RP,Ringed Plover,40830,DEC-1999,0,Good
+RP,Ringed Plover,40830,JAN-2000,0,Good
+RP,Ringed Plover,40830,FEB-2000,0,Good
+RP,Ringed Plover,40830,OCT-2000,0,Good
+RP,Ringed Plover,40830,DEC-2000,0,Good
+RP,Ringed Plover,40830,JAN-2001,0,Good
+RP,Ringed Plover,40830,FEB-2001,0,Good
+RP,Ringed Plover,40830,OCT-2001,0,Good
+RP,Ringed Plover,40830,DEC-2001,0,Good
+RP,Ringed Plover,40830,JAN-2002,0,Good
+RP,Ringed Plover,40830,FEB-2002,0,Good
+RP,Ringed Plover,40830,OCT-2002,0,Good
+RP,Ringed Plover,40830,DEC-2002,0,Good
+RP,Ringed Plover,40830,JAN-2003,0,Good
+RP,Ringed Plover,40830,FEB-2003,0,Good
+RP,Ringed Plover,40830,OCT-2003,0,Good
+RP,Ringed Plover,40830,DEC-2003,0,Good
+RP,Ringed Plover,40830,JAN-2004,0,Good
+RP,Ringed Plover,40830,FEB-2004,0,Good
+RP,Ringed Plover,40830,OCT-2004,0,Good
+RP,Ringed Plover,40830,DEC-2004,0,Good
+RP,Ringed Plover,40830,JAN-2005,0,Good
+RP,Ringed Plover,40830,FEB-2005,0,Good
+RP,Ringed Plover,40830,OCT-2005,0,Good
+RP,Ringed Plover,40830,DEC-2005,0,Good
+RP,Ringed Plover,40830,JAN-2006,0,Good
+RP,Ringed Plover,40830,FEB-2006,0,Good
+RP,Ringed Plover,40830,OCT-2006,0,Good
+RP,Ringed Plover,40830,DEC-2006,0,Poor
+RP,Ringed Plover,40830,JAN-2007,0,Good
+RP,Ringed Plover,40830,FEB-2007,0,Poor
+RP,Ringed Plover,40830,OCT-2007,0,Good
+RP,Ringed Plover,40830,DEC-2007,0,Good
+RP,Ringed Plover,40830,JAN-2008,0,Poor
+RP,Ringed Plover,40830,FEB-2008,0,Good
+RP,Ringed Plover,40830,OCT-2008,0,Poor
+RP,Ringed Plover,40830,DEC-2008,0,Good
+RP,Ringed Plover,40830,JAN-2009,0,Good
+RP,Ringed Plover,40830,FEB-2009,0,Good
+RP,Ringed Plover,40830,OCT-2009,0,Good
+RP,Ringed Plover,40830,JAN-2010,0,Good
+RP,Ringed Plover,40830,FEB-2010,0,Good
+RP,Ringed Plover,40830,OCT-2010,0,Good
+RP,Ringed Plover,40830,DEC-2010,0,Good
+RP,Ringed Plover,40830,JAN-2011,0,Good
+RP,Ringed Plover,40830,FEB-2011,0,Good
+RP,Ringed Plover,40830,OCT-2011,0,Good
+RP,Ringed Plover,40830,DEC-2011,0,Good
+RP,Ringed Plover,40830,JAN-2012,0,Good
+RP,Ringed Plover,40830,FEB-2012,0,Poor
+RP,Ringed Plover,40830,JUN-2012,0,Good
+RP,Ringed Plover,40830,OCT-2012,0,Good
+RP,Ringed Plover,40830,DEC-2012,0,Poor
+RP,Ringed Plover,40830,JAN-2013,0,Good
+RP,Ringed Plover,40830,FEB-2013,0,Poor
+RP,Ringed Plover,40830,OCT-2013,0,Good
+RP,Ringed Plover,40830,DEC-2013,0,Poor
+RP,Ringed Plover,40830,JAN-2014,0,Good
+RP,Ringed Plover,40830,FEB-2014,0,Good
+RP,Ringed Plover,40830,OCT-2014,0,Poor
+RP,Ringed Plover,40830,DEC-2014,0,Good
+RP,Ringed Plover,40830,JAN-2015,0,Good
+RP,Ringed Plover,40830,FEB-2015,0,Good
+RP,Ringed Plover,40830,OCT-2015,0,Good
+RP,Ringed Plover,40830,DEC-2015,0,Good
+RP,Ringed Plover,40830,JAN-2016,0,Good
+RP,Ringed Plover,40830,FEB-2016,0,Good
+RP,Ringed Plover,40830,OCT-2016,0,Good
+RP,Ringed Plover,40830,DEC-2016,0,Good
+RP,Ringed Plover,40830,JAN-2017,0,Good
+RP,Ringed Plover,40830,FEB-2017,0,Good
+RP,Ringed Plover,40830,OCT-2017,0,Good
+RP,Ringed Plover,40830,DEC-2017,0,Good
+RP,Ringed Plover,40830,JAN-2018,0,Poor
+RP,Ringed Plover,40830,FEB-2018,0,Poor
+RP,Ringed Plover,40830,OCT-2018,0,Good
+RP,Ringed Plover,40830,DEC-2018,0,Good
+RP,Ringed Plover,40830,JAN-2019,0,Good
+RP,Ringed Plover,40830,FEB-2019,0,Poor
+CU,Curlew,42320,OCT-1999,45,Good
+CU,Curlew,42320,DEC-1999,92,Good
+CU,Curlew,42320,JAN-2000,21,Good
+CU,Curlew,42320,FEB-2000,73,Good
+CU,Curlew,42320,OCT-2000,135,Good
+CU,Curlew,42320,DEC-2000,12,Good
+CU,Curlew,42320,JAN-2001,80,Good
+CU,Curlew,42320,FEB-2001,53,Good
+CU,Curlew,42320,OCT-2001,85,Good
+CU,Curlew,42320,DEC-2001,62,Good
+CU,Curlew,42320,JAN-2002,90,Good
+CU,Curlew,42320,FEB-2002,76,Good
+CU,Curlew,42320,OCT-2002,133,Good
+CU,Curlew,42320,DEC-2002,52,Good
+CU,Curlew,42320,JAN-2003,142,Good
+CU,Curlew,42320,FEB-2003,110,Good
+CU,Curlew,42320,OCT-2003,120,Good
+CU,Curlew,42320,DEC-2003,75,Good
+CU,Curlew,42320,JAN-2004,37,Good
+CU,Curlew,42320,FEB-2004,57,Good
+CU,Curlew,42320,OCT-2004,85,Good
+CU,Curlew,42320,DEC-2004,85,Good
+CU,Curlew,42320,JAN-2005,194,Good
+CU,Curlew,42320,FEB-2005,90,Good
+CU,Curlew,42320,OCT-2005,180,Good
+CU,Curlew,42320,DEC-2005,45,Good
+CU,Curlew,42320,JAN-2006,225,Good
+CU,Curlew,42320,FEB-2006,85,Good
+CU,Curlew,42320,OCT-2006,130,Good
+CU,Curlew,42320,DEC-2006,55,Poor
+CU,Curlew,42320,JAN-2007,0,Good
+CU,Curlew,42320,FEB-2007,75,Poor
+CU,Curlew,42320,OCT-2007,195,Good
+CU,Curlew,42320,DEC-2007,145,Good
+CU,Curlew,42320,JAN-2008,42,Poor
+CU,Curlew,42320,FEB-2008,110,Good
+CU,Curlew,42320,OCT-2008,105,Poor
+CU,Curlew,42320,DEC-2008,42,Good
+CU,Curlew,42320,JAN-2009,223,Good
+CU,Curlew,42320,FEB-2009,112,Good
+CU,Curlew,42320,OCT-2009,85,Good
+CU,Curlew,42320,JAN-2010,80,Good
+CU,Curlew,42320,FEB-2010,85,Good
+CU,Curlew,42320,OCT-2010,70,Good
+CU,Curlew,42320,DEC-2010,85,Good
+CU,Curlew,42320,JAN-2011,60,Good
+CU,Curlew,42320,FEB-2011,65,Good
+CU,Curlew,42320,OCT-2011,75,Good
+CU,Curlew,42320,DEC-2011,85,Good
+CU,Curlew,42320,JAN-2012,127,Good
+CU,Curlew,42320,FEB-2012,120,Poor
+CU,Curlew,42320,JUN-2012,0,Good
+CU,Curlew,42320,OCT-2012,165,Good
+CU,Curlew,42320,DEC-2012,150,Poor
+CU,Curlew,42320,JAN-2013,95,Good
+CU,Curlew,42320,FEB-2013,155,Poor
+CU,Curlew,42320,OCT-2013,90,Good
+CU,Curlew,42320,DEC-2013,50,Poor
+CU,Curlew,42320,JAN-2014,80,Good
+CU,Curlew,42320,FEB-2014,90,Good
+CU,Curlew,42320,OCT-2014,45,Poor
+CU,Curlew,42320,DEC-2014,68,Good
+CU,Curlew,42320,JAN-2015,145,Good
+CU,Curlew,42320,FEB-2015,0,Good
+CU,Curlew,42320,OCT-2015,180,Good
+CU,Curlew,42320,DEC-2015,126,Good
+CU,Curlew,42320,JAN-2016,0,Good
+CU,Curlew,42320,FEB-2016,70,Good
+CU,Curlew,42320,OCT-2016,145,Good
+CU,Curlew,42320,DEC-2016,64,Good
+CU,Curlew,42320,JAN-2017,140,Good
+CU,Curlew,42320,FEB-2017,170,Good
+CU,Curlew,42320,OCT-2017,110,Good
+CU,Curlew,42320,DEC-2017,60,Good
+CU,Curlew,42320,JAN-2018,63,Poor
+CU,Curlew,42320,FEB-2018,85,Poor
+CU,Curlew,42320,OCT-2018,110,Good
+CU,Curlew,42320,DEC-2018,26,Good
+CU,Curlew,42320,JAN-2019,120,Good
+CU,Curlew,42320,FEB-2019,65,Poor
+BA,Bar-tailed Godwit,42370,OCT-1999,30,Good
+BA,Bar-tailed Godwit,42370,DEC-1999,26,Good
+BA,Bar-tailed Godwit,42370,JAN-2000,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2000,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2000,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2000,20,Good
+BA,Bar-tailed Godwit,42370,JAN-2001,50,Good
+BA,Bar-tailed Godwit,42370,FEB-2001,15,Good
+BA,Bar-tailed Godwit,42370,OCT-2001,60,Good
+BA,Bar-tailed Godwit,42370,DEC-2001,22,Good
+BA,Bar-tailed Godwit,42370,JAN-2002,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2002,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2002,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2002,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2003,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2003,20,Good
+BA,Bar-tailed Godwit,42370,OCT-2003,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2003,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2004,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2004,12,Good
+BA,Bar-tailed Godwit,42370,OCT-2004,70,Good
+BA,Bar-tailed Godwit,42370,DEC-2004,22,Good
+BA,Bar-tailed Godwit,42370,JAN-2005,30,Good
+BA,Bar-tailed Godwit,42370,FEB-2005,70,Good
+BA,Bar-tailed Godwit,42370,OCT-2005,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2005,40,Good
+BA,Bar-tailed Godwit,42370,JAN-2006,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2006,24,Good
+BA,Bar-tailed Godwit,42370,OCT-2006,40,Good
+BA,Bar-tailed Godwit,42370,DEC-2006,0,Poor
+BA,Bar-tailed Godwit,42370,JAN-2007,27,Good
+BA,Bar-tailed Godwit,42370,FEB-2007,56,Poor
+BA,Bar-tailed Godwit,42370,OCT-2007,75,Good
+BA,Bar-tailed Godwit,42370,DEC-2007,35,Good
+BA,Bar-tailed Godwit,42370,JAN-2008,20,Poor
+BA,Bar-tailed Godwit,42370,FEB-2008,35,Good
+BA,Bar-tailed Godwit,42370,OCT-2008,120,Poor
+BA,Bar-tailed Godwit,42370,DEC-2008,88,Good
+BA,Bar-tailed Godwit,42370,JAN-2009,12,Good
+BA,Bar-tailed Godwit,42370,FEB-2009,13,Good
+BA,Bar-tailed Godwit,42370,OCT-2009,52,Good
+BA,Bar-tailed Godwit,42370,JAN-2010,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2010,27,Good
+BA,Bar-tailed Godwit,42370,OCT-2010,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2010,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2011,25,Good
+BA,Bar-tailed Godwit,42370,FEB-2011,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2011,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2011,12,Good
+BA,Bar-tailed Godwit,42370,JAN-2012,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2012,55,Poor
+BA,Bar-tailed Godwit,42370,JUN-2012,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2012,40,Good
+BA,Bar-tailed Godwit,42370,DEC-2012,40,Poor
+BA,Bar-tailed Godwit,42370,JAN-2013,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2013,7,Poor
+BA,Bar-tailed Godwit,42370,OCT-2013,80,Good
+BA,Bar-tailed Godwit,42370,DEC-2013,0,Poor
+BA,Bar-tailed Godwit,42370,JAN-2014,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2014,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2014,20,Poor
+BA,Bar-tailed Godwit,42370,DEC-2014,35,Good
+BA,Bar-tailed Godwit,42370,JAN-2015,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2015,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2015,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2015,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2016,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2016,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2016,35,Good
+BA,Bar-tailed Godwit,42370,DEC-2016,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2017,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2017,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2017,25,Good
+BA,Bar-tailed Godwit,42370,DEC-2017,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2018,0,Poor
+BA,Bar-tailed Godwit,42370,FEB-2018,35,Poor
+BA,Bar-tailed Godwit,42370,OCT-2018,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2018,8,Good
+BA,Bar-tailed Godwit,42370,JAN-2019,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2019,0,Poor
+BW,Black-tailed Godwit,42420,OCT-1999,0,Good
+BW,Black-tailed Godwit,42420,DEC-1999,0,Good
+BW,Black-tailed Godwit,42420,JAN-2000,0,Good
+BW,Black-tailed Godwit,42420,FEB-2000,0,Good
+BW,Black-tailed Godwit,42420,OCT-2000,0,Good
+BW,Black-tailed Godwit,42420,DEC-2000,0,Good
+BW,Black-tailed Godwit,42420,JAN-2001,0,Good
+BW,Black-tailed Godwit,42420,FEB-2001,0,Good
+BW,Black-tailed Godwit,42420,OCT-2001,0,Good
+BW,Black-tailed Godwit,42420,DEC-2001,0,Good
+BW,Black-tailed Godwit,42420,JAN-2002,0,Good
+BW,Black-tailed Godwit,42420,FEB-2002,0,Good
+BW,Black-tailed Godwit,42420,OCT-2002,0,Good
+BW,Black-tailed Godwit,42420,DEC-2002,0,Good
+BW,Black-tailed Godwit,42420,JAN-2003,0,Good
+BW,Black-tailed Godwit,42420,FEB-2003,0,Good
+BW,Black-tailed Godwit,42420,OCT-2003,0,Good
+BW,Black-tailed Godwit,42420,DEC-2003,0,Good
+BW,Black-tailed Godwit,42420,JAN-2004,0,Good
+BW,Black-tailed Godwit,42420,FEB-2004,0,Good
+BW,Black-tailed Godwit,42420,OCT-2004,0,Good
+BW,Black-tailed Godwit,42420,DEC-2004,0,Good
+BW,Black-tailed Godwit,42420,JAN-2005,0,Good
+BW,Black-tailed Godwit,42420,FEB-2005,0,Good
+BW,Black-tailed Godwit,42420,OCT-2005,0,Good
+BW,Black-tailed Godwit,42420,DEC-2005,0,Good
+BW,Black-tailed Godwit,42420,JAN-2006,0,Good
+BW,Black-tailed Godwit,42420,FEB-2006,0,Good
+BW,Black-tailed Godwit,42420,OCT-2006,0,Good
+BW,Black-tailed Godwit,42420,DEC-2006,0,Poor
+BW,Black-tailed Godwit,42420,JAN-2007,5,Good
+BW,Black-tailed Godwit,42420,FEB-2007,0,Poor
+BW,Black-tailed Godwit,42420,OCT-2007,2,Good
+BW,Black-tailed Godwit,42420,DEC-2007,5,Good
+BW,Black-tailed Godwit,42420,JAN-2008,0,Poor
+BW,Black-tailed Godwit,42420,FEB-2008,0,Good
+BW,Black-tailed Godwit,42420,OCT-2008,11,Poor
+BW,Black-tailed Godwit,42420,DEC-2008,17,Good
+BW,Black-tailed Godwit,42420,JAN-2009,0,Good
+BW,Black-tailed Godwit,42420,FEB-2009,0,Good
+BW,Black-tailed Godwit,42420,OCT-2009,0,Good
+BW,Black-tailed Godwit,42420,JAN-2010,0,Good
+BW,Black-tailed Godwit,42420,FEB-2010,0,Good
+BW,Black-tailed Godwit,42420,OCT-2010,0,Good
+BW,Black-tailed Godwit,42420,DEC-2010,0,Good
+BW,Black-tailed Godwit,42420,JAN-2011,0,Good
+BW,Black-tailed Godwit,42420,FEB-2011,0,Good
+BW,Black-tailed Godwit,42420,OCT-2011,0,Good
+BW,Black-tailed Godwit,42420,DEC-2011,0,Good
+BW,Black-tailed Godwit,42420,JAN-2012,0,Good
+BW,Black-tailed Godwit,42420,FEB-2012,0,Poor
+BW,Black-tailed Godwit,42420,JUN-2012,0,Good
+BW,Black-tailed Godwit,42420,OCT-2012,0,Good
+BW,Black-tailed Godwit,42420,DEC-2012,0,Poor
+BW,Black-tailed Godwit,42420,JAN-2013,0,Good
+BW,Black-tailed Godwit,42420,FEB-2013,0,Poor
+BW,Black-tailed Godwit,42420,OCT-2013,0,Good
+BW,Black-tailed Godwit,42420,DEC-2013,0,Poor
+BW,Black-tailed Godwit,42420,JAN-2014,0,Good
+BW,Black-tailed Godwit,42420,FEB-2014,0,Good
+BW,Black-tailed Godwit,42420,OCT-2014,0,Poor
+BW,Black-tailed Godwit,42420,DEC-2014,0,Good
+BW,Black-tailed Godwit,42420,JAN-2015,0,Good
+BW,Black-tailed Godwit,42420,FEB-2015,0,Good
+BW,Black-tailed Godwit,42420,OCT-2015,0,Good
+BW,Black-tailed Godwit,42420,DEC-2015,0,Good
+BW,Black-tailed Godwit,42420,JAN-2016,0,Good
+BW,Black-tailed Godwit,42420,FEB-2016,0,Good
+BW,Black-tailed Godwit,42420,OCT-2016,0,Good
+BW,Black-tailed Godwit,42420,DEC-2016,0,Good
+BW,Black-tailed Godwit,42420,JAN-2017,0,Good
+BW,Black-tailed Godwit,42420,FEB-2017,0,Good
+BW,Black-tailed Godwit,42420,OCT-2017,0,Good
+BW,Black-tailed Godwit,42420,DEC-2017,0,Good
+BW,Black-tailed Godwit,42420,JAN-2018,0,Poor
+BW,Black-tailed Godwit,42420,FEB-2018,0,Poor
+BW,Black-tailed Godwit,42420,OCT-2018,0,Good
+BW,Black-tailed Godwit,42420,DEC-2018,0,Good
+BW,Black-tailed Godwit,42420,JAN-2019,0,Good
+BW,Black-tailed Godwit,42420,FEB-2019,0,Poor
+KN,Knot,42620,OCT-1999,0,Good
+KN,Knot,42620,DEC-1999,0,Good
+KN,Knot,42620,JAN-2000,0,Good
+KN,Knot,42620,FEB-2000,40,Good
+KN,Knot,42620,OCT-2000,0,Good
+KN,Knot,42620,DEC-2000,80,Good
+KN,Knot,42620,JAN-2001,500,Good
+KN,Knot,42620,FEB-2001,250,Good
+KN,Knot,42620,OCT-2001,0,Good
+KN,Knot,42620,DEC-2001,0,Good
+KN,Knot,42620,JAN-2002,250,Good
+KN,Knot,42620,FEB-2002,0,Good
+KN,Knot,42620,OCT-2002,0,Good
+KN,Knot,42620,DEC-2002,260,Good
+KN,Knot,42620,JAN-2003,127,Good
+KN,Knot,42620,FEB-2003,0,Good
+KN,Knot,42620,OCT-2003,0,Good
+KN,Knot,42620,DEC-2003,150,Good
+KN,Knot,42620,JAN-2004,0,Good
+KN,Knot,42620,FEB-2004,0,Good
+KN,Knot,42620,OCT-2004,40,Good
+KN,Knot,42620,DEC-2004,150,Good
+KN,Knot,42620,JAN-2005,350,Good
+KN,Knot,42620,FEB-2005,150,Good
+KN,Knot,42620,OCT-2005,0,Good
+KN,Knot,42620,DEC-2005,50,Good
+KN,Knot,42620,JAN-2006,0,Good
+KN,Knot,42620,FEB-2006,0,Good
+KN,Knot,42620,OCT-2006,70,Good
+KN,Knot,42620,DEC-2006,0,Poor
+KN,Knot,42620,JAN-2007,0,Good
+KN,Knot,42620,FEB-2007,80,Poor
+KN,Knot,42620,OCT-2007,0,Good
+KN,Knot,42620,DEC-2007,850,Good
+KN,Knot,42620,JAN-2008,850,Poor
+KN,Knot,42620,FEB-2008,400,Good
+KN,Knot,42620,OCT-2008,150,Poor
+KN,Knot,42620,DEC-2008,520,Good
+KN,Knot,42620,JAN-2009,850,Good
+KN,Knot,42620,FEB-2009,450,Good
+KN,Knot,42620,OCT-2009,0,Good
+KN,Knot,42620,JAN-2010,200,Good
+KN,Knot,42620,FEB-2010,320,Good
+KN,Knot,42620,OCT-2010,300,Good
+KN,Knot,42620,DEC-2010,250,Good
+KN,Knot,42620,JAN-2011,250,Good
+KN,Knot,42620,FEB-2011,350,Good
+KN,Knot,42620,OCT-2011,0,Good
+KN,Knot,42620,DEC-2011,0,Good
+KN,Knot,42620,JAN-2012,0,Good
+KN,Knot,42620,FEB-2012,60,Poor
+KN,Knot,42620,JUN-2012,0,Good
+KN,Knot,42620,OCT-2012,0,Good
+KN,Knot,42620,DEC-2012,200,Poor
+KN,Knot,42620,JAN-2013,0,Good
+KN,Knot,42620,FEB-2013,0,Poor
+KN,Knot,42620,OCT-2013,0,Good
+KN,Knot,42620,DEC-2013,250,Poor
+KN,Knot,42620,JAN-2014,0,Good
+KN,Knot,42620,FEB-2014,0,Good
+KN,Knot,42620,OCT-2014,0,Poor
+KN,Knot,42620,DEC-2014,220,Good
+KN,Knot,42620,JAN-2015,130,Good
+KN,Knot,42620,FEB-2015,350,Good
+KN,Knot,42620,OCT-2015,0,Good
+KN,Knot,42620,DEC-2015,50,Good
+KN,Knot,42620,JAN-2016,170,Good
+KN,Knot,42620,FEB-2016,180,Good
+KN,Knot,42620,OCT-2016,150,Good
+KN,Knot,42620,DEC-2016,50,Good
+KN,Knot,42620,JAN-2017,170,Good
+KN,Knot,42620,FEB-2017,180,Good
+KN,Knot,42620,OCT-2017,0,Good
+KN,Knot,42620,DEC-2017,0,Good
+KN,Knot,42620,JAN-2018,180,Poor
+KN,Knot,42620,FEB-2018,230,Poor
+KN,Knot,42620,OCT-2018,0,Good
+KN,Knot,42620,DEC-2018,0,Good
+KN,Knot,42620,JAN-2019,180,Good
+KN,Knot,42620,FEB-2019,0,Poor
+RU,Ruff,42700,OCT-1999,0,Good
+RU,Ruff,42700,DEC-1999,0,Good
+RU,Ruff,42700,JAN-2000,0,Good
+RU,Ruff,42700,FEB-2000,0,Good
+RU,Ruff,42700,OCT-2000,0,Good
+RU,Ruff,42700,DEC-2000,0,Good
+RU,Ruff,42700,JAN-2001,0,Good
+RU,Ruff,42700,FEB-2001,0,Good
+RU,Ruff,42700,OCT-2001,0,Good
+RU,Ruff,42700,DEC-2001,0,Good
+RU,Ruff,42700,JAN-2002,0,Good
+RU,Ruff,42700,FEB-2002,0,Good
+RU,Ruff,42700,OCT-2002,0,Good
+RU,Ruff,42700,DEC-2002,0,Good
+RU,Ruff,42700,JAN-2003,0,Good
+RU,Ruff,42700,FEB-2003,0,Good
+RU,Ruff,42700,OCT-2003,0,Good
+RU,Ruff,42700,DEC-2003,0,Good
+RU,Ruff,42700,JAN-2004,0,Good
+RU,Ruff,42700,FEB-2004,0,Good
+RU,Ruff,42700,OCT-2004,0,Good
+RU,Ruff,42700,DEC-2004,0,Good
+RU,Ruff,42700,JAN-2005,0,Good
+RU,Ruff,42700,FEB-2005,0,Good
+RU,Ruff,42700,OCT-2005,0,Good
+RU,Ruff,42700,DEC-2005,0,Good
+RU,Ruff,42700,JAN-2006,0,Good
+RU,Ruff,42700,FEB-2006,0,Good
+RU,Ruff,42700,OCT-2006,0,Good
+RU,Ruff,42700,DEC-2006,0,Poor
+RU,Ruff,42700,JAN-2007,0,Good
+RU,Ruff,42700,FEB-2007,0,Poor
+RU,Ruff,42700,OCT-2007,0,Good
+RU,Ruff,42700,DEC-2007,0,Good
+RU,Ruff,42700,JAN-2008,0,Poor
+RU,Ruff,42700,FEB-2008,0,Good
+RU,Ruff,42700,OCT-2008,0,Poor
+RU,Ruff,42700,DEC-2008,0,Good
+RU,Ruff,42700,JAN-2009,0,Good
+RU,Ruff,42700,FEB-2009,0,Good
+RU,Ruff,42700,OCT-2009,0,Good
+RU,Ruff,42700,JAN-2010,0,Good
+RU,Ruff,42700,FEB-2010,0,Good
+RU,Ruff,42700,OCT-2010,0,Good
+RU,Ruff,42700,DEC-2010,0,Good
+RU,Ruff,42700,JAN-2011,0,Good
+RU,Ruff,42700,FEB-2011,0,Good
+RU,Ruff,42700,OCT-2011,0,Good
+RU,Ruff,42700,DEC-2011,0,Good
+RU,Ruff,42700,JAN-2012,0,Good
+RU,Ruff,42700,FEB-2012,0,Poor
+RU,Ruff,42700,JUN-2012,0,Good
+RU,Ruff,42700,OCT-2012,0,Good
+RU,Ruff,42700,DEC-2012,0,Poor
+RU,Ruff,42700,JAN-2013,0,Good
+RU,Ruff,42700,FEB-2013,0,Poor
+RU,Ruff,42700,OCT-2013,0,Good
+RU,Ruff,42700,DEC-2013,0,Poor
+RU,Ruff,42700,JAN-2014,0,Good
+RU,Ruff,42700,FEB-2014,0,Good
+RU,Ruff,42700,OCT-2014,0,Poor
+RU,Ruff,42700,DEC-2014,0,Good
+RU,Ruff,42700,JAN-2015,0,Good
+RU,Ruff,42700,FEB-2015,0,Good
+RU,Ruff,42700,OCT-2015,0,Good
+RU,Ruff,42700,DEC-2015,0,Good
+RU,Ruff,42700,JAN-2016,0,Good
+RU,Ruff,42700,FEB-2016,0,Good
+RU,Ruff,42700,OCT-2016,0,Good
+RU,Ruff,42700,DEC-2016,0,Good
+RU,Ruff,42700,JAN-2017,0,Good
+RU,Ruff,42700,FEB-2017,0,Good
+RU,Ruff,42700,OCT-2017,0,Good
+RU,Ruff,42700,DEC-2017,0,Good
+RU,Ruff,42700,JAN-2018,0,Poor
+RU,Ruff,42700,FEB-2018,0,Poor
+RU,Ruff,42700,OCT-2018,0,Good
+RU,Ruff,42700,DEC-2018,0,Good
+RU,Ruff,42700,JAN-2019,0,Good
+RU,Ruff,42700,FEB-2019,0,Poor
+DN,Dunlin,42840,OCT-1999,0,Good
+DN,Dunlin,42840,DEC-1999,230,Good
+DN,Dunlin,42840,JAN-2000,30,Good
+DN,Dunlin,42840,FEB-2000,0,Good
+DN,Dunlin,42840,OCT-2000,0,Good
+DN,Dunlin,42840,DEC-2000,0,Good
+DN,Dunlin,42840,JAN-2001,60,Good
+DN,Dunlin,42840,FEB-2001,150,Good
+DN,Dunlin,42840,OCT-2001,0,Good
+DN,Dunlin,42840,DEC-2001,150,Good
+DN,Dunlin,42840,JAN-2002,200,Good
+DN,Dunlin,42840,FEB-2002,0,Good
+DN,Dunlin,42840,OCT-2002,0,Good
+DN,Dunlin,42840,DEC-2002,0,Good
+DN,Dunlin,42840,JAN-2003,0,Good
+DN,Dunlin,42840,FEB-2003,0,Good
+DN,Dunlin,42840,OCT-2003,0,Good
+DN,Dunlin,42840,DEC-2003,30,Good
+DN,Dunlin,42840,JAN-2004,0,Good
+DN,Dunlin,42840,FEB-2004,0,Good
+DN,Dunlin,42840,OCT-2004,0,Good
+DN,Dunlin,42840,DEC-2004,0,Good
+DN,Dunlin,42840,JAN-2005,0,Good
+DN,Dunlin,42840,FEB-2005,60,Good
+DN,Dunlin,42840,OCT-2005,0,Good
+DN,Dunlin,42840,DEC-2005,350,Good
+DN,Dunlin,42840,JAN-2006,0,Good
+DN,Dunlin,42840,FEB-2006,130,Good
+DN,Dunlin,42840,OCT-2006,60,Good
+DN,Dunlin,42840,DEC-2006,0,Poor
+DN,Dunlin,42840,JAN-2007,0,Good
+DN,Dunlin,42840,FEB-2007,60,Poor
+DN,Dunlin,42840,OCT-2007,50,Good
+DN,Dunlin,42840,DEC-2007,220,Good
+DN,Dunlin,42840,JAN-2008,150,Poor
+DN,Dunlin,42840,FEB-2008,50,Good
+DN,Dunlin,42840,OCT-2008,0,Poor
+DN,Dunlin,42840,DEC-2008,170,Good
+DN,Dunlin,42840,JAN-2009,120,Good
+DN,Dunlin,42840,FEB-2009,110,Good
+DN,Dunlin,42840,OCT-2009,0,Good
+DN,Dunlin,42840,JAN-2010,150,Good
+DN,Dunlin,42840,FEB-2010,70,Good
+DN,Dunlin,42840,OCT-2010,0,Good
+DN,Dunlin,42840,DEC-2010,60,Good
+DN,Dunlin,42840,JAN-2011,0,Good
+DN,Dunlin,42840,FEB-2011,40,Good
+DN,Dunlin,42840,OCT-2011,0,Good
+DN,Dunlin,42840,DEC-2011,60,Good
+DN,Dunlin,42840,JAN-2012,40,Good
+DN,Dunlin,42840,FEB-2012,60,Poor
+DN,Dunlin,42840,JUN-2012,0,Good
+DN,Dunlin,42840,OCT-2012,0,Good
+DN,Dunlin,42840,DEC-2012,0,Poor
+DN,Dunlin,42840,JAN-2013,0,Good
+DN,Dunlin,42840,FEB-2013,30,Poor
+DN,Dunlin,42840,OCT-2013,60,Good
+DN,Dunlin,42840,DEC-2013,60,Poor
+DN,Dunlin,42840,JAN-2014,30,Good
+DN,Dunlin,42840,FEB-2014,0,Good
+DN,Dunlin,42840,OCT-2014,0,Poor
+DN,Dunlin,42840,DEC-2014,60,Good
+DN,Dunlin,42840,JAN-2015,0,Good
+DN,Dunlin,42840,FEB-2015,30,Good
+DN,Dunlin,42840,OCT-2015,0,Good
+DN,Dunlin,42840,DEC-2015,40,Good
+DN,Dunlin,42840,JAN-2016,105,Good
+DN,Dunlin,42840,FEB-2016,65,Good
+DN,Dunlin,42840,OCT-2016,40,Good
+DN,Dunlin,42840,DEC-2016,100,Good
+DN,Dunlin,42840,JAN-2017,50,Good
+DN,Dunlin,42840,FEB-2017,50,Good
+DN,Dunlin,42840,OCT-2017,0,Good
+DN,Dunlin,42840,DEC-2017,0,Good
+DN,Dunlin,42840,JAN-2018,0,Poor
+DN,Dunlin,42840,FEB-2018,0,Poor
+DN,Dunlin,42840,OCT-2018,0,Good
+DN,Dunlin,42840,DEC-2018,5,Good
+DN,Dunlin,42840,JAN-2019,50,Good
+DN,Dunlin,42840,FEB-2019,0,Poor
+SN,Snipe,43540,OCT-1999,0,Good
+SN,Snipe,43540,DEC-1999,0,Good
+SN,Snipe,43540,JAN-2000,0,Good
+SN,Snipe,43540,FEB-2000,0,Good
+SN,Snipe,43540,OCT-2000,0,Good
+SN,Snipe,43540,DEC-2000,0,Good
+SN,Snipe,43540,JAN-2001,0,Good
+SN,Snipe,43540,FEB-2001,0,Good
+SN,Snipe,43540,OCT-2001,0,Good
+SN,Snipe,43540,DEC-2001,0,Good
+SN,Snipe,43540,JAN-2002,0,Good
+SN,Snipe,43540,FEB-2002,0,Good
+SN,Snipe,43540,OCT-2002,0,Good
+SN,Snipe,43540,DEC-2002,0,Good
+SN,Snipe,43540,JAN-2003,0,Good
+SN,Snipe,43540,FEB-2003,0,Good
+SN,Snipe,43540,OCT-2003,0,Good
+SN,Snipe,43540,DEC-2003,0,Good
+SN,Snipe,43540,JAN-2004,0,Good
+SN,Snipe,43540,FEB-2004,0,Good
+SN,Snipe,43540,OCT-2004,0,Good
+SN,Snipe,43540,DEC-2004,0,Good
+SN,Snipe,43540,JAN-2005,0,Good
+SN,Snipe,43540,FEB-2005,0,Good
+SN,Snipe,43540,OCT-2005,0,Good
+SN,Snipe,43540,DEC-2005,2,Good
+SN,Snipe,43540,JAN-2006,0,Good
+SN,Snipe,43540,FEB-2006,0,Good
+SN,Snipe,43540,OCT-2006,0,Good
+SN,Snipe,43540,DEC-2006,0,Poor
+SN,Snipe,43540,JAN-2007,0,Good
+SN,Snipe,43540,FEB-2007,0,Poor
+SN,Snipe,43540,OCT-2007,0,Good
+SN,Snipe,43540,DEC-2007,0,Good
+SN,Snipe,43540,JAN-2008,0,Poor
+SN,Snipe,43540,FEB-2008,0,Good
+SN,Snipe,43540,OCT-2008,0,Poor
+SN,Snipe,43540,DEC-2008,0,Good
+SN,Snipe,43540,JAN-2009,0,Good
+SN,Snipe,43540,FEB-2009,0,Good
+SN,Snipe,43540,OCT-2009,0,Good
+SN,Snipe,43540,JAN-2010,0,Good
+SN,Snipe,43540,FEB-2010,0,Good
+SN,Snipe,43540,OCT-2010,0,Good
+SN,Snipe,43540,DEC-2010,0,Good
+SN,Snipe,43540,JAN-2011,0,Good
+SN,Snipe,43540,FEB-2011,0,Good
+SN,Snipe,43540,OCT-2011,0,Good
+SN,Snipe,43540,DEC-2011,0,Good
+SN,Snipe,43540,JAN-2012,0,Good
+SN,Snipe,43540,FEB-2012,0,Poor
+SN,Snipe,43540,JUN-2012,0,Good
+SN,Snipe,43540,OCT-2012,0,Good
+SN,Snipe,43540,DEC-2012,0,Poor
+SN,Snipe,43540,JAN-2013,0,Good
+SN,Snipe,43540,FEB-2013,0,Poor
+SN,Snipe,43540,OCT-2013,0,Good
+SN,Snipe,43540,DEC-2013,0,Poor
+SN,Snipe,43540,JAN-2014,0,Good
+SN,Snipe,43540,FEB-2014,0,Good
+SN,Snipe,43540,OCT-2014,0,Poor
+SN,Snipe,43540,DEC-2014,0,Good
+SN,Snipe,43540,JAN-2015,0,Good
+SN,Snipe,43540,FEB-2015,0,Good
+SN,Snipe,43540,OCT-2015,0,Good
+SN,Snipe,43540,DEC-2015,0,Good
+SN,Snipe,43540,JAN-2016,0,Good
+SN,Snipe,43540,FEB-2016,0,Good
+SN,Snipe,43540,OCT-2016,0,Good
+SN,Snipe,43540,DEC-2016,0,Good
+SN,Snipe,43540,JAN-2017,0,Good
+SN,Snipe,43540,FEB-2017,0,Good
+SN,Snipe,43540,OCT-2017,0,Good
+SN,Snipe,43540,DEC-2017,0,Good
+SN,Snipe,43540,JAN-2018,0,Poor
+SN,Snipe,43540,FEB-2018,0,Poor
+SN,Snipe,43540,OCT-2018,0,Good
+SN,Snipe,43540,DEC-2018,0,Good
+SN,Snipe,43540,JAN-2019,0,Good
+SN,Snipe,43540,FEB-2019,0,Poor
+RK,Redshank,43920,OCT-1999,285,Good
+RK,Redshank,43920,DEC-1999,270,Good
+RK,Redshank,43920,JAN-2000,560,Good
+RK,Redshank,43920,FEB-2000,160,Good
+RK,Redshank,43920,OCT-2000,125,Good
+RK,Redshank,43920,DEC-2000,380,Good
+RK,Redshank,43920,JAN-2001,150,Good
+RK,Redshank,43920,FEB-2001,125,Good
+RK,Redshank,43920,OCT-2001,120,Good
+RK,Redshank,43920,DEC-2001,360,Good
+RK,Redshank,43920,JAN-2002,470,Good
+RK,Redshank,43920,FEB-2002,30,Good
+RK,Redshank,43920,OCT-2002,360,Good
+RK,Redshank,43920,DEC-2002,300,Good
+RK,Redshank,43920,JAN-2003,128,Good
+RK,Redshank,43920,FEB-2003,48,Good
+RK,Redshank,43920,OCT-2003,130,Good
+RK,Redshank,43920,DEC-2003,230,Good
+RK,Redshank,43920,JAN-2004,70,Good
+RK,Redshank,43920,FEB-2004,21,Good
+RK,Redshank,43920,OCT-2004,110,Good
+RK,Redshank,43920,DEC-2004,210,Good
+RK,Redshank,43920,JAN-2005,180,Good
+RK,Redshank,43920,FEB-2005,110,Good
+RK,Redshank,43920,OCT-2005,65,Good
+RK,Redshank,43920,DEC-2005,250,Good
+RK,Redshank,43920,JAN-2006,85,Good
+RK,Redshank,43920,FEB-2006,240,Good
+RK,Redshank,43920,OCT-2006,10,Good
+RK,Redshank,43920,DEC-2006,0,Poor
+RK,Redshank,43920,JAN-2007,0,Good
+RK,Redshank,43920,FEB-2007,120,Poor
+RK,Redshank,43920,OCT-2007,130,Good
+RK,Redshank,43920,DEC-2007,65,Good
+RK,Redshank,43920,JAN-2008,40,Poor
+RK,Redshank,43920,FEB-2008,85,Good
+RK,Redshank,43920,OCT-2008,0,Poor
+RK,Redshank,43920,DEC-2008,45,Good
+RK,Redshank,43920,JAN-2009,70,Good
+RK,Redshank,43920,FEB-2009,340,Good
+RK,Redshank,43920,OCT-2009,26,Good
+RK,Redshank,43920,JAN-2010,95,Good
+RK,Redshank,43920,FEB-2010,180,Good
+RK,Redshank,43920,OCT-2010,250,Good
+RK,Redshank,43920,DEC-2010,80,Good
+RK,Redshank,43920,JAN-2011,150,Good
+RK,Redshank,43920,FEB-2011,120,Good
+RK,Redshank,43920,OCT-2011,25,Good
+RK,Redshank,43920,DEC-2011,120,Good
+RK,Redshank,43920,JAN-2012,70,Good
+RK,Redshank,43920,FEB-2012,65,Poor
+RK,Redshank,43920,JUN-2012,0,Good
+RK,Redshank,43920,OCT-2012,25,Good
+RK,Redshank,43920,DEC-2012,140,Poor
+RK,Redshank,43920,JAN-2013,3,Good
+RK,Redshank,43920,FEB-2013,75,Poor
+RK,Redshank,43920,OCT-2013,50,Good
+RK,Redshank,43920,DEC-2013,45,Poor
+RK,Redshank,43920,JAN-2014,45,Good
+RK,Redshank,43920,FEB-2014,70,Good
+RK,Redshank,43920,OCT-2014,0,Poor
+RK,Redshank,43920,DEC-2014,130,Good
+RK,Redshank,43920,JAN-2015,85,Good
+RK,Redshank,43920,FEB-2015,210,Good
+RK,Redshank,43920,OCT-2015,170,Good
+RK,Redshank,43920,DEC-2015,85,Good
+RK,Redshank,43920,JAN-2016,180,Good
+RK,Redshank,43920,FEB-2016,210,Good
+RK,Redshank,43920,OCT-2016,125,Good
+RK,Redshank,43920,DEC-2016,140,Good
+RK,Redshank,43920,JAN-2017,135,Good
+RK,Redshank,43920,FEB-2017,110,Good
+RK,Redshank,43920,OCT-2017,120,Good
+RK,Redshank,43920,DEC-2017,0,Good
+RK,Redshank,43920,JAN-2018,110,Poor
+RK,Redshank,43920,FEB-2018,60,Poor
+RK,Redshank,43920,OCT-2018,0,Good
+RK,Redshank,43920,DEC-2018,60,Good
+RK,Redshank,43920,JAN-2019,220,Good
+RK,Redshank,43920,FEB-2019,45,Poor
+DR,Spotted Redshank,44010,OCT-1999,1,Good
+DR,Spotted Redshank,44010,DEC-1999,0,Good
+DR,Spotted Redshank,44010,JAN-2000,0,Good
+DR,Spotted Redshank,44010,FEB-2000,0,Good
+DR,Spotted Redshank,44010,OCT-2000,0,Good
+DR,Spotted Redshank,44010,DEC-2000,0,Good
+DR,Spotted Redshank,44010,JAN-2001,0,Good
+DR,Spotted Redshank,44010,FEB-2001,0,Good
+DR,Spotted Redshank,44010,OCT-2001,0,Good
+DR,Spotted Redshank,44010,DEC-2001,0,Good
+DR,Spotted Redshank,44010,JAN-2002,0,Good
+DR,Spotted Redshank,44010,FEB-2002,0,Good
+DR,Spotted Redshank,44010,OCT-2002,0,Good
+DR,Spotted Redshank,44010,DEC-2002,0,Good
+DR,Spotted Redshank,44010,JAN-2003,0,Good
+DR,Spotted Redshank,44010,FEB-2003,0,Good
+DR,Spotted Redshank,44010,OCT-2003,0,Good
+DR,Spotted Redshank,44010,DEC-2003,0,Good
+DR,Spotted Redshank,44010,JAN-2004,0,Good
+DR,Spotted Redshank,44010,FEB-2004,0,Good
+DR,Spotted Redshank,44010,OCT-2004,0,Good
+DR,Spotted Redshank,44010,DEC-2004,0,Good
+DR,Spotted Redshank,44010,JAN-2005,0,Good
+DR,Spotted Redshank,44010,FEB-2005,0,Good
+DR,Spotted Redshank,44010,OCT-2005,0,Good
+DR,Spotted Redshank,44010,DEC-2005,0,Good
+DR,Spotted Redshank,44010,JAN-2006,0,Good
+DR,Spotted Redshank,44010,FEB-2006,0,Good
+DR,Spotted Redshank,44010,OCT-2006,0,Good
+DR,Spotted Redshank,44010,DEC-2006,0,Poor
+DR,Spotted Redshank,44010,JAN-2007,0,Good
+DR,Spotted Redshank,44010,FEB-2007,0,Poor
+DR,Spotted Redshank,44010,OCT-2007,0,Good
+DR,Spotted Redshank,44010,DEC-2007,0,Good
+DR,Spotted Redshank,44010,JAN-2008,0,Poor
+DR,Spotted Redshank,44010,FEB-2008,0,Good
+DR,Spotted Redshank,44010,OCT-2008,0,Poor
+DR,Spotted Redshank,44010,DEC-2008,0,Good
+DR,Spotted Redshank,44010,JAN-2009,0,Good
+DR,Spotted Redshank,44010,FEB-2009,0,Good
+DR,Spotted Redshank,44010,OCT-2009,0,Good
+DR,Spotted Redshank,44010,JAN-2010,0,Good
+DR,Spotted Redshank,44010,FEB-2010,0,Good
+DR,Spotted Redshank,44010,OCT-2010,0,Good
+DR,Spotted Redshank,44010,DEC-2010,0,Good
+DR,Spotted Redshank,44010,JAN-2011,0,Good
+DR,Spotted Redshank,44010,FEB-2011,0,Good
+DR,Spotted Redshank,44010,OCT-2011,0,Good
+DR,Spotted Redshank,44010,DEC-2011,0,Good
+DR,Spotted Redshank,44010,JAN-2012,0,Good
+DR,Spotted Redshank,44010,FEB-2012,0,Poor
+DR,Spotted Redshank,44010,JUN-2012,0,Good
+DR,Spotted Redshank,44010,OCT-2012,0,Good
+DR,Spotted Redshank,44010,DEC-2012,0,Poor
+DR,Spotted Redshank,44010,JAN-2013,0,Good
+DR,Spotted Redshank,44010,FEB-2013,0,Poor
+DR,Spotted Redshank,44010,OCT-2013,0,Good
+DR,Spotted Redshank,44010,DEC-2013,0,Poor
+DR,Spotted Redshank,44010,JAN-2014,0,Good
+DR,Spotted Redshank,44010,FEB-2014,0,Good
+DR,Spotted Redshank,44010,OCT-2014,0,Poor
+DR,Spotted Redshank,44010,DEC-2014,0,Good
+DR,Spotted Redshank,44010,JAN-2015,0,Good
+DR,Spotted Redshank,44010,FEB-2015,0,Good
+DR,Spotted Redshank,44010,OCT-2015,0,Good
+DR,Spotted Redshank,44010,DEC-2015,0,Good
+DR,Spotted Redshank,44010,JAN-2016,0,Good
+DR,Spotted Redshank,44010,FEB-2016,0,Good
+DR,Spotted Redshank,44010,OCT-2016,0,Good
+DR,Spotted Redshank,44010,DEC-2016,0,Good
+DR,Spotted Redshank,44010,JAN-2017,0,Good
+DR,Spotted Redshank,44010,FEB-2017,0,Good
+DR,Spotted Redshank,44010,OCT-2017,0,Good
+DR,Spotted Redshank,44010,DEC-2017,0,Good
+DR,Spotted Redshank,44010,JAN-2018,0,Poor
+DR,Spotted Redshank,44010,FEB-2018,0,Poor
+DR,Spotted Redshank,44010,OCT-2018,0,Good
+DR,Spotted Redshank,44010,DEC-2018,0,Good
+DR,Spotted Redshank,44010,JAN-2019,0,Good
+DR,Spotted Redshank,44010,FEB-2019,0,Poor
+GK,Greenshank,44020,OCT-1999,7,Good
+GK,Greenshank,44020,DEC-1999,0,Good
+GK,Greenshank,44020,JAN-2000,0,Good
+GK,Greenshank,44020,FEB-2000,0,Good
+GK,Greenshank,44020,OCT-2000,0,Good
+GK,Greenshank,44020,DEC-2000,0,Good
+GK,Greenshank,44020,JAN-2001,0,Good
+GK,Greenshank,44020,FEB-2001,0,Good
+GK,Greenshank,44020,OCT-2001,0,Good
+GK,Greenshank,44020,DEC-2001,0,Good
+GK,Greenshank,44020,JAN-2002,0,Good
+GK,Greenshank,44020,FEB-2002,0,Good
+GK,Greenshank,44020,OCT-2002,0,Good
+GK,Greenshank,44020,DEC-2002,0,Good
+GK,Greenshank,44020,JAN-2003,0,Good
+GK,Greenshank,44020,FEB-2003,0,Good
+GK,Greenshank,44020,OCT-2003,0,Good
+GK,Greenshank,44020,DEC-2003,0,Good
+GK,Greenshank,44020,JAN-2004,0,Good
+GK,Greenshank,44020,FEB-2004,0,Good
+GK,Greenshank,44020,OCT-2004,0,Good
+GK,Greenshank,44020,DEC-2004,0,Good
+GK,Greenshank,44020,JAN-2005,0,Good
+GK,Greenshank,44020,FEB-2005,0,Good
+GK,Greenshank,44020,OCT-2005,0,Good
+GK,Greenshank,44020,DEC-2005,0,Good
+GK,Greenshank,44020,JAN-2006,0,Good
+GK,Greenshank,44020,FEB-2006,0,Good
+GK,Greenshank,44020,OCT-2006,0,Good
+GK,Greenshank,44020,DEC-2006,0,Poor
+GK,Greenshank,44020,JAN-2007,0,Good
+GK,Greenshank,44020,FEB-2007,0,Poor
+GK,Greenshank,44020,OCT-2007,0,Good
+GK,Greenshank,44020,DEC-2007,0,Good
+GK,Greenshank,44020,JAN-2008,0,Poor
+GK,Greenshank,44020,FEB-2008,0,Good
+GK,Greenshank,44020,OCT-2008,0,Poor
+GK,Greenshank,44020,DEC-2008,0,Good
+GK,Greenshank,44020,JAN-2009,0,Good
+GK,Greenshank,44020,FEB-2009,0,Good
+GK,Greenshank,44020,OCT-2009,0,Good
+GK,Greenshank,44020,JAN-2010,0,Good
+GK,Greenshank,44020,FEB-2010,0,Good
+GK,Greenshank,44020,OCT-2010,0,Good
+GK,Greenshank,44020,DEC-2010,0,Good
+GK,Greenshank,44020,JAN-2011,0,Good
+GK,Greenshank,44020,FEB-2011,0,Good
+GK,Greenshank,44020,OCT-2011,0,Good
+GK,Greenshank,44020,DEC-2011,0,Good
+GK,Greenshank,44020,JAN-2012,0,Good
+GK,Greenshank,44020,FEB-2012,0,Poor
+GK,Greenshank,44020,JUN-2012,0,Good
+GK,Greenshank,44020,OCT-2012,0,Good
+GK,Greenshank,44020,DEC-2012,0,Poor
+GK,Greenshank,44020,JAN-2013,0,Good
+GK,Greenshank,44020,FEB-2013,0,Poor
+GK,Greenshank,44020,OCT-2013,0,Good
+GK,Greenshank,44020,DEC-2013,0,Poor
+GK,Greenshank,44020,JAN-2014,0,Good
+GK,Greenshank,44020,FEB-2014,0,Good
+GK,Greenshank,44020,OCT-2014,0,Poor
+GK,Greenshank,44020,DEC-2014,0,Good
+GK,Greenshank,44020,JAN-2015,0,Good
+GK,Greenshank,44020,FEB-2015,0,Good
+GK,Greenshank,44020,OCT-2015,0,Good
+GK,Greenshank,44020,DEC-2015,0,Good
+GK,Greenshank,44020,JAN-2016,0,Good
+GK,Greenshank,44020,FEB-2016,0,Good
+GK,Greenshank,44020,OCT-2016,0,Good
+GK,Greenshank,44020,DEC-2016,0,Good
+GK,Greenshank,44020,JAN-2017,0,Good
+GK,Greenshank,44020,FEB-2017,0,Good
+GK,Greenshank,44020,OCT-2017,0,Good
+GK,Greenshank,44020,DEC-2017,0,Good
+GK,Greenshank,44020,JAN-2018,0,Poor
+GK,Greenshank,44020,FEB-2018,0,Poor
+GK,Greenshank,44020,OCT-2018,0,Good
+GK,Greenshank,44020,DEC-2018,0,Good
+GK,Greenshank,44020,JAN-2019,0,Good
+GK,Greenshank,44020,FEB-2019,0,Poor
+BH,Black-headed Gull,45190,JUN-2012,5,Good
+BH,Black-headed Gull,45190,OCT-2017,0,Good
+BH,Black-headed Gull,45190,JAN-2018,0,Poor
+BH,Black-headed Gull,45190,FEB-2018,0,Poor
+MU,Mediterranean Gull,45410,JUN-2012,0,Good
+MU,Mediterranean Gull,45410,OCT-2017,1,Good
+MU,Mediterranean Gull,45410,JAN-2018,0,Poor
+MU,Mediterranean Gull,45410,FEB-2018,0,Poor
+CM,Common Gull,45530,JUN-2012,20,Good
+CM,Common Gull,45530,OCT-2017,0,Good
+CM,Common Gull,45530,JAN-2018,0,Poor
+CM,Common Gull,45530,FEB-2018,0,Poor
+HG,Herring Gull,45830,JUN-2012,45,Good
+HG,Herring Gull,45830,OCT-2017,0,Good
+HG,Herring Gull,45830,JAN-2018,0,Poor
+HG,Herring Gull,45830,FEB-2018,0,Poor
+LB,Lesser Black-backed Gull,45980,JUN-2012,1,Good
+LB,Lesser Black-backed Gull,45980,OCT-2017,0,Good
+LB,Lesser Black-backed Gull,45980,JAN-2018,0,Poor
+LB,Lesser Black-backed Gull,45980,FEB-2018,0,Poor

@@ -1,0 +1,505 @@
+SpeciesCode,Species,TaxonSort,Visit,Count,SpeciesCover
+JI,Greylag Goose (Icelandic),3100,OCT-2012,6,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2012,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2013,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2013,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2013,74,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2013,0,Poor
+JI,Greylag Goose (Icelandic),3100,JAN-2014,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2014,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2014,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2014,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2015,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2015,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2015,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2015,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2016,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2016,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2016,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2016,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2017,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2017,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2017,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2017,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2018,0,Poor
+JI,Greylag Goose (Icelandic),3100,FEB-2018,0,Good
+JI,Greylag Goose (Icelandic),3100,OCT-2018,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2018,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2019,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2019,0,Good
+WN,Wigeon,4620,OCT-2012,39,Good
+WN,Wigeon,4620,DEC-2012,116,Good
+WN,Wigeon,4620,JAN-2013,98,Good
+WN,Wigeon,4620,FEB-2013,64,Good
+WN,Wigeon,4620,OCT-2013,91,Good
+WN,Wigeon,4620,DEC-2013,87,Poor
+WN,Wigeon,4620,JAN-2014,40,Good
+WN,Wigeon,4620,FEB-2014,46,Good
+WN,Wigeon,4620,OCT-2014,66,Good
+WN,Wigeon,4620,DEC-2014,103,Good
+WN,Wigeon,4620,JAN-2015,113,Good
+WN,Wigeon,4620,FEB-2015,134,Good
+WN,Wigeon,4620,OCT-2015,31,Good
+WN,Wigeon,4620,DEC-2015,57,Good
+WN,Wigeon,4620,JAN-2016,146,Good
+WN,Wigeon,4620,FEB-2016,96,Good
+WN,Wigeon,4620,OCT-2016,251,Good
+WN,Wigeon,4620,DEC-2016,75,Good
+WN,Wigeon,4620,JAN-2017,121,Good
+WN,Wigeon,4620,FEB-2017,44,Good
+WN,Wigeon,4620,OCT-2017,0,Good
+WN,Wigeon,4620,DEC-2017,87,Good
+WN,Wigeon,4620,JAN-2018,20,Poor
+WN,Wigeon,4620,FEB-2018,46,Good
+WN,Wigeon,4620,OCT-2018,88,Good
+WN,Wigeon,4620,DEC-2018,81,Good
+WN,Wigeon,4620,JAN-2019,157,Good
+WN,Wigeon,4620,FEB-2019,63,Good
+MA,Mallard,4840,OCT-2012,8,Good
+MA,Mallard,4840,DEC-2012,35,Good
+MA,Mallard,4840,JAN-2013,20,Good
+MA,Mallard,4840,FEB-2013,16,Good
+MA,Mallard,4840,OCT-2013,30,Good
+MA,Mallard,4840,DEC-2013,20,Poor
+MA,Mallard,4840,JAN-2014,11,Good
+MA,Mallard,4840,FEB-2014,20,Good
+MA,Mallard,4840,OCT-2014,51,Good
+MA,Mallard,4840,DEC-2014,26,Good
+MA,Mallard,4840,JAN-2015,51,Good
+MA,Mallard,4840,FEB-2015,16,Good
+MA,Mallard,4840,OCT-2015,15,Good
+MA,Mallard,4840,DEC-2015,10,Good
+MA,Mallard,4840,JAN-2016,54,Good
+MA,Mallard,4840,FEB-2016,28,Good
+MA,Mallard,4840,OCT-2016,34,Good
+MA,Mallard,4840,DEC-2016,6,Good
+MA,Mallard,4840,JAN-2017,22,Good
+MA,Mallard,4840,FEB-2017,0,Good
+MA,Mallard,4840,OCT-2017,0,Good
+MA,Mallard,4840,DEC-2017,14,Good
+MA,Mallard,4840,JAN-2018,51,Poor
+MA,Mallard,4840,FEB-2018,19,Good
+MA,Mallard,4840,OCT-2018,4,Good
+MA,Mallard,4840,DEC-2018,4,Good
+MA,Mallard,4840,JAN-2019,10,Good
+MA,Mallard,4840,FEB-2019,21,Good
+T.,Teal,5080,OCT-2012,6,Good
+T.,Teal,5080,DEC-2012,14,Good
+T.,Teal,5080,JAN-2013,31,Good
+T.,Teal,5080,FEB-2013,26,Good
+T.,Teal,5080,OCT-2013,0,Good
+T.,Teal,5080,DEC-2013,5,Poor
+T.,Teal,5080,JAN-2014,21,Good
+T.,Teal,5080,FEB-2014,18,Good
+T.,Teal,5080,OCT-2014,20,Good
+T.,Teal,5080,DEC-2014,51,Good
+T.,Teal,5080,JAN-2015,0,Good
+T.,Teal,5080,FEB-2015,43,Good
+T.,Teal,5080,OCT-2015,47,Good
+T.,Teal,5080,DEC-2015,84,Good
+T.,Teal,5080,JAN-2016,0,Good
+T.,Teal,5080,FEB-2016,29,Good
+T.,Teal,5080,OCT-2016,65,Good
+T.,Teal,5080,DEC-2016,33,Good
+T.,Teal,5080,JAN-2017,34,Good
+T.,Teal,5080,FEB-2017,25,Good
+T.,Teal,5080,OCT-2017,0,Good
+T.,Teal,5080,DEC-2017,64,Good
+T.,Teal,5080,JAN-2018,119,Poor
+T.,Teal,5080,FEB-2018,41,Good
+T.,Teal,5080,OCT-2018,4,Good
+T.,Teal,5080,DEC-2018,0,Good
+T.,Teal,5080,JAN-2019,65,Good
+T.,Teal,5080,FEB-2019,0,Good
+GN,Goldeneye,5880,OCT-2012,1,Good
+GN,Goldeneye,5880,DEC-2012,0,Good
+GN,Goldeneye,5880,JAN-2013,1,Good
+GN,Goldeneye,5880,FEB-2013,0,Good
+GN,Goldeneye,5880,OCT-2013,0,Good
+GN,Goldeneye,5880,DEC-2013,0,Poor
+GN,Goldeneye,5880,JAN-2014,0,Good
+GN,Goldeneye,5880,FEB-2014,0,Good
+GN,Goldeneye,5880,OCT-2014,0,Good
+GN,Goldeneye,5880,DEC-2014,0,Good
+GN,Goldeneye,5880,JAN-2015,0,Good
+GN,Goldeneye,5880,FEB-2015,0,Good
+GN,Goldeneye,5880,OCT-2015,0,Good
+GN,Goldeneye,5880,DEC-2015,0,Good
+GN,Goldeneye,5880,JAN-2016,2,Good
+GN,Goldeneye,5880,FEB-2016,0,Good
+GN,Goldeneye,5880,OCT-2016,3,Good
+GN,Goldeneye,5880,DEC-2016,2,Good
+GN,Goldeneye,5880,JAN-2017,0,Good
+GN,Goldeneye,5880,FEB-2017,1,Good
+GN,Goldeneye,5880,OCT-2017,0,Good
+GN,Goldeneye,5880,DEC-2017,0,Good
+GN,Goldeneye,5880,JAN-2018,0,Poor
+GN,Goldeneye,5880,FEB-2018,2,Good
+GN,Goldeneye,5880,OCT-2018,0,Good
+GN,Goldeneye,5880,DEC-2018,0,Good
+GN,Goldeneye,5880,JAN-2019,2,Good
+GN,Goldeneye,5880,FEB-2019,0,Good
+GD,Goosander,5990,OCT-2012,0,Good
+GD,Goosander,5990,DEC-2012,0,Good
+GD,Goosander,5990,JAN-2013,0,Good
+GD,Goosander,5990,FEB-2013,0,Good
+GD,Goosander,5990,OCT-2013,0,Good
+GD,Goosander,5990,DEC-2013,0,Poor
+GD,Goosander,5990,JAN-2014,0,Good
+GD,Goosander,5990,FEB-2014,0,Good
+GD,Goosander,5990,OCT-2014,0,Good
+GD,Goosander,5990,DEC-2014,0,Good
+GD,Goosander,5990,JAN-2015,0,Good
+GD,Goosander,5990,FEB-2015,0,Good
+GD,Goosander,5990,OCT-2015,0,Good
+GD,Goosander,5990,DEC-2015,0,Good
+GD,Goosander,5990,JAN-2016,0,Good
+GD,Goosander,5990,FEB-2016,0,Good
+GD,Goosander,5990,OCT-2016,0,Good
+GD,Goosander,5990,DEC-2016,0,Good
+GD,Goosander,5990,JAN-2017,0,Good
+GD,Goosander,5990,FEB-2017,0,Good
+GD,Goosander,5990,OCT-2017,0,Good
+GD,Goosander,5990,DEC-2017,0,Good
+GD,Goosander,5990,JAN-2018,0,Poor
+GD,Goosander,5990,FEB-2018,0,Good
+GD,Goosander,5990,OCT-2018,1,Good
+GD,Goosander,5990,DEC-2018,0,Good
+GD,Goosander,5990,JAN-2019,0,Good
+GD,Goosander,5990,FEB-2019,0,Good
+RM,Red-breasted Merganser,6030,OCT-2012,0,Good
+RM,Red-breasted Merganser,6030,DEC-2012,0,Good
+RM,Red-breasted Merganser,6030,JAN-2013,0,Good
+RM,Red-breasted Merganser,6030,FEB-2013,0,Good
+RM,Red-breasted Merganser,6030,OCT-2013,0,Good
+RM,Red-breasted Merganser,6030,DEC-2013,0,Poor
+RM,Red-breasted Merganser,6030,JAN-2014,0,Good
+RM,Red-breasted Merganser,6030,FEB-2014,0,Good
+RM,Red-breasted Merganser,6030,OCT-2014,0,Good
+RM,Red-breasted Merganser,6030,DEC-2014,0,Good
+RM,Red-breasted Merganser,6030,JAN-2015,0,Good
+RM,Red-breasted Merganser,6030,FEB-2015,0,Good
+RM,Red-breasted Merganser,6030,OCT-2015,0,Good
+RM,Red-breasted Merganser,6030,DEC-2015,0,Good
+RM,Red-breasted Merganser,6030,JAN-2016,0,Good
+RM,Red-breasted Merganser,6030,FEB-2016,3,Good
+RM,Red-breasted Merganser,6030,OCT-2016,0,Good
+RM,Red-breasted Merganser,6030,DEC-2016,0,Good
+RM,Red-breasted Merganser,6030,JAN-2017,0,Good
+RM,Red-breasted Merganser,6030,FEB-2017,0,Good
+RM,Red-breasted Merganser,6030,OCT-2017,0,Good
+RM,Red-breasted Merganser,6030,DEC-2017,0,Good
+RM,Red-breasted Merganser,6030,JAN-2018,0,Poor
+RM,Red-breasted Merganser,6030,FEB-2018,0,Good
+RM,Red-breasted Merganser,6030,OCT-2018,0,Good
+RM,Red-breasted Merganser,6030,DEC-2018,0,Good
+RM,Red-breasted Merganser,6030,JAN-2019,0,Good
+RM,Red-breasted Merganser,6030,FEB-2019,0,Good
+LG,Little Grebe,19830,OCT-2012,1,Good
+LG,Little Grebe,19830,DEC-2012,1,Good
+LG,Little Grebe,19830,JAN-2013,2,Good
+LG,Little Grebe,19830,FEB-2013,0,Good
+LG,Little Grebe,19830,OCT-2013,0,Good
+LG,Little Grebe,19830,DEC-2013,0,Poor
+LG,Little Grebe,19830,JAN-2014,0,Good
+LG,Little Grebe,19830,FEB-2014,0,Good
+LG,Little Grebe,19830,OCT-2014,0,Good
+LG,Little Grebe,19830,DEC-2014,0,Good
+LG,Little Grebe,19830,JAN-2015,1,Good
+LG,Little Grebe,19830,FEB-2015,0,Good
+LG,Little Grebe,19830,OCT-2015,0,Good
+LG,Little Grebe,19830,DEC-2015,0,Good
+LG,Little Grebe,19830,JAN-2016,0,Good
+LG,Little Grebe,19830,FEB-2016,2,Good
+LG,Little Grebe,19830,OCT-2016,3,Good
+LG,Little Grebe,19830,DEC-2016,2,Good
+LG,Little Grebe,19830,JAN-2017,0,Good
+LG,Little Grebe,19830,FEB-2017,2,Good
+LG,Little Grebe,19830,OCT-2017,0,Good
+LG,Little Grebe,19830,DEC-2017,1,Good
+LG,Little Grebe,19830,JAN-2018,0,Poor
+LG,Little Grebe,19830,FEB-2018,1,Good
+LG,Little Grebe,19830,OCT-2018,0,Good
+LG,Little Grebe,19830,DEC-2018,2,Good
+LG,Little Grebe,19830,JAN-2019,0,Good
+LG,Little Grebe,19830,FEB-2019,0,Good
+H.,Grey Heron,23270,OCT-2012,0,Good
+H.,Grey Heron,23270,DEC-2012,0,Good
+H.,Grey Heron,23270,JAN-2013,1,Good
+H.,Grey Heron,23270,FEB-2013,0,Good
+H.,Grey Heron,23270,OCT-2013,0,Good
+H.,Grey Heron,23270,DEC-2013,3,Poor
+H.,Grey Heron,23270,JAN-2014,4,Good
+H.,Grey Heron,23270,FEB-2014,0,Good
+H.,Grey Heron,23270,OCT-2014,4,Good
+H.,Grey Heron,23270,DEC-2014,2,Good
+H.,Grey Heron,23270,JAN-2015,1,Good
+H.,Grey Heron,23270,FEB-2015,3,Good
+H.,Grey Heron,23270,OCT-2015,0,Good
+H.,Grey Heron,23270,DEC-2015,1,Good
+H.,Grey Heron,23270,JAN-2016,2,Good
+H.,Grey Heron,23270,FEB-2016,1,Good
+H.,Grey Heron,23270,OCT-2016,2,Good
+H.,Grey Heron,23270,DEC-2016,3,Good
+H.,Grey Heron,23270,JAN-2017,0,Good
+H.,Grey Heron,23270,FEB-2017,0,Good
+H.,Grey Heron,23270,OCT-2017,0,Good
+H.,Grey Heron,23270,DEC-2017,0,Good
+H.,Grey Heron,23270,JAN-2018,1,Poor
+H.,Grey Heron,23270,FEB-2018,0,Good
+H.,Grey Heron,23270,OCT-2018,1,Good
+H.,Grey Heron,23270,DEC-2018,2,Good
+H.,Grey Heron,23270,JAN-2019,2,Good
+H.,Grey Heron,23270,FEB-2019,0,Good
+SA,Shag,24940,OCT-2012,0,Good
+SA,Shag,24940,DEC-2012,0,Good
+SA,Shag,24940,JAN-2013,0,Good
+SA,Shag,24940,FEB-2013,0,Good
+SA,Shag,24940,OCT-2013,0,Good
+SA,Shag,24940,DEC-2013,0,Poor
+SA,Shag,24940,JAN-2014,0,Good
+SA,Shag,24940,FEB-2014,0,Good
+SA,Shag,24940,OCT-2014,0,Good
+SA,Shag,24940,DEC-2014,0,Good
+SA,Shag,24940,JAN-2015,0,Good
+SA,Shag,24940,FEB-2015,0,Good
+SA,Shag,24940,OCT-2015,0,Good
+SA,Shag,24940,DEC-2015,0,Good
+SA,Shag,24940,JAN-2016,1,Good
+SA,Shag,24940,FEB-2016,3,Good
+SA,Shag,24940,OCT-2016,0,Good
+SA,Shag,24940,DEC-2016,0,Good
+SA,Shag,24940,JAN-2017,0,Good
+SA,Shag,24940,FEB-2017,0,Good
+SA,Shag,24940,OCT-2017,0,Good
+SA,Shag,24940,DEC-2017,0,Good
+SA,Shag,24940,JAN-2018,0,Poor
+SA,Shag,24940,FEB-2018,0,Good
+SA,Shag,24940,OCT-2018,0,Good
+SA,Shag,24940,DEC-2018,0,Good
+SA,Shag,24940,JAN-2019,0,Good
+SA,Shag,24940,FEB-2019,0,Good
+CA,Cormorant,25040,OCT-2012,0,Good
+CA,Cormorant,25040,DEC-2012,0,Good
+CA,Cormorant,25040,JAN-2013,0,Good
+CA,Cormorant,25040,FEB-2013,0,Good
+CA,Cormorant,25040,OCT-2013,0,Good
+CA,Cormorant,25040,DEC-2013,0,Poor
+CA,Cormorant,25040,JAN-2014,2,Good
+CA,Cormorant,25040,FEB-2014,1,Good
+CA,Cormorant,25040,OCT-2014,0,Good
+CA,Cormorant,25040,DEC-2014,0,Good
+CA,Cormorant,25040,JAN-2015,0,Good
+CA,Cormorant,25040,FEB-2015,0,Good
+CA,Cormorant,25040,OCT-2015,0,Good
+CA,Cormorant,25040,DEC-2015,0,Good
+CA,Cormorant,25040,JAN-2016,5,Good
+CA,Cormorant,25040,FEB-2016,6,Good
+CA,Cormorant,25040,OCT-2016,0,Good
+CA,Cormorant,25040,DEC-2016,0,Good
+CA,Cormorant,25040,JAN-2017,0,Good
+CA,Cormorant,25040,FEB-2017,0,Good
+CA,Cormorant,25040,OCT-2017,0,Good
+CA,Cormorant,25040,DEC-2017,1,Good
+CA,Cormorant,25040,JAN-2018,1,Poor
+CA,Cormorant,25040,FEB-2018,0,Good
+CA,Cormorant,25040,OCT-2018,0,Good
+CA,Cormorant,25040,DEC-2018,0,Good
+CA,Cormorant,25040,JAN-2019,0,Good
+CA,Cormorant,25040,FEB-2019,0,Good
+OC,Oystercatcher,39840,OCT-2012,80,Good
+OC,Oystercatcher,39840,DEC-2012,30,Good
+OC,Oystercatcher,39840,JAN-2013,80,Good
+OC,Oystercatcher,39840,FEB-2013,81,Good
+OC,Oystercatcher,39840,OCT-2013,52,Good
+OC,Oystercatcher,39840,DEC-2013,140,Poor
+OC,Oystercatcher,39840,JAN-2014,67,Good
+OC,Oystercatcher,39840,FEB-2014,45,Good
+OC,Oystercatcher,39840,OCT-2014,65,Good
+OC,Oystercatcher,39840,DEC-2014,26,Good
+OC,Oystercatcher,39840,JAN-2015,0,Good
+OC,Oystercatcher,39840,FEB-2015,0,Good
+OC,Oystercatcher,39840,OCT-2015,25,Good
+OC,Oystercatcher,39840,DEC-2015,140,Good
+OC,Oystercatcher,39840,JAN-2016,75,Good
+OC,Oystercatcher,39840,FEB-2016,26,Good
+OC,Oystercatcher,39840,OCT-2016,53,Good
+OC,Oystercatcher,39840,DEC-2016,38,Good
+OC,Oystercatcher,39840,JAN-2017,90,Good
+OC,Oystercatcher,39840,FEB-2017,7,Good
+OC,Oystercatcher,39840,OCT-2017,0,Good
+OC,Oystercatcher,39840,DEC-2017,42,Good
+OC,Oystercatcher,39840,JAN-2018,25,Poor
+OC,Oystercatcher,39840,FEB-2018,62,Good
+OC,Oystercatcher,39840,OCT-2018,67,Good
+OC,Oystercatcher,39840,DEC-2018,108,Good
+OC,Oystercatcher,39840,JAN-2019,27,Good
+OC,Oystercatcher,39840,FEB-2019,13,Good
+L.,Lapwing,40200,OCT-2012,0,Good
+L.,Lapwing,40200,DEC-2012,0,Good
+L.,Lapwing,40200,JAN-2013,0,Good
+L.,Lapwing,40200,FEB-2013,30,Good
+L.,Lapwing,40200,OCT-2013,0,Good
+L.,Lapwing,40200,DEC-2013,0,Poor
+L.,Lapwing,40200,JAN-2014,0,Good
+L.,Lapwing,40200,FEB-2014,0,Good
+L.,Lapwing,40200,OCT-2014,0,Good
+L.,Lapwing,40200,DEC-2014,0,Good
+L.,Lapwing,40200,JAN-2015,0,Good
+L.,Lapwing,40200,FEB-2015,0,Good
+L.,Lapwing,40200,OCT-2015,1,Good
+L.,Lapwing,40200,DEC-2015,0,Good
+L.,Lapwing,40200,JAN-2016,0,Good
+L.,Lapwing,40200,FEB-2016,0,Good
+L.,Lapwing,40200,OCT-2016,0,Good
+L.,Lapwing,40200,DEC-2016,0,Good
+L.,Lapwing,40200,JAN-2017,0,Good
+L.,Lapwing,40200,FEB-2017,0,Good
+L.,Lapwing,40200,OCT-2017,0,Good
+L.,Lapwing,40200,DEC-2017,0,Good
+L.,Lapwing,40200,JAN-2018,0,Poor
+L.,Lapwing,40200,FEB-2018,0,Good
+L.,Lapwing,40200,OCT-2018,0,Good
+L.,Lapwing,40200,DEC-2018,0,Good
+L.,Lapwing,40200,JAN-2019,0,Good
+L.,Lapwing,40200,FEB-2019,0,Good
+CU,Curlew,42320,OCT-2012,0,Good
+CU,Curlew,42320,DEC-2012,0,Good
+CU,Curlew,42320,JAN-2013,0,Good
+CU,Curlew,42320,FEB-2013,50,Good
+CU,Curlew,42320,OCT-2013,1,Good
+CU,Curlew,42320,DEC-2013,27,Poor
+CU,Curlew,42320,JAN-2014,39,Good
+CU,Curlew,42320,FEB-2014,2,Good
+CU,Curlew,42320,OCT-2014,0,Good
+CU,Curlew,42320,DEC-2014,3,Good
+CU,Curlew,42320,JAN-2015,0,Good
+CU,Curlew,42320,FEB-2015,0,Good
+CU,Curlew,42320,OCT-2015,0,Good
+CU,Curlew,42320,DEC-2015,4,Good
+CU,Curlew,42320,JAN-2016,43,Good
+CU,Curlew,42320,FEB-2016,0,Good
+CU,Curlew,42320,OCT-2016,2,Good
+CU,Curlew,42320,DEC-2016,6,Good
+CU,Curlew,42320,JAN-2017,3,Good
+CU,Curlew,42320,FEB-2017,2,Good
+CU,Curlew,42320,OCT-2017,0,Good
+CU,Curlew,42320,DEC-2017,8,Good
+CU,Curlew,42320,JAN-2018,31,Poor
+CU,Curlew,42320,FEB-2018,21,Good
+CU,Curlew,42320,OCT-2018,0,Good
+CU,Curlew,42320,DEC-2018,0,Good
+CU,Curlew,42320,JAN-2019,33,Good
+CU,Curlew,42320,FEB-2019,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2012,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2012,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2013,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2013,24,Good
+BA,Bar-tailed Godwit,42370,OCT-2013,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2013,0,Poor
+BA,Bar-tailed Godwit,42370,JAN-2014,45,Good
+BA,Bar-tailed Godwit,42370,FEB-2014,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2014,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2014,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2015,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2015,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2015,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2015,46,Good
+BA,Bar-tailed Godwit,42370,JAN-2016,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2016,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2016,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2016,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2017,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2017,0,Good
+BA,Bar-tailed Godwit,42370,OCT-2017,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2017,1,Good
+BA,Bar-tailed Godwit,42370,JAN-2018,1,Poor
+BA,Bar-tailed Godwit,42370,FEB-2018,61,Good
+BA,Bar-tailed Godwit,42370,OCT-2018,0,Good
+BA,Bar-tailed Godwit,42370,DEC-2018,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2019,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2019,0,Good
+BW,Black-tailed Godwit,42420,OCT-2012,0,Good
+BW,Black-tailed Godwit,42420,DEC-2012,0,Good
+BW,Black-tailed Godwit,42420,JAN-2013,0,Good
+BW,Black-tailed Godwit,42420,FEB-2013,0,Good
+BW,Black-tailed Godwit,42420,OCT-2013,0,Good
+BW,Black-tailed Godwit,42420,DEC-2013,0,Poor
+BW,Black-tailed Godwit,42420,JAN-2014,0,Good
+BW,Black-tailed Godwit,42420,FEB-2014,0,Good
+BW,Black-tailed Godwit,42420,OCT-2014,0,Good
+BW,Black-tailed Godwit,42420,DEC-2014,0,Good
+BW,Black-tailed Godwit,42420,JAN-2015,0,Good
+BW,Black-tailed Godwit,42420,FEB-2015,0,Good
+BW,Black-tailed Godwit,42420,OCT-2015,53,Good
+BW,Black-tailed Godwit,42420,DEC-2015,0,Good
+BW,Black-tailed Godwit,42420,JAN-2016,42,Good
+BW,Black-tailed Godwit,42420,FEB-2016,0,Good
+BW,Black-tailed Godwit,42420,OCT-2016,0,Good
+BW,Black-tailed Godwit,42420,DEC-2016,0,Good
+BW,Black-tailed Godwit,42420,JAN-2017,0,Good
+BW,Black-tailed Godwit,42420,FEB-2017,0,Good
+BW,Black-tailed Godwit,42420,OCT-2017,0,Good
+BW,Black-tailed Godwit,42420,DEC-2017,0,Good
+BW,Black-tailed Godwit,42420,JAN-2018,0,Poor
+BW,Black-tailed Godwit,42420,FEB-2018,0,Good
+BW,Black-tailed Godwit,42420,OCT-2018,0,Good
+BW,Black-tailed Godwit,42420,DEC-2018,37,Good
+BW,Black-tailed Godwit,42420,JAN-2019,45,Good
+BW,Black-tailed Godwit,42420,FEB-2019,0,Good
+RU,Ruff,42700,OCT-2012,0,Good
+RU,Ruff,42700,DEC-2012,0,Good
+RU,Ruff,42700,JAN-2013,0,Good
+RU,Ruff,42700,FEB-2013,0,Good
+RU,Ruff,42700,OCT-2013,0,Good
+RU,Ruff,42700,DEC-2013,0,Poor
+RU,Ruff,42700,JAN-2014,0,Good
+RU,Ruff,42700,FEB-2014,0,Good
+RU,Ruff,42700,OCT-2014,0,Good
+RU,Ruff,42700,DEC-2014,0,Good
+RU,Ruff,42700,JAN-2015,0,Good
+RU,Ruff,42700,FEB-2015,0,Good
+RU,Ruff,42700,OCT-2015,0,Good
+RU,Ruff,42700,DEC-2015,0,Good
+RU,Ruff,42700,JAN-2016,1,Good
+RU,Ruff,42700,FEB-2016,0,Good
+RU,Ruff,42700,OCT-2016,0,Good
+RU,Ruff,42700,DEC-2016,0,Good
+RU,Ruff,42700,JAN-2017,0,Good
+RU,Ruff,42700,FEB-2017,0,Good
+RU,Ruff,42700,OCT-2017,0,Good
+RU,Ruff,42700,DEC-2017,0,Good
+RU,Ruff,42700,JAN-2018,0,Poor
+RU,Ruff,42700,FEB-2018,0,Good
+RU,Ruff,42700,OCT-2018,0,Good
+RU,Ruff,42700,DEC-2018,0,Good
+RU,Ruff,42700,JAN-2019,0,Good
+RU,Ruff,42700,FEB-2019,0,Good
+RK,Redshank,43920,OCT-2012,0,Good
+RK,Redshank,43920,DEC-2012,18,Good
+RK,Redshank,43920,JAN-2013,0,Good
+RK,Redshank,43920,FEB-2013,4,Good
+RK,Redshank,43920,OCT-2013,16,Good
+RK,Redshank,43920,DEC-2013,1,Poor
+RK,Redshank,43920,JAN-2014,8,Good
+RK,Redshank,43920,FEB-2014,5,Good
+RK,Redshank,43920,OCT-2014,5,Good
+RK,Redshank,43920,DEC-2014,1,Good
+RK,Redshank,43920,JAN-2015,3,Good
+RK,Redshank,43920,FEB-2015,0,Good
+RK,Redshank,43920,OCT-2015,10,Good
+RK,Redshank,43920,DEC-2015,0,Good
+RK,Redshank,43920,JAN-2016,0,Good
+RK,Redshank,43920,FEB-2016,23,Good
+RK,Redshank,43920,OCT-2016,45,Good
+RK,Redshank,43920,DEC-2016,1,Good
+RK,Redshank,43920,JAN-2017,15,Good
+RK,Redshank,43920,FEB-2017,0,Good
+RK,Redshank,43920,OCT-2017,0,Good
+RK,Redshank,43920,DEC-2017,4,Good
+RK,Redshank,43920,JAN-2018,0,Poor
+RK,Redshank,43920,FEB-2018,11,Good
+RK,Redshank,43920,OCT-2018,0,Good
+RK,Redshank,43920,DEC-2018,1,Good
+RK,Redshank,43920,JAN-2019,9,Good
+RK,Redshank,43920,FEB-2019,1,Good

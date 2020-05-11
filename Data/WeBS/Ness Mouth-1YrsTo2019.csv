@@ -1,0 +1,65 @@
+SpeciesCode,Species,TaxonSort,Visit,Count,SpeciesCover
+WN,Wigeon,4620,OCT-2019,3,Good
+WN,Wigeon,4620,DEC-2019,0,Good
+WN,Wigeon,4620,JAN-2020,2,Good
+WN,Wigeon,4620,FEB-2020,0,Good
+MA,Mallard,4840,OCT-2019,4,Good
+MA,Mallard,4840,DEC-2019,0,Good
+MA,Mallard,4840,JAN-2020,28,Good
+MA,Mallard,4840,FEB-2020,0,Good
+T.,Teal,5080,OCT-2019,7,Good
+T.,Teal,5080,DEC-2019,50,Good
+T.,Teal,5080,JAN-2020,36,Good
+T.,Teal,5080,FEB-2020,11,Good
+GN,Goldeneye,5880,OCT-2019,0,Good
+GN,Goldeneye,5880,DEC-2019,6,Good
+GN,Goldeneye,5880,JAN-2020,65,Good
+GN,Goldeneye,5880,FEB-2020,0,Good
+GD,Goosander,5990,OCT-2019,0,Good
+GD,Goosander,5990,DEC-2019,0,Good
+GD,Goosander,5990,JAN-2020,0,Good
+GD,Goosander,5990,FEB-2020,0,Good
+RM,Red-breasted Merganser,6030,OCT-2019,0,Good
+RM,Red-breasted Merganser,6030,DEC-2019,0,Good
+RM,Red-breasted Merganser,6030,JAN-2020,0,Good
+RM,Red-breasted Merganser,6030,FEB-2020,0,Good
+LG,Little Grebe,19830,OCT-2019,0,Good
+LG,Little Grebe,19830,DEC-2019,0,Good
+LG,Little Grebe,19830,JAN-2020,0,Good
+LG,Little Grebe,19830,FEB-2020,0,Good
+H.,Grey Heron,23270,OCT-2019,0,Good
+H.,Grey Heron,23270,DEC-2019,0,Good
+H.,Grey Heron,23270,JAN-2020,0,Good
+H.,Grey Heron,23270,FEB-2020,0,Good
+SA,Shag,24940,OCT-2019,0,Good
+SA,Shag,24940,DEC-2019,0,Good
+SA,Shag,24940,JAN-2020,0,Good
+SA,Shag,24940,FEB-2020,0,Good
+CA,Cormorant,25040,OCT-2019,7,Good
+CA,Cormorant,25040,DEC-2019,0,Good
+CA,Cormorant,25040,JAN-2020,0,Good
+CA,Cormorant,25040,FEB-2020,0,Good
+OC,Oystercatcher,39840,OCT-2019,0,Good
+OC,Oystercatcher,39840,DEC-2019,0,Good
+OC,Oystercatcher,39840,JAN-2020,18,Good
+OC,Oystercatcher,39840,FEB-2020,3,Good
+L.,Lapwing,40200,OCT-2019,0,Good
+L.,Lapwing,40200,DEC-2019,0,Good
+L.,Lapwing,40200,JAN-2020,0,Good
+L.,Lapwing,40200,FEB-2020,0,Good
+RP,Ringed Plover,40830,OCT-2019,0,Good
+RP,Ringed Plover,40830,DEC-2019,0,Good
+RP,Ringed Plover,40830,JAN-2020,0,Good
+RP,Ringed Plover,40830,FEB-2020,0,Good
+CU,Curlew,42320,OCT-2019,1,Good
+CU,Curlew,42320,DEC-2019,33,Good
+CU,Curlew,42320,JAN-2020,4,Good
+CU,Curlew,42320,FEB-2020,2,Good
+DN,Dunlin,42840,OCT-2019,0,Good
+DN,Dunlin,42840,DEC-2019,0,Good
+DN,Dunlin,42840,JAN-2020,0,Good
+DN,Dunlin,42840,FEB-2020,0,Good
+RK,Redshank,43920,OCT-2019,9,Good
+RK,Redshank,43920,DEC-2019,8,Good
+RK,Redshank,43920,JAN-2020,1,Good
+RK,Redshank,43920,FEB-2020,7,Good

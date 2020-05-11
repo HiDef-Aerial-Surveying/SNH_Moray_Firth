@@ -7,7 +7,7 @@ library(mapproj)
 library(raster)
 library(inlabru)
 
-setwd("C:/Workspace/Nextcloud/Github/HiDef/SNH_Moray_Firth")
+#setwd("C:/Workspace/Nextcloud/Github/HiDef/SNH_Moray_Firth")
 geogr<-CRS("+init=epsg:4326")
 # we are going to use the UTM30N as main reference system 
 # (note that we set crs units to km...this will ensure that we are always taling about km...i.e. predicted density will be Individuals/sq. km, range will be in km, etc)

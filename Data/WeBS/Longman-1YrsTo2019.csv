@@ -1,0 +1,129 @@
+SpeciesCode,Species,TaxonSort,Visit,Count,SpeciesCover
+JI,Greylag Goose (Icelandic),3100,OCT-2019,0,Good
+JI,Greylag Goose (Icelandic),3100,DEC-2019,0,Good
+JI,Greylag Goose (Icelandic),3100,JAN-2020,0,Good
+JI,Greylag Goose (Icelandic),3100,FEB-2020,0,Good
+MS,Mute Swan,3380,OCT-2019,0,Good
+MS,Mute Swan,3380,DEC-2019,0,Good
+MS,Mute Swan,3380,JAN-2020,0,Good
+MS,Mute Swan,3380,FEB-2020,0,Good
+SU,Shelduck,3920,OCT-2019,0,Good
+SU,Shelduck,3920,DEC-2019,35,Good
+SU,Shelduck,3920,JAN-2020,0,Good
+SU,Shelduck,3920,FEB-2020,0,Good
+GA,Gadwall,4580,OCT-2019,0,Good
+GA,Gadwall,4580,DEC-2019,0,Good
+GA,Gadwall,4580,JAN-2020,0,Good
+GA,Gadwall,4580,FEB-2020,0,Good
+WN,Wigeon,4620,OCT-2019,300,Good
+WN,Wigeon,4620,DEC-2019,145,Good
+WN,Wigeon,4620,JAN-2020,49,Good
+WN,Wigeon,4620,FEB-2020,120,Good
+MA,Mallard,4840,OCT-2019,0,Good
+MA,Mallard,4840,DEC-2019,47,Good
+MA,Mallard,4840,JAN-2020,6,Good
+MA,Mallard,4840,FEB-2020,8,Good
+PT,Pintail,5070,OCT-2019,0,Good
+PT,Pintail,5070,DEC-2019,13,Good
+PT,Pintail,5070,JAN-2020,0,Good
+PT,Pintail,5070,FEB-2020,0,Good
+T.,Teal,5080,OCT-2019,100,Good
+T.,Teal,5080,DEC-2019,285,Good
+T.,Teal,5080,JAN-2020,42,Good
+T.,Teal,5080,FEB-2020,14,Good
+TU,Tufted Duck,5510,OCT-2019,0,Good
+TU,Tufted Duck,5510,DEC-2019,0,Good
+TU,Tufted Duck,5510,JAN-2020,0,Good
+TU,Tufted Duck,5510,FEB-2020,0,Good
+SP,Scaup,5520,OCT-2019,2,Good
+SP,Scaup,5520,DEC-2019,0,Good
+SP,Scaup,5520,JAN-2020,0,Good
+SP,Scaup,5520,FEB-2020,0,Good
+EE,Eider (except Shetland),5690,OCT-2019,0,Good
+EE,Eider (except Shetland),5690,DEC-2019,0,Good
+EE,Eider (except Shetland),5690,JAN-2020,0,Good
+EE,Eider (except Shetland),5690,FEB-2020,0,Good
+LN,Long-tailed Duck,5850,OCT-2019,0,Good
+LN,Long-tailed Duck,5850,DEC-2019,0,Good
+LN,Long-tailed Duck,5850,JAN-2020,22,Good
+LN,Long-tailed Duck,5850,FEB-2020,0,Good
+GN,Goldeneye,5880,OCT-2019,0,Good
+GN,Goldeneye,5880,DEC-2019,2,Good
+GN,Goldeneye,5880,JAN-2020,2,Good
+GN,Goldeneye,5880,FEB-2020,17,Good
+GD,Goosander,5990,OCT-2019,0,Good
+GD,Goosander,5990,DEC-2019,0,Good
+GD,Goosander,5990,JAN-2020,0,Good
+GD,Goosander,5990,FEB-2020,0,Good
+RM,Red-breasted Merganser,6030,OCT-2019,0,Good
+RM,Red-breasted Merganser,6030,DEC-2019,0,Good
+RM,Red-breasted Merganser,6030,JAN-2020,0,Good
+RM,Red-breasted Merganser,6030,FEB-2020,0,Good
+LG,Little Grebe,19830,OCT-2019,0,Good
+LG,Little Grebe,19830,DEC-2019,0,Good
+LG,Little Grebe,19830,JAN-2020,0,Good
+LG,Little Grebe,19830,FEB-2020,0,Good
+SZ,Slavonian Grebe,20350,OCT-2019,6,Good
+SZ,Slavonian Grebe,20350,DEC-2019,4,Good
+SZ,Slavonian Grebe,20350,JAN-2020,1,Good
+SZ,Slavonian Grebe,20350,FEB-2020,2,Good
+H.,Grey Heron,23270,OCT-2019,14,Good
+H.,Grey Heron,23270,DEC-2019,15,Good
+H.,Grey Heron,23270,JAN-2020,6,Good
+H.,Grey Heron,23270,FEB-2020,14,Good
+CA,Cormorant,25040,OCT-2019,4,Good
+CA,Cormorant,25040,DEC-2019,8,Good
+CA,Cormorant,25040,JAN-2020,2,Good
+CA,Cormorant,25040,FEB-2020,2,Good
+OC,Oystercatcher,39840,OCT-2019,150,Good
+OC,Oystercatcher,39840,DEC-2019,95,Good
+OC,Oystercatcher,39840,JAN-2020,128,Good
+OC,Oystercatcher,39840,FEB-2020,220,Good
+L.,Lapwing,40200,OCT-2019,0,Good
+L.,Lapwing,40200,DEC-2019,0,Good
+L.,Lapwing,40200,JAN-2020,0,Good
+L.,Lapwing,40200,FEB-2020,0,Good
+RP,Ringed Plover,40830,OCT-2019,28,Good
+RP,Ringed Plover,40830,DEC-2019,0,Good
+RP,Ringed Plover,40830,JAN-2020,0,Good
+RP,Ringed Plover,40830,FEB-2020,0,Good
+CU,Curlew,42320,OCT-2019,65,Good
+CU,Curlew,42320,DEC-2019,86,Good
+CU,Curlew,42320,JAN-2020,73,Good
+CU,Curlew,42320,FEB-2020,27,Good
+BA,Bar-tailed Godwit,42370,OCT-2019,40,Good
+BA,Bar-tailed Godwit,42370,DEC-2019,0,Good
+BA,Bar-tailed Godwit,42370,JAN-2020,0,Good
+BA,Bar-tailed Godwit,42370,FEB-2020,40,Good
+BW,Black-tailed Godwit,42420,OCT-2019,0,Good
+BW,Black-tailed Godwit,42420,DEC-2019,0,Good
+BW,Black-tailed Godwit,42420,JAN-2020,0,Good
+BW,Black-tailed Godwit,42420,FEB-2020,0,Good
+TT,Turnstone,42510,OCT-2019,0,Good
+TT,Turnstone,42510,DEC-2019,0,Good
+TT,Turnstone,42510,JAN-2020,0,Good
+TT,Turnstone,42510,FEB-2020,0,Good
+KN,Knot,42620,OCT-2019,110,Good
+KN,Knot,42620,DEC-2019,130,Good
+KN,Knot,42620,JAN-2020,230,Good
+KN,Knot,42620,FEB-2020,250,Good
+DN,Dunlin,42840,OCT-2019,10,Good
+DN,Dunlin,42840,DEC-2019,0,Good
+DN,Dunlin,42840,JAN-2020,0,Good
+DN,Dunlin,42840,FEB-2020,0,Good
+JS,Jack Snipe,43390,OCT-2019,0,Good
+JS,Jack Snipe,43390,DEC-2019,0,Good
+JS,Jack Snipe,43390,JAN-2020,0,Good
+JS,Jack Snipe,43390,FEB-2020,0,Good
+SN,Snipe,43540,OCT-2019,0,Good
+SN,Snipe,43540,DEC-2019,0,Good
+SN,Snipe,43540,JAN-2020,16,Good
+SN,Snipe,43540,FEB-2020,0,Good
+RK,Redshank,43920,OCT-2019,127,Good
+RK,Redshank,43920,DEC-2019,182,Good
+RK,Redshank,43920,JAN-2020,176,Good
+RK,Redshank,43920,FEB-2020,163,Good
+GK,Greenshank,44020,OCT-2019,0,Good
+GK,Greenshank,44020,DEC-2019,1,Good
+GK,Greenshank,44020,JAN-2020,0,Good
+GK,Greenshank,44020,FEB-2020,0,Good

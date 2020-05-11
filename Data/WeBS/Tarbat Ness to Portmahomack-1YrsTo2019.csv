@@ -1,0 +1,33 @@
+SpeciesCode,Species,TaxonSort,Visit,Count,SpeciesCover
+JI,Greylag Goose (Icelandic),3100,DEC-2019,0,Good
+MS,Mute Swan,3380,DEC-2019,0,Good
+WS,Whooper Swan,3430,DEC-2019,0,Good
+SU,Shelduck,3920,DEC-2019,0,Good
+WN,Wigeon,4620,DEC-2019,0,Good
+MA,Mallard,4840,DEC-2019,0,Good
+T.,Teal,5080,DEC-2019,0,Good
+EE,Eider (except Shetland),5690,DEC-2019,0,Good
+CX,Common Scoter,5810,DEC-2019,0,Good
+LN,Long-tailed Duck,5850,DEC-2019,0,Good
+GN,Goldeneye,5880,DEC-2019,0,Good
+RM,Red-breasted Merganser,6030,DEC-2019,0,Good
+RH,Red-throated Diver,16760,DEC-2019,0,Good
+BV,Black-throated Diver,16770,DEC-2019,0,Good
+SZ,Slavonian Grebe,20350,DEC-2019,0,Good
+H.,Grey Heron,23270,DEC-2019,0,Good
+SA,Shag,24940,DEC-2019,9,Good
+CA,Cormorant,25040,DEC-2019,3,Good
+OC,Oystercatcher,39840,DEC-2019,18,Good
+L.,Lapwing,40200,DEC-2019,35,Good
+GP,Golden Plover,40710,DEC-2019,0,Good
+RP,Ringed Plover,40830,DEC-2019,0,Good
+CU,Curlew,42320,DEC-2019,54,Good
+TT,Turnstone,42510,DEC-2019,0,Good
+KN,Knot,42620,DEC-2019,0,Good
+SS,Sanderling,42810,DEC-2019,0,Good
+DN,Dunlin,42840,DEC-2019,0,Good
+PS,Purple Sandpiper,43010,DEC-2019,0,Good
+SN,Snipe,43540,DEC-2019,0,Good
+CS,Common Sandpiper,43790,DEC-2019,0,Good
+RK,Redshank,43920,DEC-2019,4,Good
+GK,Greenshank,44020,DEC-2019,0,Good
