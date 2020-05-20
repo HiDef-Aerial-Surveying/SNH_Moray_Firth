@@ -1,0 +1,85 @@
+LOC_LABEL,NAME,GRIDREF,ANCESTOR_1,ANCESTOR_N,TOTAL_YRS,id
+88471,Deveron Estuary,NJ696645,88471,Deveron Estuary,NA,0
+89428,Burghead to Hopeman,NJ125696,89410,Moray Coast,23,1
+90434,Lentran to Bunchrew,NH599462,90920,Inner Moray and Beauly Firths,4,2
+90436,Bunchrew to Clachnaharry,NH631459,90920,Inner Moray and Beauly Firths,6,3
+90437,Longman,NH683466,90920,Inner Moray and Beauly Firths,9,4
+90438,Alturlie,NH708480,90920,Inner Moray and Beauly Firths,9,5
+90202,Kingsteps Quarry,NH902569,90202,Kingsteps Quarry,NA,6
+90203,Minister`s Pool,NH900573,90203,Minister`s Pool,NA,7
+90971,Ardjachie - Tain,NH766844,90970,Dornoch Firth,NA,8
+90972,Tain - Morrich Mor,NH809845,90970,Dornoch Firth,9,9
+90448,Nigg Ferry,NH800685,90950,Cromarty Firth,NA,10
+90447,Nigg Oil Terminal,NH787698,90950,Cromarty Firth,NA,11
+90446,Bayfield,NH804730,90950,Cromarty Firth,NA,12
+90445,Meddat,NH791738,90950,Cromarty Firth,NA,13
+90444,Tarbet House,NH763730,90950,Cromarty Firth,NA,14
+90443,Saltburn,NH731702,90950,Cromarty Firth,NA,15
+90442,Invergordon,NH715688,90950,Cromarty Firth,NA,16
+90426,Rosskeen,NH692688,90950,Cromarty Firth,NA,17
+90427,Dalmore,NH672686,90950,Cromarty Firth,NA,18
+90428,Balconie to Ardullie,NH607643,90950,Cromarty Firth,NA,19
+90429,Findon Mains,NH602614,90950,Cromarty Firth,NA,20
+90430,Ferryton to Newhall Point,NH695671,90950,Cromarty Firth,NA,21
+90431,Newhall Point to Jemimaville,NH711661,90950,Cromarty Firth,NA,22
+90432,Jemimaville to Shore Mill,NH735656,90950,Cromarty Firth,NA,23
+90433,Shore Mill to Cromarty,NH774669,90950,Cromarty Firth,NA,24
+90307,River Nairn - Narin Piers to footbridge,NH888570,90307,River Nairn - Narin Piers to footbridge,NA,25
+90468,Tarbat Ness to Portmahomack,NH924873,90970,Dornoch Firth,18,26
+90471,Portmahomack to Drumancroy,NH899840,90970,Dornoch Firth,19,27
+90472,Dornoch Firth - Inver Bay,NH862829,90970,Dornoch Firth,22,28
+90479,Dornoch Firth - Mid-Fearn cut-off,NH637872,90970,Dornoch Firth,NA,29
+89415,Buckie - Portgordon,NJ415658,89410,Moray Coast,NA,30
+89425,Covesea to Lossiemouth,NJ245705,89410,Moray Coast,23,31
+90456,Alness Bay,NH631669,90950,Cromarty Firth,NA,32
+90449,Barbaraville,NH743716,90950,Cromarty Firth,NA,33
+90465,Toberchurn to Ferryton,NH645649,90950,Cromarty Firth,NA,34
+90480,Bonar Bridge - Ardmore Bay,NH646875,90970,Dornoch Firth,NA,35
+90070,Cran Loch,NH946590,90071,Cran Loch and Loch Loy,NA,36
+90975,Cuthill - Newton Point,NH725870,90970,Dornoch Firth,NA,37
+89420,Lossie Estuary,NJ242699,89420,Lossie Estuary,NA,38
+90439,Rosemarkie to Cromarty,NH779634,90439,Rosemarkie to Cromarty,NA,39
+90418,Rosemarkie to Avoch,NH740571,90920,Inner Moray and Beauly Firths,23,40
+90477,Dornoch Firth - Ardmore Bay,NH705875,90970,Dornoch Firth,NA,41
+90425,Ness Mouth,NH659468,90920,Inner Moray and Beauly Firths,23,42
+90475,Ardmore Bay - Ardjachie,NH726858,90970,Dornoch Firth,NA,43
+9.54E+02,Golspie to Brora,NC875012,90994,Loch Fleet Complex,NA,44
+89421,Spey Mouth,NJ341649,89410,Moray Coast,4,45
+90405,Hilton of Delnies,NH845570,90920,Inner Moray and Beauly Firths,NA,46
+90006,Loch Migdale,NH634910,90006,Loch Migdale,NA,47
+89431,Burghead Bay - Burghead to Findhorn,NJ103667,89431,Burghead Bay - Burghead to Findhorn,13,48
+90903,Helmsdale to Lothbeg,NC997121,90903,Helmsdale to Lothbeg,1,49
+90904,Easter Ross Coast,NH889777,90904,Easter Ross Coast,NA,50
+88473,Strathmarchin Bay,NJ611669,88473,Strathmarchin Bay,NA,51
+89443,Findhorn Bay,NJ039629,90920,Inner Moray and Beauly Firths,NA,52
+90435,Beauly Firth North,NH596485,90920,Inner Moray and Beauly Firths,18,53
+90457,Dingwall Bay,NH569592,90950,Cromarty Firth,NA,54
+90478,Newton Point - Bonar Bridge,NH675885,90970,Dornoch Firth,NA,55
+90419,Avoch Bay,NH701538,90920,Inner Moray and Beauly Firths,22,56
+88472,Boyndie Bay,NJ673652,88472,Boyndie Bay,NA,57
+90473,Whiteness Sands (Morroch More),NH859849,90970,Dornoch Firth,NA,58
+90484,Easterton - Fort George,NH778543,90920,Inner Moray and Beauly Firths,23,59
+89444,Buckie Loch Offshore,NH999656,89444,Buckie Loch Offshore,NA,60
+90492,Embo,NH818915,90994,Loch Fleet Complex,23,61
+90497,Brora,NC916041,90994,Loch Fleet Complex,23,62
+90495,Littleferry Pier to Golspie,NH819975,90994,Loch Fleet Complex,NA,63
+90420,Munlochy Bay,NH676526,90920,Inner Moray and Beauly Firths,NA,64
+89429,Hopeman to Covesea,NJ176711,89410,Moray Coast,5,65
+90401,Coul Links Pool,NH804948,90401,Coul Links Pool,NA,66
+90469,Wilkhaven to Rockfield,NH940851,90469,Wilkhaven to Rockfield,22,67
+90481,Kyle of Sutherland,NH585935,90970,Dornoch Firth,NA,68
+89445,Culbin Bar,NH983630,90920,Inner Moray and Beauly Firths,23,69
+90467,Balintore to Shandwick,NH871759,90467,Balintore to Shandwick,NA,70
+90490,Dornoch Firth - Dornoch Sands,NH781877,90970,Dornoch Firth,20,71
+88491,Findlater - Logie Head to Garron Point,NJ543677,88491,Findlater - Logie Head to Garron Point,NA,72
+90402,Nairn Bar,NH927593,90920,Inner Moray and Beauly Firths,23,73
+90485,Lentran,NH563468,90920,Inner Moray and Beauly Firths,NA,74
+90414,Castle Stuart - Westerton,NH737508,90920,Inner Moray and Beauly Firths,23,75
+90404,Nairn (Town) Offshore,NH867572,90920,Inner Moray and Beauly Firths,NA,76
+90494,Loch Fleet,NH798966,90994,Loch Fleet Complex,23,77
+90499,Golspie,NH840997,90994,Loch Fleet Complex,23,78
+90421,Craigiehowe to Craigton,NH676497,90920,Inner Moray and Beauly Firths,21,79
+90571,Loch Loy,NH930586,90071,Cran Loch and Loch Loy,NA,80
+90462,South Kessock,NH652470,90920,Inner Moray and Beauly Firths,20,81
+90410,Fort George to Delnies,NH794577,90920,Inner Moray and Beauly Firths,22,82
+89423,Lossie Mouth to Spey Mouth,NJ287678,89410,Moray Coast,NA,83
