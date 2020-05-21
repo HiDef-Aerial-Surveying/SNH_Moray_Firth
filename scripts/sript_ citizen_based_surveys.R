@@ -48,7 +48,7 @@ clean_units <- function(x){
 
 
   # Polygons with the WeBS areas
-    polygs<- readOGR(dsn = "./Jen data", layer = "Banff_to_Helmsdale_WeBS")
+    polygs<- readOGR(dsn = "./Shapefile", layer = "Banff_to_Helmsdale_WeBS")
     polygs<-spTransform(polygs, main.crs)
     names(polygs)
     sort(unique(polygs$NAME))
@@ -69,7 +69,7 @@ clean_units <- function(x){
 
   # iww monitoring project observations
 
-    iww <- read_excel("Jen Data/IWW_2020_rv.xlsx", sheet = 2)
+    iww <- read_excel("IWW_data/IWW_2020_rv.xlsx", sheet = 2)
     names(iww)
     head(iww)
     unique(iww$taxonName)
@@ -82,7 +82,10 @@ clean_units <- function(x){
 
 # 2. Subset IWW data by date ----------------------------------------------
 
-  survey.date <- "2020-01-19"  # 1st aerial survey: 19.01.20, 2nd aerial survey: 08.03.20
+    # available dates: "2020-01-19", "2020-01-21", "2020-03-08", "2020-03-09"
+    # 1st aerial survey: "2020-01-19", 2nd aerial survey: "2020-03-08"
+    
+    survey.date <- "2020-01-19"
   
     iww$Date <- as.character(iww$Date)
     iww <- iww[iww$Date == survey.date, ]
@@ -140,7 +143,7 @@ clean_units <- function(x){
     names
     iww.aggr <- iww.aggr[ c(4,13) ]  # TIME and UNIQUE VPs (with or without observation) 
 
-  # Species subset
+  # Species subset ("Common eider", "Common scoter", "Red-throated diver")
     spp <- "Common eider"
 
     iww.sub <- iww.locs[iww.locs$taxonName == spp, ]
@@ -201,5 +204,5 @@ clean_units <- function(x){
     plot(polygs.iww, add=TRUE, col="transparent", border="orange") # WebS sectors in the IWW data
     
   # save outputs
-    output.name <- paste0(spp,"_",date,".RData")
+    output.name <- paste0(spp,"_",survey.date,".RData")
     save(polygs.dens, locs.dens, buffer_ras, file= output.name)
