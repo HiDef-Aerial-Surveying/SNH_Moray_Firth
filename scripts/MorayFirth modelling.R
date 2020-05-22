@@ -7,7 +7,7 @@ library(mapproj)
 library(raster)
 library(inlabru)
 
-#setwd("C:/Workspace/Nextcloud/Github/HiDef/SNH_Moray_Firth")
+setwd("C:/Workspace/Nextcloud/Github/HiDef/SNH_Moray_Firth")
 geogr<-CRS("+init=epsg:4326")
 # we are going to use the UTM30N as main reference system 
 # (note that we set crs units to km...this will ensure that we are always taling about km...i.e. predicted density will be Individuals/sq. km, range will be in km, etc)
@@ -22,13 +22,13 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
       mask<-spTransform(mask, main.crs)
 
     # EFFORT
-      track01 <- readOGR(dsn = "data/2020 - Month 01 - Survey 01/Output/Zone87_M01_S01_20_Output", layer = "Zone87_M01_S01_20_Output-Day1-Transects")
+      track01 <- readOGR(dsn = "data/Aerial_Surveys/2020 - Month 01 - Survey 01/Output/Zone87_M01_S01_20_Output", layer = "Zone87_M01_S01_20_Output-Day1-Transects")
       plot(track01)
       head(track01)
       track01<-spTransform(track01, main.crs)
 
     # SIGHTINGS
-      table <- "data/2020 - Month 01 - Survey 01/Observations/Zone87_M01_S01_20_Observations_MSS.xlsx"
+      table <- "data/Aerial_Surveys/2020 - Month 01 - Survey 01/Observations/Zone87_M01_S01_20_Observations_MSS.xlsx"
 
       obs01 <- read_excel(table, sheet = 1)
       unique(obs01$Species)
@@ -41,7 +41,7 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
       unique(obs01$Species)
       table(obs01$Species)
       
-      spp <- "Common scoter"  #"Herring gull" ; "Razorbill" ;"Common scoter"
+      spp <- "Eider"  #"Herring gull" ; "Razorbill" ;"Common scoter"
       
       obs01.model <- subset(obs01, Species == spp)
       obs01.model<-spTransform(obs01.model, main.crs)
@@ -178,8 +178,8 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
       marginals <- inla.qmarginal(c(0.025, 0.5, 0.975), marginal = list(x=abund$N, y = abund$mean)); marginals # get Q0.025, median and Q0.975
       marg.mean <- inla.emarginal(identity, marginal = list(x=abund$N, y = abund$mean)) ; marg.mean  #get mean estimated population
       
-      lower.lim <- marginals[1] - 1000  # adjust later
-      upper.lim <- marginals[3] + 1000  # adjust later
+      lower.lim <- marginals[1] - 500  # adjust later
+      upper.lim <- marginals[3] + 500  # adjust later
       
       #plot posterior mean and IC
       ggplot(data = abund, aes(x = N, y = mean)) +
@@ -198,5 +198,20 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
       int.plot <- plot(lgcp.fit, "Intercept")
       spde.range <- spde.posterior(lgcp.fit, "spatial_spde", what = "range")
       plot(spde.range)
-
+      
+      
+      # export result as raster
+      
+      
+      # create spatial points data frame
+      spg <- predicted
+      coordinates(spg) <- ~ x + y
+      # coerce to SpatialPixelsDataFrame
+      gridded(spg) <- TRUE
+      # coerce to raster
+      pred.raster <- raster(spg, layer=1)
+      plot(pred.raster)
+     output.name <- paste0(spp,"_survey01.rds")
+      saveRDS(pred.raster, file = output.name)
+      
       
