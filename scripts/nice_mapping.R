@@ -37,7 +37,7 @@ boundary.shape <- readOGR(dsn="./Data/Shapefile/Moray_Firth_Area_WGS84.shp",
 boundaryUTM30 <- spTransform(boundary.shape,UTM30)
 boundary_DF <- fortify(boundaryUTM30)
 
-Transects <- readOGR(dsn="./Data/2020 - Month 01 - Survey 01/Output/Zone87_M01_S01_20_Output/Zone87_M01_S01_20_Output-Day1-Transects.shp",
+Transects <- readOGR(dsn="./Data/Aerial_Surveys/2020 - Month 01 - Survey 01/Output/Zone87_M01_S01_20_Output/Zone87_M01_S01_20_Output-Day1-Transects.shp",
                      layer="Zone87_M01_S01_20_Output-Day1-Transects")
 TransectsUTM30 <- spTransform(Transects,UTM30)
 transdf <- data.frame(coordinates(TransectsUTM30))
@@ -47,7 +47,7 @@ coastline_sp_utm <- spTransform(tt, UTM30)
 coastData_DF <- fortify(coastline_sp_utm)
 
 
-SppDatajan <- readOGR(dsn="./Data/2020 - Month 01 - Survey 01/Output/Zone87_M01_S01_20_Output/Zone87_M01_S01_20_Output-Day1-CentCount.shp",
+SppDatajan <- readOGR(dsn="./Data/Aerial_Surveys/2020 - Month 01 - Survey 01/Output/Zone87_M01_S01_20_Output/Zone87_M01_S01_20_Output-Day1-CentCount.shp",
                    layer="Zone87_M01_S01_20_Output-Day1-CentCount")
 SppDatajanUTM30 <- spTransform(SppDatajan,UTM30)
 Sppdfjan <- data.frame(coordinates(SppDatajanUTM30))
@@ -56,7 +56,6 @@ SppDatamar <- readOGR(dsn="./Data/2020 - Month 03 - Survey 01/Output/Zone87_M03_
                       layer="Zone87_M03_S01_20_Output-Day1-CentCount")
 SppDatamarUTM30 <- spTransform(SppDatamar,UTM30)
 Sppdfmar <- data.frame(coordinates(SppDatamarUTM30))
-
 
 
 # Generate transect map ---------------------------------------------------
