@@ -18,7 +18,7 @@ clean_units <- function(x){
 # 1. Load data ------------------------------------------------------------
 
   # accesory layers
-    mask <- readOGR(dsn = "./Shapefile", layer = "Moray_Firth_Area_WGS84")
+    mask <- readOGR(dsn = "Data/Shapefile", layer = "Moray_Firth_Area_WGS84")
     mask<-spTransform(mask, main.crs)
 
   # We make a raster mask...
@@ -33,7 +33,7 @@ clean_units <- function(x){
 
   # sighting locations
 
-    locs <- read_excel("VPs_sectors_coordinates_rv.xlsx",sheet=1)
+    locs <- read_excel("Data/VPs_sectors_coordinates_rv.xlsx",sheet=1)
 
       # Aggregate WeBS sectors inside the Beauly Firth (overlapping areas between both sides of the firth)
 
@@ -48,7 +48,7 @@ clean_units <- function(x){
 
 
   # Polygons with the WeBS areas
-    polygs<- readOGR(dsn = "./Shapefile", layer = "Banff_to_Helmsdale_WeBS")
+    polygs<- readOGR(dsn = "Data/Shapefile", layer = "Banff_to_Helmsdale_WeBS")
     polygs<-spTransform(polygs, main.crs)
     names(polygs)
     sort(unique(polygs$NAME))
@@ -69,7 +69,7 @@ clean_units <- function(x){
 
   # iww monitoring project observations
 
-    iww <- read_excel("IWW_data/IWW_2020_rv.xlsx", sheet = 2)
+    iww <- read_excel("Data/IWW_data/IWW_2020_rv.xlsx", sheet = 2)
     names(iww)
     head(iww)
     unique(iww$taxonName)

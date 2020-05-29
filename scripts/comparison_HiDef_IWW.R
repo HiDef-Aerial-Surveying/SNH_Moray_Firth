@@ -1,6 +1,5 @@
 ### COMPARISON BETWEEN IWW DENSITIES AND HIDEF DENSITIES
 
-
 setwd("C:/Workspace/Nextcloud/Github/HiDef/SNH_Moray_Firth/data")
 
 geogr<-CRS("+init=epsg:4326")
@@ -9,11 +8,8 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
 
 # 1. Load data ------------------------------------------------------------
 
-
-
   spp <- "Common eider"  # Species subset ("Common eider", "Common scoter", "Red-throated diver")
   survey.date <- "2020-01-19"  # 1st aerial survey: "2020-01-19", 2nd aerial survey: "2020-03-08"
-
 
   # IWW DATA
   
@@ -62,7 +58,7 @@ main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs 
   # scatterplot
     plot(r1, r2)
     
-  # Pearson´s correlation
+  # Pearson?s correlation
     cor(r1, r2, use= "pairwise.complete.obs")
 
   # Linear model

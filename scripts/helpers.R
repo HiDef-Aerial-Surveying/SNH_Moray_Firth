@@ -4,9 +4,13 @@
 
 # Load libraries ----------------------------------------------------------
 source("scripts/load_libs.R")
-LIBS <- c("tidyverse","foreach","rgeos","sp","maptools","rgdal","raster","Hmisc","ggthemes",
-          "Cairo","doSNOW","readxl","INLA","mapproj","inlabru","ggnewscale")
+LIBS <- c("tidyverse","foreach","rgeos","sp",
+          "maptools","rgdal","raster","Hmisc","ggthemes",
+          "Cairo","doSNOW","readxl","INLA",
+          "mapproj","inlabru","ggnewscale","sf")
 Load_Libs(LIBS)
+
+
 
 # Spatial Projections -------------------------------------------------------------
 WGS84<-CRS("+init=epsg:4326")
@@ -159,7 +163,7 @@ model.prep <- function(obj.list,jitter.points=FALSE,MESH,
   # matern surface and prior.range with the maximum expected reach of the spatial correlation (in km)
   # the 0.5 is our confidence in the sigma and range provided as priors, we do not want to make 
   # any assumption, so we give a very low confidence: 0.5
-  
+  set.seed(999)
   print("creating matern surface")
   # non-informative priors
   matern2D = inla.spde2.pcmatern(mesh1,  prior.sigma = priorsigma, prior.range = priorrange)  
@@ -266,6 +270,20 @@ model.predictions <- function(MESH,lgcp.fit){
   return(list(predicted=predicted,abund=abund,marginals=marginals,marg.mean=marg.mean))
 }
 
+save.predictions <- function(predicted,spp,month){
+  spg <- predicted
+  coordinates(spg) <- ~ x + y
+  # coerce to SpatialPixelsDataFrame
+  gridded(spg) <- TRUE
+  # coerce to raster
+  pred.raster <- raster(spg, layer=1)
+  
+  output.name <- paste0(".output/",spp,"_month",month,".rds")
+  print(paste("Saving predictions as",output.name))
+  
+  saveRDS(pred.raster, file = output.name)
+}
+
 
 plot.abundance <- function(predicted,track,plot.title="",plot.boundary=F,
                            plot.coastline=F,round.scale=0){
@@ -367,6 +385,188 @@ plot.pop.priors <- function(pred.list){
   #plot(spde.range)
   return(G) 
 }
+
+
+
+# Functions for handling IWW data -----------------------------------------
+
+clean_units <- function(x){
+  attr(x,"units") <- NULL
+  class(x) <- setdiff(class(x),"units")
+  x
+}
+
+
+## Function to turn our survey area into a raster mask (may need this someday)
+create.raster.mask <- function(mask){
+  extension <- extent(mask)
+  raster.mask <- raster()
+  extent(raster.mask) <- extension
+  crs(raster.mask) <- main.crs
+  res(raster.mask) <- c(1,1)
+  raster.mask <- rasterize(mask, raster.mask,1)
+  raster.mask[is.na(raster.mask[])] <- 0 
+}
+
+
+
+# Functions for wrangling IWW data ----------------------------------------
+
+
+
+load_VP_data <- function(){
+  # IWW VP locations
+  locs <- read_excel("Data/VPs_sectors_coordinates_rv.xlsx",sheet=1)
+  # Aggregate WeBS sectors inside the Beauly Firth (overlapping areas between both sides of the firth)
+  locs$sector <- locs$WeBS_sector
+  locs$sector<- plyr::revalue(locs$WeBS_sector, c("Lentran to Bunchrew"="Beauly Firth", "Beauly Firth North"="Beauly Firth",
+                                                  "South Kessock"="Beauly Firth", "Ness Mouth"="Beauly Firth"))
+  coordinates(locs) <- c("Lon","Lat")
+  crs(locs) <- WGS84
+  locs<<-spTransform(locs, UTM30)
+  # Read WeBS polygons
+  # merge polygons within the Beauly Firth
+  polygs<- readOGR(dsn = "Data/Shapefile", layer = "Banff_to_Helmsdale_WeBS")
+  polygs<-spTransform(polygs, UTM30)
+  polygs$NAME<- plyr::revalue(polygs$NAME, c("Lentran"="Beauly Firth","Lentran to Bunchrew"="Beauly Firth", "Beauly Firth North"="Beauly Firth",
+                                             "South Kessock"="Beauly Firth", "Ness Mouth"="Beauly Firth"))
+  polygs<<- aggregate(polygs, by= "NAME", dissolve=T)
+  
+  # IWW monitoring project observations
+  iww<<- read_excel("Data/IWW_data/IWW_2020_rv.xlsx", sheet = 2)
+  
+}
+
+
+# available dates: "2020-01-19", "2020-01-21", "2020-03-08", "2020-03-09"
+# 1st aerial survey: "2020-01-19", 2nd aerial survey: "2020-03-08"
+subset_IWW_date <- function(survey.date){
+  survey.date <- "2020-01-19"
+  iww$Date <- as.character(iww$Date)
+  iww <- iww[iww$Date == survey.date, ]
+  iww <<- iww[ c(3,4,8,13,20, 21) ]
+  # subset only locs with IWW data
+  uniq.iww.vpcodes <- unique(iww$VP_code) # only for sectors with IWW VPs
+  locs.iww <- subset(locs, VP_code %in% uniq.iww.vpcodes )
+  return(locs.iww)
+}
+
+
+
+
+calculate.buffer <- function(locs.iww,mask,buffer.size=2){
+  # locs.iww = output from subset_IWW_date
+  # mask = mask loaded from helpers.R
+  # buffer.size = size of buffer to apply in KM
+  locs.sf = st_as_sf(locs.iww)
+  mask.sf <- st_as_sf(mask)
+  
+  locs.buffer = st_buffer(locs.sf, buffer.size)
+  locs.sea = st_intersection(locs.buffer, mask.sf)
+  locs.sea$area = st_area(locs.sea)
+  locs.sea <- as(locs.sea,"Spatial")
+  
+  return(locs.sea)
+}
+
+
+
+merge.iww_to_WeBS_polys <- function(iww,locs.sea,polygs){
+  # Assign coordinates to IWW locations based on VP code
+  iww.locs <<- merge(iww, locs.sea, by.x="VP_code",by.y=c("VP_code"))
+  # subset WeBS sectors with IWW observations inside
+  uniq.iww.sectors <- unique(iww.locs$sector)
+  polygs.iww <<- subset(polygs, NAME %in% uniq.iww.sectors )
+  #Clean locs.sea
+  locs.sea$area <- clean_units(locs.sea$area)
+  locs.sea <<- locs.sea[ -c(2,3,4,5,6,9,10) ]
+}
+
+
+
+
+plot.basic.view <- function(locs.sea,mask,locs.iww,polygs.iww){
+  # Plot
+  plot(locs.sea, col="blue")  # buffers
+  plot(mask, add=TRUE)   # polygon mask Moray Firth
+  plot(locs.iww, add=TRUE, col="red", pch=20) # VPs in the IWW data
+  plot(polygs.iww, add=TRUE, col="transparent", border="orange") # WebS sectors in the IWW data
+}
+
+
+
+
+
+
+subset_species <- function(iww.locs,spp){
+  spp <- tolower(spp)
+  # first we take the first line of each VP code (several groups of the same spp can be sighted by VP)
+  # we do it before subsetting the species to include effort in VPs with zero observations
+  iww.aggr <- ddply(iww.locs, "sector", head, 1)
+  #names(iww.aggr)[4] <- 'sector'
+  iww.aggr <<- iww.aggr[ c(4,13) ]  # TIME and UNIQUE VPs (with or without observation) 
+  iww.sub <- iww.locs[tolower(iww.locs$taxonName) == spp, ]
+  # I do not know why the previous line generates an NA, we remove it
+  iww.sub <- iww.sub[complete.cases(iww.sub[ , 1]),] 
+  
+  # aggregate average of animals by sector, spp and date
+  counts <- aggregate(Number~sector, iww.sub, mean)  
+  # mean of individuals
+  return(counts)
+}
+
+
+
+create.polygons <- function(locs.sea,iww.aggr,counts,save.output=F,spp="",survey.date=""){
+  # Area
+  locs.sector <- aggregate(locs.sea, by= "sector", dissolve=T)
+  locs.sector.sf = st_as_sf(locs.sector)
+  locs.sector.sf$area = st_area(locs.sector.sf)
+  locs.sector <- as(locs.sector.sf,"Spatial")
+  locs.sector$area <- clean_units(locs.sector$area)
+  
+  # MERGE all (counts, areas and time)
+  # counts are in data.frame counts (only for sectors with positive counts)
+  # areas are in locs.sector (for all sectors)
+  # time is in iww.aggr  (for all sectors)
+  
+  iww.all <- merge(iww.aggr, locs.sector@data, by="sector",all.x=TRUE)
+  iww.all <- merge(iww.all, counts, by="sector",all.x=TRUE)
+  iww.all$Number[is.na(iww.all$Number)] <- 0
+  
+  # calculate density by sector (counts/ hour* sq.km  by sector)
+  
+  iww.all$dens <- with(iww.all, Number/ (Time_obs * area))
+  
+  
+  # merge with polygons
+  polygs.dens <- merge(polygs, iww.all, by.x="NAME", by.y="sector", all.x=TRUE) 
+  
+  
+  # merge with buffers
+  locs.dens <- merge(locs.sector, iww.all, by="sector", all.x=TRUE)
+  
+  r <- raster(ncol=1000, nrow=1000)
+  extent(r) <- extent(locs.dens)
+  
+  buffer_ras<- rasterize(locs.dens, r, "dens", fun="mean")
+  
+  if(save.output==T){
+    if(nchar(spp)==0){
+      stop("You have not specified the species name for saving.. please set spp = ")
+    }
+    if(nchar(survey.date)==0){
+      stop("You have not specified the survey date for saving.. please set survey.date = ")
+    }
+    output.name <- paste0("./outputs/",spp,"_",survey.date,".RData")
+    print(paste("saving output to",output.name))
+    save(polygs.dens, locs.dens, buffer_ras, file= output.name)
+  }
+  
+  return(list(polygs.dens=polygs.dens,locs.dens=locs.dens,buffer_ras=buffer_ras))
+}
+
+
 
 
 
