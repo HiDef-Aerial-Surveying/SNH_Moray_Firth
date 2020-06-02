@@ -1,12 +1,12 @@
 
 source("scripts/helpers.R")
 
-
-SurveyDate <- "2020-01-19"
-spp <- "Common eider"
+spp <- "Common scoter"  # Species subset ("Common eider", "Common scoter", "Red-throated diver")
+survey.date <- "2020-01-19"  # 1st aerial survey: "2020-01-19", 2nd aerial survey: "2020-03-08"
+month <- "01"
 
 load_VP_data()
-locs.iww <- subset_IWW_date(survey.date = SurveyDate)
+locs.iww <- subset_IWW_date(survey.date = survey.date)
 
 locs.sea <- calculate.buffer(locs.iww = locs.iww,
                              mask = mask,
@@ -30,10 +30,10 @@ outputs <- create.polygons(locs.sea,
                            counts,
                            save.output = T,
                            spp = spp,
-                           survey.date = SurveyDate)
+                           survey.date = survey.date)
 
 ### If you want to have a quick look at the outputs, try these commands
-spplot(outputs$locs.dens, zcol= "dens", colorkey=FALSE)
+spplot(outputs$locs.dens, zcol= "dens")
 spplot(outputs$polygs.dens, zcol= "dens", colorkey=FALSE) 
 plot(mask)   # polygon mask Moray Firth
 plot(locs.iww, add=TRUE, col="red", pch=20) # VPs in the IWW data
@@ -44,74 +44,24 @@ plot(polygs.iww, add=TRUE, col="transparent", border="orange")
 # Comparing IWW to aerial survey data -------------------------------------
 
 
+load.rasters(spp,survey.date,month)
+
+valuesout <- compare.rasters(hd.raster,outputs$buffer_ras,log.scale=T)
 
 
+site.list <- c("Embo","Culbin Bar","Burghead to Hopeman",
+               "Lossie Mouth to Spey Mouth","Dornoch Firth",
+               "Tarbat Ness to Portmahomack","Wilkhaven to Rockfield")
+pgonsout <- extract.polygons(outputs$locs.dens,site.list)
 
-geogr<-CRS("+init=epsg:4326")
-main.crs = "+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=km +no_defs +ellps=WGS84 +towgs84=0,0,0"
-
-
-# 1. Load data ------------------------------------------------------------
-
-spp <- "Common eider"  # Species subset ("Common eider", "Common scoter", "Red-throated diver")
-survey.date <- "2020-01-19"  # 1st aerial survey: "2020-01-19", 2nd aerial survey: "2020-03-08"
-
-# IWW DATA
-
-input.name <- paste0(spp,"_",survey.date,".RData") # IWW results were named as "spp_date.RData" 
-IWWData <- load(input.name)
-
-plot(buffer_ras)  # we are going to use the raster output
+psout <- compare.polygons(outputs$locs.dens,hd.raster,log.scale = F)
 
 
-# HiDef data
-spp.hd <- "Eider"  #In the HiDef database, "Common Eider" is called just "Eider"
-input.name <- paste0(spp.hd,"_survey01.rds")  #output was named "spp_survey01.rds" for results from the first survey
-hd.raster <- readRDS(input.name)
-plot(hd.raster)   # we check the raster
+subsetcompare <- compare.polygons(pgons = pgonsout,
+                 hd.raster = hd.raster,
+                 log.scale = F)
 
 
-
-# 2. Make both rasters comparable -----------------------------------------
-
-
-
-crs(hd.raster) <- crs(buffer_ras)  # give same crs
-
-
-iww.res <- resample(buffer_ras, hd.raster)  # resample buffer_ras to get same extent and resolution than hd.raster
-
-# check resolution and extensions
-res(iww.res)  
-extent(iww.res)
-plot(iww.res)
-res(hd.raster)
-extent(hd.raster)
-
-# Mask raster hd.raster to get same area than iww.res
-hd.crop<- mask(hd.raster, iww.res)
-
-
-
-# 3. Measure correlation --------------------------------------------------
-
-
-# extract values
-r1 <- values(hd.crop)
-r2 <- values(iww.res)
-
-# scatterplot
-plot(r1, r2)
-
-# Pearson?s correlation
-cor(r1, r2, use= "pairwise.complete.obs")
-
-# Linear model
-lm1 <- lm(r1 ~ r2)
-summary(lm1)  # significance of r2
-plot(lm1)
-
-
-
+psout <- compare.polygons(polygs.dens=pgonsout,hd.raster,log.scale = F)
 
 

@@ -7,7 +7,7 @@ source("scripts/load_libs.R")
 LIBS <- c("tidyverse","foreach","rgeos","sp",
           "maptools","rgdal","raster","Hmisc","ggthemes",
           "Cairo","doSNOW","readxl","INLA",
-          "mapproj","inlabru","ggnewscale","sf")
+          "mapproj","inlabru","ggnewscale","sf","plyr")
 Load_Libs(LIBS)
 
 
@@ -568,5 +568,137 @@ create.polygons <- function(locs.sea,iww.aggr,counts,save.output=F,spp="",survey
 
 
 
+# Functions to compare IWW to HiDef data ----------------------------------
+
+
+
+
+compare.rasters <- function(hd.raster,buffer_ras,log.scale=T){
+  
+  # give same crs
+  crs(hd.raster) <- crs(buffer_ras)  
+  
+  # resample buffer_ras to get same extent and resolution than hd.raster
+  iww.res <- resample(buffer_ras, hd.raster)  
+  
+  # Mask raster hd.raster to get same area as iww.res
+  hd.crop<- raster::mask(hd.raster, iww.res)
+  
+  
+  r1 <- values(hd.crop)
+  r2 <- values(iww.res)
+  
+  do.correlation(r1,r2,log.scale=log.scale)
+  
+  df <- data.frame(r1,r2)
+  
+  if(log.scale==T){
+    
+    df$r1 <- log(df$r1)
+    df$r2 <- log(df$r2)
+    G <- ggplot(df,aes(x=r2,y=r1))+
+      geom_point(fill="orange",pch=21)+
+      stat_smooth(method="glm",se = TRUE,fill="lightpink",
+                  color="black",linetype="dashed")+
+      scale_x_continuous(expand=c(0.01,0))+
+      ylab("log(HiDef densities)")+
+      xlab("log(IWW densities)")+
+      ggthemes::theme_gdocs()
+  }else{
+    G <- ggplot(df,aes(x=r2,y=r1))+
+      geom_point(fill="orange",pch=21)+
+      stat_smooth(method="glm",se = TRUE,fill="lightpink",
+                  color="black",linetype="dashed")+
+      scale_x_continuous(expand=c(0.01,0))+
+      ylab("log(HiDef densities)")+
+      xlab("log(IWW densities)")+
+      ggthemes::theme_gdocs()
+  }
+  
+  return(list(hd=r1,iww=r2,Gplt=G))
+  
+}
+
+
+do.correlation <- function(r1,r2,log.scale=T){
+  
+  ## Adds a little noise to a value of 0 in case log scale is applied
+  r1[r1==0] <- 0.0000001
+  r2[r2==0] <- 0.0000001
+  # scatterplot
+  if(log.scale==TRUE){
+    print("Comparing values on the log scale")
+    r1 <- log(r1)
+    r2 <- log(r2)
+  }
+  
+  # Pearsons correlation
+  rvalue <- cor(r1, r2, use= "pairwise.complete.obs")
+  
+  # Linear model
+  lm1 <- lm(r1 ~ r2)
+  print(paste("Pearson's correlation =",rvalue))
+  print(summary(lm1))
+  return(list(rvalue=rvalue,lm1=lm1))
+}
+
+load.rasters <- function(spp,survey.date,month){
+  # IWW results were named as "spp_date.RData" 
+  input.name <<- paste0("outputs/",spp,"_",survey.date,".RData") 
+  IWWData <- load(input.name)
+  
+  #output was named "spp_monthxx.rds" for results from the first survey
+  input.name <- paste0("outputs/",spp,"_month",month,".rds")  
+  hd.raster <<- readRDS(input.name)
+  
+}
+
+compare.polygons <- function(pgons,hd.raster,log.scale=T){
+  
+  #Extract raster values to the polygons
+  extracted <- raster::extract(hd.raster,pgons)
+  dfout <- data.frame(hd.data=unlist(lapply(extracted,function(x) mean(x,na.rm=T))),
+                      iww.data=pgons@data$dens,
+                      iww.site=pgons@data$sector)
+  
+  
+  do.correlation(dfout$hd.data,dfout$iww.data,log.scale=log.scale)
+  
+  
+  df <- data.frame(r1=dfout$hd.data,r2=dfout$iww.data)
+  
+  if(log.scale==T){
+    
+    df$r1 <- log(df$r1)
+    df$r2 <- log(df$r2)
+    G <- ggplot(df,aes(x=r2,y=r1))+
+      geom_point(fill="orange",pch=21)+
+      stat_smooth(method="glm",se = TRUE,fill="lightpink",
+                  color="black",linetype="dashed")+
+      scale_x_continuous(expand=c(0.01,0))+
+      ylab("log(HiDef densities)")+
+      xlab("log(IWW densities)")+
+      ggthemes::theme_gdocs()
+  }else{
+    G <- ggplot(df,aes(x=r2,y=r1))+
+      geom_point(fill="orange",pch=21)+
+      stat_smooth(method="glm",se = TRUE,fill="lightpink",
+                  color="black",linetype="dashed")+
+      scale_x_continuous(expand=c(0.01,0))+
+      ylab("log(HiDef densities)")+
+      xlab("log(IWW densities)")+
+      ggthemes::theme_gdocs()
+  }
+  
+  
+  return(list(Gplt=G))
+}
+
+
+
+extract.polygons <- function(locs.dens,site.list){
+  extracts <- locs.dens[locs.dens@data$sector %in% site.list,]
+  return(extracts)
+}
 
 

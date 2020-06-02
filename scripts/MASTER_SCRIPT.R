@@ -20,6 +20,12 @@ spp <- "Common scoter"
 ## I.E. Jan = "01", Feb = "02", ... Dec = "12"
 month <- "01"
 
+# Select the date of the survey -------------------------------------------
+
+# 1st aerial survey: "2020-01-19", 2nd aerial survey: "2020-03-08"
+survey.date <- "2020-01-19"  
+
+
 # Load data ------------------------------------------------------------
 ## This will load up the track data
 # month = the month of interest as a character string ("01" or "03")
@@ -76,7 +82,8 @@ lgcp.model <- lgcp.spde(modprep.list = model.data)
 # lgcp.fit = the output from lcpe.spde()
 predictions <- model.predictions(MESH = MESH,lgcp.fit = lgcp.model)
 
-
+# Save the predictions to the output folder
+save.predictions(predicted==predictions$predicted,month = month,spp=spp)
 
 # Plot the predicted distribution -----------------------------------------
 
@@ -107,5 +114,106 @@ plot.pop.priors(pred.list = predictions)
 # To get the estimated population go: 
 predictions$marginals
 
+
+# Wrangling the IWW data --------------------------------------------------
+
+## This command loads the VP data into the environment
+load_VP_data()
+
+## Subsets the IWW data by the survey date above
+locs.iww <- subset_IWW_date(survey.date = survey.date)
+
+## Creates the buffer around the VPs for comparing against HD data
+## This is set to 2 (km) at the minute - see buffer.size=2
+## But could be changed to something else
+## We are recommending this stay at 2km as it's the maximum distance at which 
+## birds can be reliably identified. 
+
+locs.sea <- calculate.buffer(locs.iww = locs.iww,
+                             mask = mask,
+                             buffer.size=2)
+
+## Merges IWW vantage points with the WeBS polygon for a naming convention. 
+merge.iww_to_WeBS_polys(iww = iww,
+                        locs.sea = locs.sea,
+                        polygs = polygs)
+
+## displays a simple plot (optional)
+plot.basic.view(locs.sea = locs.sea,
+                mask = mask,
+                locs.iww = locs.iww,
+                polygs.iww = polygs.iww)
+
+## Subset species and get mean counts for selected locations (i.e. for when adjacent areas are merged)
+counts <- subset_species(iww.locs = iww.locs,spp = spp)
+
+## This outputs a list of the vantage point polygons (locs.dens),
+## the WeBS polygons (polygs.dens), and a raster representation
+## of the buffers. 
+
+outputs <- create.polygons(locs.sea,
+                           iww.aggr,
+                           counts,
+                           save.output = T,
+                           spp = spp,
+                           survey.date = survey.date)
+
+### If you want to have a quick look at the outputs, try these commands
+spplot(outputs$locs.dens, zcol= "dens")
+spplot(outputs$polygs.dens, zcol= "dens", colorkey=FALSE) 
+
+plot(mask)   # polygon mask Moray Firth
+plot(locs.iww, add=TRUE, col="red", pch=20) # VPs in the IWW data
+plot(polygs.iww, add=TRUE, col="transparent", border="orange")
+
+
+# Comparing IWW data to HiDef flights -------------------------------------
+
+### This will load up the HiDef modelled data that was saved using the 
+### save.predictions function
+load.rasters(spp,survey.date,month)
+
+
+# Comparing hidef raster to vantage point raster --------------------------
+
+## Vantage point polygons were converted to rasters in the create.polygons function
+## we can compare those rasters at face value (grid cell to grid cell)
+valuesout <- compare.rasters(hd.raster,outputs$buffer_ras,log.scale=T)
+
+
+
+# Comparing Hidef raster to vantage point polygons ------------------------
+
+## Using this function we can look at the mean density of birds/hr in the 
+## IWW polygons (2km buffers) and compare against the mean of the HiDef 
+## modelled output. outputs$locs.dens is the polygon shapefile for IWW
+
+psout <- compare.polygons(pgons = outputs$locs.dens,
+                          hd.raster,
+                          log.scale = T)
+
+
+# Comparing a subset of polygons to the raster ----------------------------
+
+## In some cases you might want to explore a subset of the IWW polygons. 
+## First, look at the list of names and then put the ones you want to examine
+## into the list. 
+
+## NOTE the log.scale=T function. This is used to make the comparison
+## on a log scale, which will give a better idea of if data are correlated.
+
+print(outputs$locs.dens@data$sector)
+
+site.list <- c("Embo","Culbin Bar","Burghead to Hopeman",
+               "Lossie Mouth to Spey Mouth","Dornoch Firth",
+               "Tarbat Ness to Portmahomack","Wilkhaven to Rockfield")
+
+## Use the extract.polygons function to get the desired polygons
+pgonsout <- extract.polygons(outputs$locs.dens,site.list)
+
+## Compare the polygons to the HD raster using the compare polygons function
+subsetcompare <- compare.polygons(pgons = pgonsout,
+                                  hd.raster = hd.raster,
+                                  log.scale = T)
 
 

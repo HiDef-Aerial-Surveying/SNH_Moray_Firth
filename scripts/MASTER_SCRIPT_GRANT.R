@@ -64,5 +64,32 @@ outputs <- create.polygons(locs.sea,
                            survey.date = SurveyDate)
 
 
+### If you want to have a quick look at the outputs, try these commands
+spplot(outputs$locs.dens, zcol= "dens")
+spplot(outputs$polygs.dens, zcol= "dens", colorkey=FALSE) 
+
+plot(mask)   # polygon mask Moray Firth
+plot(locs.iww, add=TRUE, col="red", pch=20) # VPs in the IWW data
+plot(polygs.iww, add=TRUE, col="transparent", border="orange")
+
+
+# Comparing IWW to HiDef --------------------------------------------------
+
+load.rasters(spp,survey.date,month)
+valuesout <- compare.rasters(hd.raster,outputs$buffer_ras,log.scale=T)
+psout <- compare.polygons(pgons = outputs$locs.dens,
+                          hd.raster,
+                          log.scale = T)
+print(outputs$locs.dens@data$sector)
+site.list <- c("Embo","Culbin Bar","Burghead to Hopeman",
+               "Lossie Mouth to Spey Mouth","Dornoch Firth",
+               "Tarbat Ness to Portmahomack","Wilkhaven to Rockfield")
+pgonsout <- extract.polygons(outputs$locs.dens,site.list)
+subsetcompare <- compare.polygons(pgons = pgonsout,
+                                  hd.raster = hd.raster,
+                                  log.scale = T)
+
+subsetcompare$Gplt
+
 
 
