@@ -278,7 +278,7 @@ save.predictions <- function(predicted,spp,month){
   # coerce to raster
   pred.raster <- raster(spg, layer=1)
   
-  output.name <- paste0(".output/",spp,"_month",month,".rds")
+  output.name <- paste0("outputs/",spp,"_month",month,".rds")
   print(paste("Saving predictions as",output.name))
   
   saveRDS(pred.raster, file = output.name)

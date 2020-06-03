@@ -83,7 +83,7 @@ lgcp.model <- lgcp.spde(modprep.list = model.data)
 predictions <- model.predictions(MESH = MESH,lgcp.fit = lgcp.model)
 
 # Save the predictions to the output folder
-save.predictions(predicted==predictions$predicted,month = month,spp=spp)
+save.predictions(predicted=predictions$predicted,month = month,spp=spp)
 
 # Plot the predicted distribution -----------------------------------------
 
@@ -95,7 +95,7 @@ save.predictions(predicted==predictions$predicted,month = month,spp=spp)
 # plot.coastline = T or F - to plot the coastline
 # round.scale = this is for rounding the values in the density scale
 
-plot.abundance(predicted=predictions,track=data.loaded$track,plot.title = "test",
+plot.abundance(predicted=predictions$predicted,track=data.loaded$track,plot.title = "test",
                     plot.boundary = T,plot.coastline = F,round.scale = 0)
 
 
