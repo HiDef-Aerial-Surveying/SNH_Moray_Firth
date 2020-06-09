@@ -154,7 +154,7 @@ counts <- subset_species(iww.locs = iww.locs,spp = spp)
 outputs <- create.polygons(locs.sea,
                            iww.aggr,
                            counts,
-                           save.output = T,
+                           save.output = F,
                            spp = spp,
                            survey.date = survey.date)
 
@@ -204,6 +204,7 @@ psout <- compare.polygons(pgons = outputs$locs.dens,
 
 print(outputs$locs.dens@data$sector)
 
+
 site.list <- c("Embo","Culbin Bar","Burghead to Hopeman",
                "Lossie Mouth to Spey Mouth","Dornoch Firth",
                "Tarbat Ness to Portmahomack","Wilkhaven to Rockfield")
@@ -215,5 +216,49 @@ pgonsout <- extract.polygons(outputs$locs.dens,site.list)
 subsetcompare <- compare.polygons(pgons = pgonsout,
                                   hd.raster = hd.raster,
                                   log.scale = T)
+
+
+
+# Compare IWW to WeBS -----------------------------------------------------
+## Compares the species of choice to the IWW data. Use the species list
+## i.e. Species,  to view the spellings
+
+WeBS.To.IWW <- webs.to.iww(spp,log.scale=F)
+#Plot by using: 
+WeBS.To.IWW
+
+
+
+
+# Compare RSPB to WeBS ----------------------------------------------------
+
+
+RSPBfiles <- list.files("Data/RSPB_data_filtered/",full.names = TRUE)
+spp <- "eider"
+site <- "Outer_Dornoch_Firth"
+month <- "DEC"
+year <- 2019
+predict.to <- c(site = site,
+                month = month,
+                year = year)
+
+
+rspb.data <- wrangle.RSPB.data(spp,save.output=T)
+rspb.m <- merge.RSPB.to.WeBS(spp,rspb.data)
+rspb.merged <- rspb.m$merged
+WeBS.dat <- rspb.m$WeBS
+rspb.v.webs.eider.jan <- RSPB.v.WeBS.plot("JAN",rspb.merged)
+rspb.v.webs.eider.dec <- RSPB.v.WeBS.plot("DEC",rspb.merged)
+
+
+rspb.merged$YEAR <- as.numeric(rspb.merged$YEAR)
+mod1 <- with(rspb.merged,
+             glm(rspb.rate ~ mean.rate,family="gaussian")
+)
+summary(mod1)
+plot(mod1)
+
+predict.rspb(WeBS.dat,rspb.merged,predict.to,month,site)
+
 
 

@@ -6,7 +6,7 @@
 source("scripts/load_libs.R")
 LIBS <- c("tidyverse","foreach","rgeos","sp",
           "maptools","rgdal","raster","Hmisc","ggthemes",
-          "Cairo","doSNOW","readxl","INLA",
+          "Cairo","doSNOW","readxl","INLA","HH",
           "mapproj","inlabru","ggnewscale","sf","plyr")
 Load_Libs(LIBS)
 
@@ -31,6 +31,9 @@ mask <- spTransform(mask, UTM30)  # Transforms data to UTM30 spatial reference
 
 
 # Functions ---------------------------------------------------------------
+
+## An opposite of "in" function
+'%!in%' <- function(x,y)!('%in%'(x,y))
 
 ## Function to first load up the data filtered by month and species
 load_month_data <- function(month,spp){
@@ -685,8 +688,8 @@ compare.polygons <- function(pgons,hd.raster,log.scale=T){
       stat_smooth(method="glm",se = TRUE,fill="lightpink",
                   color="black",linetype="dashed")+
       scale_x_continuous(expand=c(0.01,0))+
-      ylab("log(HiDef densities)")+
-      xlab("log(IWW densities)")+
+      ylab("HiDef densities")+
+      xlab("IWW densities")+
       ggthemes::theme_gdocs()
   }
   
@@ -699,6 +702,217 @@ compare.polygons <- function(pgons,hd.raster,log.scale=T){
 extract.polygons <- function(locs.dens,site.list){
   extracts <- locs.dens[locs.dens@data$sector %in% site.list,]
   return(extracts)
+}
+
+
+# Compare IWW to WeBS data ------------------------------------------------
+
+webs.to.iww <- function(spp,log.scale=F){
+  WeBS.data <- readRDS("Data/WeBS/WeBS_wrangled_20May2020.rds")
+  WeBS.data$SECTOR_NAME <- plyr::revalue(WeBS.data$SECTOR_NAME, c("Lentran to Bunchrew"="Beauly Firth", "Beauly Firth North"="Beauly Firth",
+                                                                  "South Kessock"="Beauly Firth", "Ness Mouth"="Beauly Firth"))
+  
+  ## We can only compare to January here as there are no data in March
+  WeBS.data <- WeBS.data %>% 
+    unnest(data) %>%
+    dplyr::filter(tolower(SPECIES) == tolower(spp),
+                  YEAR == 2020, MONTH == month)
+  merged <- merge.data.frame(WeBS.data,outputs$locs.dens@data,by.x = "SECTOR_NAME",by.y="sector")  
+  
+  do.correlation(merged$BIRD_DENSITY,merged$dens,log.scale=log.scale)
+  
+  df <- data.frame(r1=merged$BIRD_DENSITY,r2=merged$dens)
+  
+  if(log.scale==T){
+    
+    df$r1 <- log(df$r1)
+    df$r2 <- log(df$r2)
+    G <- ggplot(df,aes(x=r2,y=r1))+
+      geom_point(fill="orange",pch=21)+
+      stat_smooth(method="glm",se = TRUE,fill="lightpink",
+                  color="black",linetype="dashed")+
+      scale_x_continuous(expand=c(0.01,0))+
+      ylab("log(HiDef densities)")+
+      xlab("log(IWW densities)")+
+      ggthemes::theme_gdocs()
+  }else{
+    G <- ggplot(df,aes(x=r2,y=r1))+
+      geom_point(fill="orange",pch=21)+
+      stat_smooth(method="glm",se = TRUE,fill="lightpink",
+                  color="black",linetype="dashed")+
+      scale_x_continuous(expand=c(0.01,0))+
+      ylab("HiDef densities")+
+      xlab("IWW densities")+
+      ggthemes::theme_gdocs()
+  }
+  
+}
+
+
+
+# Wrangle RSPB and compare to WeBS ----------------------------------------
+
+wrangle.RSPB.data <- function(spp,save.output=T){
+  sheets <- c("Outer_Dornoch_Firth","Inverness_Beauly_Firth","Nairn_Culbin_Bars")
+  print("combining data and summarizing.. please wait")
+  combined.data <- foreach(i=RSPBfiles,.combine='rbind')%do%{
+    yeardata <- foreach(kk=sheets,.combine='rbind') %do% {
+      
+      dt <- read_excel(i,sheet = kk)
+      dt$Vantage_Point <- tolower(dt$Vantage_Point)
+      
+      
+      dat <- dt %>% 
+        dplyr::filter(Vantage_Point %!in% c("date","time",
+                                            "wind","cloud",
+                                            "visibility","sea_state",
+                                            "observer"),
+                      Vantage_Point == spp) %>%
+        dplyr::select(-Vantage_Point)
+      dat <- data.frame(t(dat))
+      
+      dat$t.dat. <- as.numeric(as.character(dat$t.dat.))
+      dat$t.dat.[is.na(dat$t.dat.)]<- 0
+      tot.sites <- ncol(dat)
+      samp.size <- length(dat$t.dat.[!is.na(dat$t.dat.)])
+      meandat <- mean(dat$t.dat.,na.rm=T)
+      
+      MONTH <- substr(i,(nchar(i)-9),(nchar(i)-7))
+      YEAR <- substr(i,(nchar(i)-6),(nchar(i)-5))
+      if(as.numeric(YEAR)>90 & as.numeric(YEAR)<=99){
+        YEAR = as.numeric(YEAR)+1900
+      }else{
+        YEAR = as.numeric(YEAR)+2000
+      }
+      
+      
+      df <- data.frame(kk,MONTH,YEAR,meandat,spp)
+    }
+    return(yeardata)
+  }
+  
+  if(save.output==T){
+    print('saving output...')
+    savename <- paste0("outputs/RSPB_",spp,"_counts.rds")
+    saveRDS(combined.data,savename)  
+  }
+  
+  return(combined.data)
+}
+
+
+
+merge.RSPB.to.WeBS <- function(spp,rspb.data){
+  ## Merge RSPB data with WeBS
+  WeBS <- readRDS("Data/WeBS/WeBS_wrangled_20May2020.rds")
+  sites.to.extract <- c("Rosemarkie to Avoch","Avoch Bay",
+                        "Easterton - Fort George","Castle Stuart - Westerton",
+                        "Craigiehowe to Craigton", "South Kessock",
+                        "Culbin Bar","Nairn Bar","Embo","Golspie")
+  WeBS <- WeBS %>% dplyr::filter(SECTOR_NAME %in% sites.to.extract)
+  WeBS$SECTOR_NAME <- plyr::revalue(WeBS$SECTOR_NAME,
+                                    c("Rosemarkie to Avoch" = "Inverness_Beauly_Firth",
+                                      "Avoch Bay" = "Inverness_Beauly_Firth",
+                                      "Easterton - Fort George" = "Inverness_Beauly_Firth",
+                                      "Castle Stuart - Westerton" = "Inverness_Beauly_Firth",
+                                      "Craigiehowe to Craigton" = "Inverness_Beauly_Firth",
+                                      "South Kessock" = "Inverness_Beauly_Firth",
+                                      "Culbin Bar" = "Nairn_Culbin_Bars",
+                                      "Nairn Bar" = "Nairn_Culbin_Bars",
+                                      "Embo" = "Outer_Dornoch_Firth",
+                                      "Golspie" = "Outer_Dornoch_Firth"))
+  
+  WeBS.2 <- WeBS %>% 
+    unnest(data) %>% 
+    dplyr::filter(tolower(SPECIES)==tolower(spp))
+  
+  WeBS.2$MONTH <- plyr::revalue(WeBS.2$MONTH,c("10"="OCT",
+                                               "11"="NOV",
+                                               "12"="DEC",
+                                               "01"="JAN",
+                                               "02"="FEB",
+                                               "03"="MAR"))
+  
+  
+  WeBS.2$DURATION_HRS[is.na(WeBS.2$DURATION_HRS)] <- mean(WeBS.2$DURATION_HRS,na.rm=T)
+  
+  WeBS.2$BIRD_DENSITY_COR <- WeBS.2$BIRD_DENSITY/WeBS.2$DURATION_HRS
+  WeBS.2$BIRD_RATE <- WeBS.2$BIRD_COUNT/WeBS.2$DURATION_HRS
+  
+  WeBS.3 <- WeBS.2 %>% group_by(SECTOR_NAME,YEAR,MONTH) %>%
+    dplyr::summarize(mean.count = median(BIRD_COUNT),
+                     mean.dens = median(BIRD_DENSITY),
+                     mean.densc = mean(BIRD_DENSITY_COR),
+                     mean.rate = mean(BIRD_RATE))
+  
+  
+  df.merge <- merge.data.frame(WeBS.3,rspb.data,
+                               by.x=c("SECTOR_NAME","YEAR","MONTH"),
+                               by.y=c("kk","YEAR","MONTH"),
+                               all.x=TRUE)
+  
+  tt <- df.merge %>% dplyr::filter(!is.na(meandat))
+  
+  ## Using an assumed average survey time of 0.4 hours.
+  tt$rspb.rate <- tt$meandat/0.4
+  
+  return(list(merged=tt,WeBS=WeBS.3))
+}
+
+
+
+
+RSPB.v.WeBS.plot <- function(MON,rspb.merged){
+  tsub <- rspb.merged[rspb.merged$MONTH == MON,]
+  
+  Rvals <- tsub %>% group_by(SECTOR_NAME) %>%
+    dplyr::summarise(cor(mean.rate,rspb.rate,use = "pairwise.complete.obs"))
+  
+  variable_names <- list(
+    "Inverness_Beauly_Firth" = paste0("Inverness Beauly Firth (r = ",as.character(Rvals[1,2]),")") ,
+    "Nairn_Culbin_Bars" = paste0("Nairn and Culbin Bars (r = ",as.character(round(Rvals[2,2],2)),")"),
+    "Outer_Dornoch_Firth" = paste0("Outer Dornoch Firth (r = ",as.character(round(Rvals[3,2],2)),")")
+  )
+  ## A function for labelling the plots comparing RSPB to WeBS data
+  variable_labeller <- function(variable,value){
+    return(variable_names[value])
+  }
+  
+  G <- ggplot(data=tsub,aes(x=YEAR,y=mean.rate,group=SECTOR_NAME)) +
+    geom_line(linetype="dashed",col="blue",size=1) +
+    geom_point()+
+    geom_line(aes(y=rspb.rate),linetype="dotted",col="orange",size=1)+
+    geom_point(aes(y=rspb.rate),pch=15)+
+    facet_wrap(~SECTOR_NAME,scales="free_y",ncol = 1,labeller = variable_labeller)+
+    ylab("Mean rate (birds/hour)")+
+    theme_gdocs()
+  
+  return(G)
+}
+
+
+predict.rspb <- function(WeBS.dat,rspb.merged,predict.to,month,site){
+  tsub <- rspb.merged %>%
+    dplyr::filter(MONTH == month,SECTOR_NAME == site)
+  
+  WeBS.new <- WeBS.dat %>%
+    dplyr::filter(MONTH == predict.to['month'],
+                  SECTOR_NAME == predict.to['site'],
+                  YEAR == predict.to['year']) %>%
+    dplyr::select(SECTOR_NAME,YEAR,MONTH,mean.rate)
+  
+  lm.mod <- with(tsub,glm(rspb.rate~mean.rate))
+  
+  predicted <- HH::interval(lm.mod,newdata = WeBS.new)
+  
+  estimate <- predicted[1]
+  lower.est <- predicted[2]
+  upper.est <- predicted[3]
+  
+  return(list(estimate=estimate,
+              lower=lower.est,
+              upper=upper.est,
+              WeBS.rate=WeBS.new$mean.rate))
 }
 
 
