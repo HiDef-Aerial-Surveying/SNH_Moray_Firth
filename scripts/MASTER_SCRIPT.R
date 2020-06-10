@@ -134,6 +134,10 @@ locs.sea <- calculate.buffer(locs.iww = locs.iww,
                              buffer.size=2)
 
 ## Merges IWW vantage points with the WeBS polygon for a naming convention. 
+
+#Match up any differing species names in HiDef/IWW data
+iww$taxonName <- plyr::revalue(iww$taxonName, c("Common eider"="Eider"))
+
 merge.iww_to_WeBS_polys(iww = iww,
                         locs.sea = locs.sea,
                         polygs = polygs)
@@ -234,10 +238,12 @@ WeBS.To.IWW
 
 
 RSPBfiles <- list.files("Data/RSPB_data_filtered/",full.names = TRUE)
-spp <- "eider"
-site <- "Outer_Dornoch_Firth"
-month <- "DEC"
-year <- 2019
+spp <- "Common scoter"
+
+## Nairn_Culbin_Bars, Outer_Dornoch_Firth, or Inverness_Beauly_Firth
+site <- "Nairn_Culbin_Bars"
+month <- "JAN"
+year <- 2020
 predict.to <- c(site = site,
                 month = month,
                 year = year)
@@ -247,8 +253,8 @@ rspb.data <- wrangle.RSPB.data(spp,save.output=T)
 rspb.m <- merge.RSPB.to.WeBS(spp,rspb.data)
 rspb.merged <- rspb.m$merged
 WeBS.dat <- rspb.m$WeBS
-rspb.v.webs.eider.jan <- RSPB.v.WeBS.plot("JAN",rspb.merged)
-rspb.v.webs.eider.dec <- RSPB.v.WeBS.plot("DEC",rspb.merged)
+rspb.v.webs.jan <- RSPB.v.WeBS.plot("JAN",rspb.merged)
+rspb.v.webs.dec <- RSPB.v.WeBS.plot("DEC",rspb.merged)
 
 
 rspb.merged$YEAR <- as.numeric(rspb.merged$YEAR)
@@ -259,6 +265,24 @@ summary(mod1)
 plot(mod1)
 
 predict.rspb(WeBS.dat,rspb.merged,predict.to,month,site)
+
+
+
+
+# Compare all data --------------------------------------------------------
+
+spp <- "Common scoter"
+
+iww.pgons <- outputs$locs.dens
+
+compare.all.data(iww.pgons,spp)
+
+
+
+
+
+
+
 
 
 
