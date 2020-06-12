@@ -238,12 +238,12 @@ WeBS.To.IWW
 
 
 RSPBfiles <- list.files("Data/RSPB_data_filtered/",full.names = TRUE)
-spp <- "Common scoter"
+spp <- "eider"
 
 ## Nairn_Culbin_Bars, Outer_Dornoch_Firth, or Inverness_Beauly_Firth
-site <- "Nairn_Culbin_Bars"
-month <- "JAN"
-year <- 2020
+site <- "Outer_Dornoch_Firth"
+month <- "DEC"
+year <- 2019
 predict.to <- c(site = site,
                 month = month,
                 year = year)
@@ -271,7 +271,7 @@ predict.rspb(WeBS.dat,rspb.merged,predict.to,month,site)
 
 # Compare all data --------------------------------------------------------
 
-spp <- "Common scoter"
+spp <- "Common eider"
 
 iww.pgons <- outputs$locs.dens
 

@@ -288,8 +288,9 @@ save.predictions <- function(predicted,spp,month){
 }
 
 
+
 plot.abundance <- function(predicted,track,plot.title="",plot.boundary=F,
-                           plot.coastline=F,round.scale=0){
+                           plot.coastline=F,round.scale=0,save.out=T){
 
   breaks<-c(seq(min(predicted$mean),
                       max(predicted$mean),
@@ -342,7 +343,11 @@ plot.abundance <- function(predicted,track,plot.title="",plot.boundary=F,
   }
   
   
-
+  if(save.out==T){
+    oname <- paste0("outputs/",gsub(" ","_",plot.title),".jpeg")
+    ggsave(filename=oname,plot=G,device="jpeg",width=8,height=6)
+    
+  }
   
   return(G)
 }
@@ -444,7 +449,6 @@ load_VP_data <- function(){
 # available dates: "2020-01-19", "2020-01-21", "2020-03-08", "2020-03-09"
 # 1st aerial survey: "2020-01-19", 2nd aerial survey: "2020-03-08"
 subset_IWW_date <- function(survey.date){
-  survey.date <- "2020-01-19"
   iww$Date <- as.character(iww$Date)
   iww <- iww[iww$Date == survey.date, ]
   iww <<- iww[ c(3,4,8,13,20, 21) ]
@@ -497,6 +501,67 @@ plot.basic.view <- function(locs.sea,mask,locs.iww,polygs.iww){
 }
 
 
+
+plot.iww.pgons <- function(pgons,track,plot.title,plot.boundary=T,plot.coastline=T,
+                           save.out=T){
+  transdf <- data.frame(coordinates(track))
+  
+  xlims <- c(min(transdf$coords.x1)*0.99, max(transdf$coords.x1)*1.01)
+  ylims <- c(min(transdf$coords.x2)*0.999, max(transdf$coords.x2)*1.001)
+  
+  
+  pgons@data$id <- rownames(pgons@data)
+  pgons_fort <- fortify(pgons,region="id")
+  pgons_fort_df <- merge(pgons_fort,pgons@data,by="id")
+  
+  
+  G <- ggplot(pgons_fort_df, aes(x = long, y = lat, group = group)) +
+    geom_polygon(aes(fill=Number),col = "grey35", alpha = 0.7) +
+    scale_fill_gradient(trans = 'sqrt', low = "blue", high = "red",
+                        name="Count") +
+    scale_x_continuous(breaks=seq(425,525,25),label=seq(4.25,5.25,.25))+
+    scale_y_continuous(breaks=seq(6380,6440,20),label=seq(6.38,6.44,.02))+
+    xlab(expression(X(meters~x~10^{"6"})))+
+    ylab(expression(Y(meters~x~10^{"7"})))+
+    ggtitle(plot.title)+
+    theme_gdocs()+
+    theme(
+      #panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      panel.border = element_rect(colour = "black"),
+      plot.background = element_blank()
+    )+
+    coord_equal(xlim = xlims, ylim = ylims)
+  
+  
+  if(plot.coastline==TRUE){
+    print("loading high resolution coastline.. this may take a moment..")
+    load(file = 'D:/GIS_DATA/UK_coastline.rda')
+    coastline_sp_utm <- spTransform(tt, UTM30)
+    coastData_DF <- fortify(coastline_sp_utm)
+    
+    G <- G + 
+      geom_polygon(aes(x = long, y = lat, group = group), 
+                   data = coastData_DF, fill = "darkolivegreen3", 
+                   col = "grey35", alpha = 0.7) 
+  }
+  if(plot.boundary==TRUE){
+    boundary.shape <- readOGR(dsn="./Data/Shapefile/Moray_Firth_Area_WGS84.shp",
+                              layer="Moray_Firth_Area_WGS84")
+    boundaryUTM30 <- spTransform(boundary.shape,UTM30)
+    boundary_DF <- fortify(boundaryUTM30)
+    G <- G + 
+      geom_polygon(aes(x=long,y=lat,group=group),data=boundary_DF,
+                   col="black",alpha=0)
+  }
+  if(save.out==T){
+    oname <- paste0("outputs/",gsub(" ","_",plot.title),".jpeg")
+    ggsave(filename=oname,plot=G,device="jpeg",width=8,height=6)
+    
+  }
+  
+  return(G)
+}
 
 
 
@@ -716,7 +781,7 @@ webs.to.iww <- function(spp,log.scale=F){
   WeBS.data <- WeBS.data %>% 
     unnest(data) %>%
     dplyr::filter(tolower(SPECIES) == tolower(spp),
-                  YEAR == 2020, MONTH == month)
+                  YEAR == 2020, MONTH == "01")
   merged <- merge.data.frame(WeBS.data,outputs$locs.dens@data,by.x = "SECTOR_NAME",by.y="sector")  
   
   do.correlation(merged$BIRD_DENSITY,merged$dens,log.scale=log.scale)
@@ -732,7 +797,7 @@ webs.to.iww <- function(spp,log.scale=F){
       stat_smooth(method="glm",se = TRUE,fill="lightpink",
                   color="black",linetype="dashed")+
       scale_x_continuous(expand=c(0.01,0))+
-      ylab("log(HiDef densities)")+
+      ylab("log(WeBS densities)")+
       xlab("log(IWW densities)")+
       ggthemes::theme_gdocs()
   }else{
@@ -741,7 +806,7 @@ webs.to.iww <- function(spp,log.scale=F){
       stat_smooth(method="glm",se = TRUE,fill="lightpink",
                   color="black",linetype="dashed")+
       scale_x_continuous(expand=c(0.01,0))+
-      ylab("HiDef densities")+
+      ylab("WeBS densities")+
       xlab("IWW densities")+
       ggthemes::theme_gdocs()
   }

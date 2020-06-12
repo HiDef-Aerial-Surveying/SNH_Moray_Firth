@@ -6,7 +6,7 @@
 
 
 # Libraries ---------------------------------------------------------------
-source("load_libs.R")
+source("scripts/load_libs.R")
 LIBS <- c("tidyverse","foreach","readxl","stringi",
           "rgdal","ggthemes","raster")
 Load_Libs(LIBS)
@@ -17,7 +17,8 @@ Load_Libs(LIBS)
 
 
 load_webs_sheet <- function(x,y){
-  df <- vroom::vroom(x)  
+  df <- vroom::vroom(x)
+  df$Species <- plyr::revalue(df$Species,c("Eider (except Shetland)"="Eider"))
   df <- df[df$Species %in% Species,]
   df <- df[df$Count > 0,]
   if(nrow(df)>0){
@@ -64,11 +65,11 @@ checkGrid <- function(x){
 
 # Load WeBS dataset -----------------------------------------------------------
 source("scripts/species_list.R")
-All_WeBS <- readxl::read_xlsx("Data/Marine pSPA Seaduck WeBS second extract.xlsx")
+All_WeBS <- readxl::read_xlsx("Data/WeBS/Marine pSPA Seaduck WeBS second extract.xlsx")
 All_WeBS <- All_WeBS[All_WeBS$SPECIES %in% Species,]
 
 
-WeBS_shape <- readOGR("./Data/Jen Data/Banff_to_Helmsdale_WeBS.shp",
+WeBS_shape <- readOGR("./Data/Shapefile/Banff_to_Helmsdale_WeBS.shp",
                       layer="Banff_to_Helmsdale_WeBS",verbose = F)
 
 
@@ -95,13 +96,11 @@ finalmerge <- readRDS("WeBS_merged_to_2020.rds")
 spp_in_finalmerge <- unique(finalmerge$SPECIES)
 
 
-expanded <- finalmerge %>% group_by(SECTOR_NAME,COUNT_DATE)%>%
+expanded <- finalmerge %>% group_by(SECTOR_NAME,COUNT_DATE,SECTOR_CODE,SECTORCENTREGRID)%>%
   complete(SPECIES = spp_in_finalmerge) %>%
   mutate(
     YEAR = format(as.Date(COUNT_DATE,format="%Y-%m-%d"),"%Y"),
-    MONTH = format(as.Date(COUNT_DATE,format="%Y-%m-%d"),"%m"),
-    SECTORCENTREGRID = checkGrid(SECTORCENTREGRID),
-    SECTOR_CODE = checkGrid(SECTOR_CODE)
+    MONTH = format(as.Date(COUNT_DATE,format="%Y-%m-%d"),"%m")#,
     ) %>% 
   dplyr::select(SECTOR_NAME,SECTOR_CODE,SECTORCENTREGRID,COUNT_DATE,YEAR,MONTH,SPECIES,BIRD_COUNT)
 
@@ -120,12 +119,13 @@ assess_exp <- expanded %>%
     TOTAL_YRS =map_dbl(data,~length(unique(.x$YEAR)))
   )
 names(assess_exp)[grep("SECTORCENTREGRID",names(assess_exp))] <- "GRIDREF"
-
+assess_exp <- assess_exp %>% ungroup()
 WScopy <- WeBS_shape
 
 
 tt <- WScopy@data
 tomerge <- assess_exp %>%dplyr::select(SECTOR_NAME,GRIDREF,TOTAL_YRS)
+
 outtt <- tomerge %>% right_join(tt,copy = T) %>% dplyr::filter(!is.na(NAME))
 
 WScopy@data$TOTAL_YRS <- outtt$TOTAL_YRS
@@ -134,9 +134,9 @@ WScopy@data$TOTAL_YRS <- outtt$TOTAL_YRS
 
 # Mapping WeBS data -------------------------------------------------------
 WGS84<-CRS("+init=epsg:4326")
-UTM30<-CRS("+init=epsg:32630")
+UTM30<-CRS("+init=epsg:32630 +proj=utm +zone=30 +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0")
 
-Transects <- readOGR(dsn="./Data/2020 - Month 01 - Survey 01/Output/Zone87_M01_S01_20_Output/Zone87_M01_S01_20_Output-Day1-Transects.shp",
+Transects <- readOGR(dsn="./Data/Aerial_Surveys/2020 - Month 01 - Survey 01/Output/Zone87_M01_S01_20_Output/Zone87_M01_S01_20_Output-Day1-Transects.shp",
                      layer="Zone87_M01_S01_20_Output-Day1-Transects")
 TransectsUTM30 <- spTransform(Transects,UTM30)
 transdf <- data.frame(coordinates(TransectsUTM30))
@@ -164,7 +164,7 @@ G <- ggplot(transdf,aes(x=coords.x1,y=coords.x2)) +
   xlab(expression(X(meters~x~10^{"6"})))+
   ylab(expression(Y(meters~x~10^{"7"})))+
   coord_equal(xlim = xlims, ylim = ylims)+
-  annotation_sca
+  #annotation_sca
   #ggsn::scalebar(WeBS.fort,location = "bottomright",st.size = 5,height = 0.04,dist = 20,dist_unit = "km",transform = FALSE)+
   #ggsn::north(WeBS.fort,scale = 0.15,location = "topleft")+
   ggtitle("Total number of years in each WeBS sector")+
@@ -183,7 +183,7 @@ G <- ggplot(transdf,aes(x=coords.x1,y=coords.x2)) +
   
 expanded <- readRDS("WeBS_expanded_data.rds")
 
-effort <- readxl::read_xlsx("Data/Marine pSPA WeBS duration - Effort data.xlsx")  
+effort <- readxl::read_xlsx("Data/WeBS/Marine pSPA WeBS duration - Effort data.xlsx")  
 names(effort)[2] <- "SECTOR_CODE"
 
 effort$MONTH <- format(effort$NOMINALDATE,"%m")
@@ -197,7 +197,7 @@ joined_dat <- effort %>% right_join(expanded,by="id",copy=T) %>%
 names(joined_dat)[3:5] <- c("SECTOR_CODE","YEAR","MONTH")
 
 ## Polygon WeBS area 
-area_sqkm <- area(WeBS_shape)/1000000
+area_sqkm <- raster::area(WeBS_shape)/1000000
 df.to.merge <- tbl_df(data.frame(SECTOR_CODE=WeBS_shape@data$LOC_LABEL,AREA = area_sqkm))
 
 
