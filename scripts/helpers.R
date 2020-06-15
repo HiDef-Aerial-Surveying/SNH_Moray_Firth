@@ -324,7 +324,7 @@ plot.abundance <- function(predicted,track,plot.title="",plot.boundary=F,
   
   if(plot.coastline==TRUE){
     print("loading high resolution coastline.. this may take a moment..")
-    load(file = 'D:/GIS_DATA/UK_coastline.rda')
+    load(file = 'Data/UK_coastline.rda')
     coastline_sp_utm <- spTransform(tt, UTM30)
     coastData_DF <- fortify(coastline_sp_utm)
     
@@ -536,7 +536,7 @@ plot.iww.pgons <- function(pgons,track,plot.title,plot.boundary=T,plot.coastline
   
   if(plot.coastline==TRUE){
     print("loading high resolution coastline.. this may take a moment..")
-    load(file = 'D:/GIS_DATA/UK_coastline.rda')
+    load(file = 'Data/UK_coastline.rda')
     coastline_sp_utm <- spTransform(tt, UTM30)
     coastData_DF <- fortify(coastline_sp_utm)
     

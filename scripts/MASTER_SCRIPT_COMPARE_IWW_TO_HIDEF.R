@@ -6,16 +6,16 @@ source("scripts/helpers.R")
 source("scripts/species_list.R")
 #View(Species)  ## View this if you need to
 spp <- "common scoter"
-#month <- "01"
-month <- "03"
-#survey.date <- "2020-01-19"  
-survey.date <- "2020-03-08"  
+month <- "01"
+#month <- "03"
+survey.date <- "2020-01-19"  
+#survey.date <- "2020-03-08"  
 
 ## Set the title of the output plot here
-plot.title = "Common scoter IWW counts (March 2020)"
+plot.title = "Common scoter IWW counts (January 2020)"
 
 # Wrangling the IWW data --------------------------------------------------
-
+data.loaded <- load_month_data(month,spp)
 ## This command loads the VP data into the environment
 load_VP_data()
 
@@ -72,7 +72,7 @@ load.rasters(spp,survey.date,month)
 
 ## Vantage point polygons were converted to rasters in the create.polygons function
 ## we can compare those rasters at face value (grid cell to grid cell)
-valuesout <- compare.rasters(hd.raster,outputs$buffer_ras,log.scale=T)
+valuesout <- compare.rasters(hd.raster,outputs$buffer_ras,log.scale=F)
 
 
 
@@ -84,7 +84,13 @@ valuesout <- compare.rasters(hd.raster,outputs$buffer_ras,log.scale=T)
 
 psout <- compare.polygons(pgons = outputs$locs.dens,
                           hd.raster,
-                          log.scale = T)
+                          log.scale = F)
+
+
+### This creates a nice looking plot of the buffers
+plot.iww.pgons(pgons=outputs$locs.dens,track=data.loaded$track,
+               plot.title=plot.title)
+
 
 
 # Comparing a subset of polygons to the raster ----------------------------
@@ -96,23 +102,21 @@ psout <- compare.polygons(pgons = outputs$locs.dens,
 ## NOTE the log.scale=T function. This is used to make the comparison
 ## on a log scale, which will give a better idea of if data are correlated.
 
-print(outputs$locs.dens@data$sector)
+#print(outputs$locs.dens@data$sector)
 
 
-site.list <- c("Embo","Culbin Bar","Burghead to Hopeman",
-               "Lossie Mouth to Spey Mouth","Dornoch Firth",
-               "Tarbat Ness to Portmahomack","Wilkhaven to Rockfield")
+#site.list <- c("Embo","Culbin Bar","Burghead to Hopeman",
+#               "Lossie Mouth to Spey Mouth","Dornoch Firth",
+#               "Tarbat Ness to Portmahomack","Wilkhaven to Rockfield")
 
 ## Use the extract.polygons function to get the desired polygons
-pgonsout <- extract.polygons(outputs$locs.dens,site.list)
+#pgonsout <- extract.polygons(outputs$locs.dens,site.list)
 
 ## Compare the polygons to the HD raster using the compare polygons function
-subsetcompare <- compare.polygons(pgons = pgonsout,
-                                  hd.raster = hd.raster,
-                                  log.scale = T)
+#subsetcompare <- compare.polygons(pgons = pgonsout,
+#                                  hd.raster = hd.raster,
+#                                  log.scale = T)
 
-### This creates a nice looking plot of the buffers
-plot.iww.pgons(pgons=outputs$locs.dens,track=data.loaded$track,
-               plot.title=plot.title)
+
 
 

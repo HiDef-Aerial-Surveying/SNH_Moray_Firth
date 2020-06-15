@@ -3,7 +3,8 @@
 ##########################
 ## List all the RSPB files that were filtered for the three regions
 ## 
-
+source("scripts/helpers.R")
+source("scripts/species_list.R")
 RSPBfiles <- list.files("Data/RSPB_data_filtered/",full.names = TRUE)
 spp <- "eider"
 
