@@ -934,7 +934,7 @@ RSPB.v.WeBS.plot <- function(MON,rspb.merged){
     dplyr::summarise(cor(mean.rate,rspb.rate,use = "pairwise.complete.obs"))
   
   variable_names <- list(
-    "Inverness_Beauly_Firth" = paste0("Inverness Beauly Firth (r = ",as.character(Rvals[1,2]),")") ,
+    "Inverness_Beauly_Firth" = paste0("Inverness Beauly Firth (r = ",as.character(round(Rvals[1,2],2)),")") ,
     "Nairn_Culbin_Bars" = paste0("Nairn and Culbin Bars (r = ",as.character(round(Rvals[2,2],2)),")"),
     "Outer_Dornoch_Firth" = paste0("Outer Dornoch Firth (r = ",as.character(round(Rvals[3,2],2)),")")
   )

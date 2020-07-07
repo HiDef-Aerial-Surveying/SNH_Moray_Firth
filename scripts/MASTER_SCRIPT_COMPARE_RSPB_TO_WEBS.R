@@ -6,7 +6,7 @@
 source("scripts/helpers.R")
 source("scripts/species_list.R")
 RSPBfiles <- list.files("Data/RSPB_data_filtered/",full.names = TRUE)
-spp <- "eider"
+spp <- "red-throated diver"
 
 
 rspb.data <- wrangle.RSPB.data(spp,save.output=T)
